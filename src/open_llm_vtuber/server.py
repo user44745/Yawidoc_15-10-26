@@ -8,13 +8,19 @@ It uses FastAPI for the server and Starlette for static file serving.
 
 import os
 import shutil
+from pathlib import Path
 
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
-from starlette.responses import Response
+from starlette.responses import HTMLResponse, Response
 from starlette.staticfiles import StaticFiles as StarletteStaticFiles
 
-from .routes import init_client_ws_route, init_webtool_routes, init_proxy_route
+from .routes import (
+    init_client_ws_route,
+    init_webtool_routes,
+    init_proxy_route,
+    init_interpreter_route,
+)
 from .service_context import ServiceContext
 from .config_manager.utils import Config
 
@@ -51,6 +57,38 @@ class AvatarStaticFiles(CORSStaticFiles):
             return Response("Forbidden file type", status_code=403)
         response = await super().get_response(path, scope)
         return response
+
+
+class FrontendStaticFiles(CORSStaticFiles):
+    """
+    The frontend, with the quick-phrase bar on its page. The bar is a script
+    of its own (frontend_addons/quick_bar.js) that frontend/index.html loads.
+    The frontend is a submodule: when an update of it brings back an
+    index.html without the script, the script is added as the page is served.
+    The page is never served from the browser's cache, so that a change to
+    it shows on the next load.
+    """
+
+    ADDONS = '<script src="/frontend-addons/quick_bar.js"></script>'
+
+    async def get_response(self, path: str, scope):
+        if path in (".", "index.html"):
+            page = Path(self.directory) / "index.html"
+            if page.is_file():
+                html = page.read_text(encoding="utf-8")
+                if "quick_bar.js" not in html:
+                    # before the app's own script, so that it sees the connection open
+                    html = html.replace("<head>", f"<head>\n    {self.ADDONS}", 1)
+                return HTMLResponse(
+                    html,
+                    headers={
+                        "Cache-Control": "no-cache",
+                        "Access-Control-Allow-Origin": "*",
+                        "Access-Control-Allow-Methods": "GET, OPTIONS",
+                        "Access-Control-Allow-Headers": "*",
+                    },
+                )
+        return await super().get_response(path, scope)
 
 
 class WebSocketServer:
@@ -96,6 +134,7 @@ class WebSocketServer:
         self.app.include_router(
             init_webtool_routes(default_context_cache=self.default_context_cache),
         )
+        self.app.include_router(init_interpreter_route())
 
         # Initialize and include proxy routes if proxy is enabled
         system_config = config.system_config
@@ -141,10 +180,24 @@ class WebSocketServer:
             name="web_tool",
         )
 
+        # Mount the interpreter page (doctor / patient)
+        self.app.mount(
+            "/interpreter",
+            CORSStaticFiles(directory="interpreter", html=True),
+            name="interpreter",
+        )
+
+        # Mount the additions to the frontend page (quick-phrase bar)
+        self.app.mount(
+            "/frontend-addons",
+            CORSStaticFiles(directory="frontend_addons"),
+            name="frontend_addons",
+        )
+
         # Mount main frontend last (as catch-all)
         self.app.mount(
             "/",
-            CORSStaticFiles(directory="frontend", html=True),
+            FrontendStaticFiles(directory="frontend", html=True),
             name="frontend",
         )
 

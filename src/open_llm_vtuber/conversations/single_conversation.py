@@ -17,6 +17,7 @@ from .types import WebSocketSend
 from .tts_manager import TTSTaskManager
 from ..chat_history_manager import store_message
 from ..service_context import ServiceContext
+from ..interpreter.service import shared_service, speaks_pattani
 
 # Import necessary types from agent outputs
 from ..agent.output_types import SentenceOutput, AudioOutput, DisplayText, Actions
@@ -70,6 +71,14 @@ async def process_single_conversation(
             user_input, context.asr_engine, websocket_send
         )
 
+        quick_phrase = metadata.get("quick_phrase") if metadata else None
+        if quick_phrase:
+            # Picked from the quick bar, not typed in the page: show it as
+            # what the user said.
+            await websocket_send(
+                json.dumps({"type": "user-input-transcription", "text": input_text})
+            )
+
         # Create batch input
         batch_input = create_batch_input(
             input_text=input_text,
@@ -98,9 +107,26 @@ async def process_single_conversation(
 
         try:
             # Check if we should use translation mode (bypass agent and translate user input)
-            if context.character_config.use_translation and context.translate_engine is not None:
-                logger.info("Translation mode enabled: bypassing agent and translating user input")
-                if metadata and metadata.get("proactive_speak"):
+            translating = (
+                context.character_config.use_translation
+                and context.translate_engine is not None
+            )
+            tts_engine = context.tts_engine
+            if quick_phrase or translating:
+                if quick_phrase:
+                    # A standard sentence of the sentence bank: say it in
+                    # the other language as the bank has it. Nothing is
+                    # translated, and the agent is not asked.
+                    tts_text = quick_phrase["spoken"]
+                    output_text = quick_phrase["display"]
+                    logger.info(
+                        f"Quick phrase ({quick_phrase['direction']}): {tts_text}"
+                    )
+                    if not speaks_pattani(context):
+                        # this character's voice cannot read Thai script
+                        tts_engine = await asyncio.to_thread(shared_service().voice)
+                elif metadata and metadata.get("proactive_speak"):
+                    logger.info("Translation mode enabled: bypassing agent and translating user input")
                     # Proactive speak trigger: greet the user bilingually
                     # instead of translating the default English prompt.
                     # Only the Thai line is spoken by the TTS voice.
@@ -108,10 +134,17 @@ async def process_single_conversation(
                     tts_text = TRANSLATOR_GREETING_TEXT_THAI
                     logger.info(f"Translator greeting: {output_text}")
                 else:
-                    # Translate the user's input text
-                    output_text = context.translate_engine.translate(input_text)
+                    logger.info("Translation mode enabled: bypassing agent and translating user input")
+                    # Translate the user's input text (in a thread: local
+                    # models / LLM calls would block the event loop for seconds)
+                    output_text = await asyncio.to_thread(
+                        context.translate_engine.translate, input_text
+                    )
                     tts_text = output_text
                     logger.info(f"Translated text: {output_text}")
+                    # What is shown may carry more than what is spoken
+                    # (e.g. the same sentence in Latin letters)
+                    output_text = context.translate_engine.display_text(output_text)
                 # Create display text for the translated text (to be shown in UI)
                 display_text = DisplayText(
                     text=output_text,
@@ -131,7 +164,7 @@ async def process_single_conversation(
                     output=sentence_output,
                     character_config=context.character_config,
                     live2d_model=context.live2d_model,
-                    tts_engine=context.tts_engine,
+                    tts_engine=tts_engine,
                     websocket_send=websocket_send,
                     tts_manager=tts_manager,
                     translate_engine=None,  # Disable translation to avoid double translation

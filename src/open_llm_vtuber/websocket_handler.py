@@ -22,6 +22,7 @@ from .chat_history_manager import (
     get_history_list,
 )
 from .config_manager.utils import scan_config_alts_directory, scan_bg_directory
+from .interpreter.service import quick_direction, shared_service
 from .conversations.conversation_handler import (
     handle_conversation_trigger,
     handle_group_interrupt,
@@ -39,7 +40,8 @@ class MessageType(Enum):
         "create-new-history",
         "delete-history",
     ]
-    CONVERSATION = ["mic-audio-end", "text-input", "ai-speak-signal"]
+    CONVERSATION = ["mic-audio-end", "text-input", "ai-speak-signal", "quick-phrase"]
+    QUICK_BAR = ["fetch-quick-phrases"]
     CONFIG = ["fetch-configs", "switch-config"]
     CONTROL = ["interrupt-signal", "audio-play-start"]
     DATA = ["mic-audio-data"]
@@ -89,6 +91,8 @@ class WebSocketHandler:
             "raw-audio-data": self._handle_raw_audio_data,
             "text-input": self._handle_conversation_trigger,
             "ai-speak-signal": self._handle_conversation_trigger,
+            "quick-phrase": self._handle_conversation_trigger,
+            "fetch-quick-phrases": self._handle_fetch_quick_phrases,
             "fetch-configs": self._handle_fetch_configs,
             "switch-config": self._handle_config_switch,
             "fetch-backgrounds": self._handle_fetch_backgrounds,
@@ -526,6 +530,26 @@ class WebSocketHandler:
             received_data_buffers=self.received_data_buffers,
             current_conversation_tasks=self.current_conversation_tasks,
             broadcast_to_group=self.broadcast_to_group,
+        )
+
+    async def _handle_fetch_quick_phrases(
+        self, websocket: WebSocket, client_uid: str, data: WSMessage
+    ) -> None:
+        """Send the quick-phrase bar: the standard sentences chosen most often,
+        in the language the character of this session translates from."""
+        direction = quick_direction(self.client_contexts[client_uid])
+        quick = await asyncio.to_thread(lambda: shared_service().quick(direction))
+        logger.info(
+            f"Quick-phrase bar: {len(quick['sentences'])} phrases sent ({direction})"
+        )
+        await websocket.send_text(
+            json.dumps(
+                {
+                    "type": "quick-phrases",
+                    "direction": direction,
+                    "phrases": quick["sentences"],
+                }
+            )
         )
 
     async def _handle_fetch_configs(

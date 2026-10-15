@@ -4,7 +4,10 @@ test_translator_pipeline.py — headless end-to-end test of the
 "pattani_thai_translator" character's translation pipeline:
 
   edge-tts (Malay speech) -> faster-whisper ASR (language "ms")
-  -> Malay text -> NLLB (zsm_Latn -> tha_Thai) -> Thai text
+  -> Malay text -> "pattani_thai" translator (hospital phrase table,
+     NLLB zsm_Latn -> tha_Thai, LLM review) -> Thai text
+
+Prerequisite: Ollama running with the configured model (for the LLM review).
 
 It validates the character yaml through the project's pydantic config
 manager, then initializes the exact engines the server would use.
@@ -22,6 +25,18 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 # Match run_server.py: model caches live under ./models
 os.environ.setdefault("HF_HOME", str(ROOT / "models"))
+
+
+MEDICAL_CASES = [
+    ("Encik pun rasa mahkamah mana hari ini", "คุณรู้สึกเป็นยังไงบ้างวันนี้"),
+    ("Tekan di sini sebental", "กดแผลตรงนี้ไว้สักครู่"),
+    ("Rasa loya.", "คลื่นไส้"),
+    ("Hulurkan tangan kiri", "ยื่นแขนซ้ายมา"),
+    # a negation must survive
+    ("Saya tak ada demam", lambda thai: "ไม่" in thai and "ไข้" in thai),
+    # what Whisper invents for unclear audio is dropped, not translated
+    ("Terima kasih kerana menonton!", ""),
+]
 
 
 def main() -> int:
@@ -57,7 +72,7 @@ def main() -> int:
     from faster_whisper.audio import decode_audio
     from src.open_llm_vtuber.asr.asr_factory import ASRFactory
 
-    print("[3/5] Loading faster-whisper from ./whisper-thai-pattani-finetuned ...")
+    print(f"[3/5] Loading faster-whisper '{cfg.asr_config.faster_whisper.model_path}' ...")
     asr_engine = ASRFactory.get_asr_system(
         cfg.asr_config.asr_model,
         **getattr(cfg.asr_config, cfg.asr_config.asr_model).model_dump(),
@@ -69,17 +84,28 @@ def main() -> int:
         print("❌ ASR returned empty text", file=sys.stderr)
         return 1
 
-    # ---------- 4. init the NLLB translator (same call the server makes) and translate ----------
+    # ---------- 4. init the translator (same call the server makes) and translate ----------
     from src.open_llm_vtuber.translate.translate_factory import TranslateFactory
 
     tcfg = cfg.tts_preprocessor_config.translator_config
-    print(f"[4/5] Loading NLLB translator "
-          f"({tcfg.nllb.model}: {tcfg.nllb.src_lang} -> {tcfg.nllb.tgt_lang}) ...")
+    print(f"[4/5] Loading '{tcfg.translate_provider}' translator ...")
     translator = TranslateFactory.get_translator(
         tcfg.translate_provider, getattr(tcfg, tcfg.translate_provider).model_dump()
     )
     thai_text = translator.translate(malay_text)
-    print(f"      OK — NLLB output (Thai): {thai_text!r}")
+    print(f"      OK — translator output (Thai): {thai_text!r}")
+    if not thai_text.strip():
+        print("❌ translator returned no Thai", file=sys.stderr)
+        return 1
+
+    # things the recognizer really wrote for hospital phrases, and what must come out
+    for heard, wanted in MEDICAL_CASES:
+        got = translator.translate(heard)
+        ok = got == wanted if isinstance(wanted, str) else wanted(got)
+        print(f"      {'OK' if ok else 'WRONG'} — {heard!r} => {got!r}")
+        if not ok:
+            print("❌ a hospital phrase was not translated as expected", file=sys.stderr)
+            return 1
 
     # ---------- 5. synthesize the Thai translation with the configured TTS voice ----------
     tts_voice = cfg.tts_config.edge_tts.voice

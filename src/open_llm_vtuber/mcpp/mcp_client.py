@@ -66,8 +66,11 @@ class MCPClient:
             )
             read, write = stdio_transport
 
+            # Convert timeout to seconds if it's a timedelta
+            timeout_seconds = timeout.total_seconds() if isinstance(timeout, timedelta) else timeout
+
             session = await self.exit_stack.enter_async_context(
-                ClientSession(read, write, read_timeout_seconds=timeout)
+                ClientSession(read, write, read_timeout_seconds=timeout_seconds)
             )
             await session.initialize()
 

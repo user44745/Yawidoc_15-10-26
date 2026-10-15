@@ -359,11 +359,13 @@ async def process_member_response(
                 input_text = " ".join([t.content for t in batch_input.texts])
             logger.info(f"Context text to translate: {input_text}")
             # Translate the context text
-            translated_text = context.translate_engine.translate(input_text)
+            translated_text = await asyncio.to_thread(
+                context.translate_engine.translate, input_text
+            )
             logger.info(f"Translated context: {translated_text}")
             # Create display text for the translated text (to be shown in UI)
             display_text = DisplayText(
-                text=translated_text,
+                text=context.translate_engine.display_text(translated_text),
                 name=context.character_config.character_name,
                 avatar=context.character_config.avatar,
             )

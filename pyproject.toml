@@ -18,7 +18,9 @@ dependencies = [
     "loguru>=0.7.2",
     "mcp[cli]>=1.6.0",
     "numpy>=1.26.4,<2",
-    "onnxruntime>=1.20.1",
+    # onnxruntime <1.24: v1.24 wheels dropped Python 3.10 support (this
+    # project's venv runs cp310); 1.23.x still ships cp310 wheels.
+    "onnxruntime>=1.20.1,<1.24",
     "openai>=1.57.4",
     "pre-commit>=4.1.0",
     "pydub>=0.25.1",
@@ -42,6 +44,8 @@ dependencies = [
     "duckduckgo-mcp-server>=0.1.1",
     "transformers>=4.46,<5",
     "faster-whisper>=1.2.1",
+    "pythainlp>=5.4.0",
+    "rapidfuzz>=3.14.5",
 ]
 
 [project.optional-dependencies]
@@ -75,4 +79,19 @@ train = [
     "datasets>=5.0.1",
     "evaluate>=0.4.6",
     "jiwer>=4.0.0",
+    "peft>=0.15.0",
+    "pillow-heif>=0.18.0",
+    "sacrebleu>=2.5.0",
 ]
+
+# PyTorch: pull CUDA (cu124) wheels on Windows/Linux so fine-tuning can use
+# the GPU (RTX 4050). macOS keeps the default CPU/arm wheels.
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu124", marker = "sys_platform != 'darwin'" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true

@@ -1,0 +1,68 @@
+D:\project\yawidoc\yawidoc\.venv\lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (7.6.0)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+Loading dataset from interview data...
+Dataset loaded: DatasetDict({
+    train: Dataset({
+        features: ['audio', 'sentence'],
+        num_rows: 235
+    })
+    test: Dataset({
+        features: ['audio', 'sentence'],
+        num_rows: 59
+    })
+})
+Tokenizing audio + transcripts:   0%|          | 0/235 [00:00<?, ? examples/s]Tokenizing audio + transcripts:   0%|          | 0/235 [00:00<?, ? examples/s]
+Traceback (most recent call last):
+  File "D:\project\yawidoc\yawidoc\run_finetune.py", line 237, in <module>
+    main()
+  File "D:\project\yawidoc\yawidoc\run_finetune.py", line 143, in main
+    dataset = dataset.map(
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\dataset_dict.py", line 969, in map
+    dataset_dict[split] = dataset.map(
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\arrow_dataset.py", line 576, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\arrow_dataset.py", line 3633, in map
+    for rank, done, content in Dataset._map_single(**unprocessed_kwargs):
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\arrow_dataset.py", line 3973, in _map_single
+    for i, example in iter_outputs(shard_iterable):
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\arrow_dataset.py", line 3951, in iter_outputs
+    yield i, apply_function(example, i, offset=offset)
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\arrow_dataset.py", line 3872, in apply_function
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+  File "D:\project\yawidoc\yawidoc\run_finetune.py", line 136, in prepare_dataset
+    audio = batch["audio"]
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\formatting\formatting.py", line 301, in __getitem__
+    value = self.format(key)
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\formatting\formatting.py", line 396, in format
+    return self.formatter.format_column(self.pa_table.select([key]))[0]
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\formatting\formatting.py", line 481, in format_column
+    column = self.python_features_decoder.decode_column(column, pa_table.column_names[0])
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\formatting\formatting.py", line 244, in decode_column
+    self.features.decode_column(column, column_name, token_per_repo_id=self.token_per_repo_id)
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\features\features.py", line 2246, in decode_column
+    [
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\features\features.py", line 2247, in <listcomp>
+    decode_nested_example(self[column_name], value, token_per_repo_id=token_per_repo_id)
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\features\features.py", line 1524, in decode_nested_example
+    return schema.decode_example(obj, token_per_repo_id=token_per_repo_id) if obj is not None else None
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\features\audio.py", line 184, in decode_example
+    from ._torchcodec import AudioDecoder
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\datasets\features\_torchcodec.py", line 2, in <module>
+    from torchcodec.decoders import AudioDecoder as _AudioDecoder
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\torchcodec\__init__.py", line 13, in <module>
+    from . import decoders, encoders, samplers, transforms  # noqa
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\torchcodec\decoders\__init__.py", line 7, in <module>
+    from .._core import AudioStreamMetadata, VideoStreamMetadata
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\torchcodec\_core\__init__.py", line 8, in <module>
+    from ._metadata import (
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\torchcodec\_core\_metadata.py", line 15, in <module>
+    from torchcodec._core.ops import (
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\torchcodec\_core\ops.py", line 35, in <module>
+    load_image_library()
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\torchcodec\_internally_replaced_utils.py", line 71, in load_image_library
+    torch.ops.load_library(image_library_path)
+  File "D:\project\yawidoc\yawidoc\.venv\lib\site-packages\torch\_ops.py", line 1357, in load_library
+    ctypes.CDLL(path)
+  File "C:\Users\Manta Wongmek\AppData\Roaming\uv\python\cpython-3.10-windows-x86_64-none\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: [WinError 127] The specified procedure could not be found

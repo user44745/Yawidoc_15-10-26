@@ -151,11 +151,16 @@ class EdgeTTSConfig(I18nMixin):
     """Configuration for Edge TTS."""
 
     voice: str = Field(..., alias="voice")
+    fallback_voice: Optional[str] = Field(None, alias="fallback_voice")
 
     DESCRIPTIONS: ClassVar[Dict[str, Description]] = {
         "voice": Description(
             en="Voice name to use for Edge TTS (use 'edge-tts --list-voices' to list available voices)",
             zh="Edge TTS 使用的语音名称（使用 'edge-tts --list-voices' 列出可用语音）",
+        ),
+        "fallback_voice": Description(
+            en="Second voice of the same language, used when the main voice returns no audio",
+            zh="同一语言的备用语音，在主语音未返回音频时使用",
         ),
     }
 

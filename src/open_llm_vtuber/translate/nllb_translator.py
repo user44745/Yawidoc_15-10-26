@@ -80,6 +80,9 @@ class NLLBTranslator(TranslateInterface):
                     **inputs,
                     forced_bos_token_id=self.tgt_lang_id,
                     max_length=512,
+                    # unfamiliar input (dialect words) can make the model
+                    # repeat one word until max_length: "แม่แม่แม่แม่..."
+                    no_repeat_ngram_size=4,
                 )
             translated = self.tokenizer.batch_decode(
                 output_ids, skip_special_tokens=True

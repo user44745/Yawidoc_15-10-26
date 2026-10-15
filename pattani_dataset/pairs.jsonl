@@ -1,0 +1,294 @@
+{"speaker": "ถาม", "malay_thai": "นิก้ะยาดีฆาป้อนิ มารี", "thai": "ก้ะเป็นอะไรมา", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 3}
+{"speaker": "ตอบ", "malay_thai": "ก้ะเป็นเบาหวาน ไตด้วย", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 4}
+{"speaker": "ถาม", "malay_thai": "ยาดีซือมะนิแดห์", "thai": "ก็คือบวมนี่เลยใช่มั้ยคะ", "note": "มีอาการบวมที่ขาทั้งสองข้าง", "has_parallel": true, "person": 1, "tape": 1, "line_no": 5}
+{"speaker": "ตอบ", "malay_thai": "ใช่ บวมๆ", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 6}
+{"speaker": "ถาม", "malay_thai": "ปาตูมารีดูโดะวาปอฮารีเดาะห์นิ", "thai": "มาอยู่โรงพยาบาลกี่วันแล้วคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 7}
+{"speaker": "ตอบ", "malay_thai": "เมื่อวาน", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 8}
+{"speaker": "ถาม", "malay_thai": "ปาตูก้ะยาดีโรคไตดืองาเบาหวานนี่ลามอเดาะห์ล้า", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 9}
+{"speaker": "ตอบ", "malay_thai": "นานแล้ว ประมาณ ก้ะเป็นเบาหวานประมาณ5ปีแล้ว ป่ะนิเพิ่งเนาะยาดี", "thai": null, "note": "แปลว่าแต่นี่เพิ่งจะเป็นอีก", "has_parallel": false, "person": 1, "tape": 1, "line_no": 10}
+{"speaker": "ถาม", "malay_thai": "ปะห์ตือเกาะห์ดูโดะยาดี อาดอซาเกะปาลอเดาะ ปวดหัว ตะเดาะแดห", "thai": "แล้วตอนที่เป็นนี่มีปวดหัวมั้ย", "note": "ก้ะเค้าส่ายหน้า; ก้ะส่ายหน้า", "has_parallel": true, "person": 1, "tape": 1, "line_no": 11}
+{"speaker": "ตอบ", "malay_thai": "ไม่มี", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 12}
+{"speaker": "ถาม", "malay_thai": "วาซอซาเกะปือโระแบบนี้อาดอเดาะ ตะเดาะแดห์", "thai": "รู้สึกมีอาการปวดท้องมั้ย ไม่มีเนอะ", "note": "ก้ะส่ายหน้า; ก้ะะส่ายหน้า", "has_parallel": true, "person": 1, "tape": 1, "line_no": 13}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี/ไม่เจ็บ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 14}
+{"speaker": "สรุป", "malay_thai": "", "thai": "บทสนทนาร่วม ไม่มีเลยปวดท้อง ไม่มี", "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 15}
+{"speaker": "ตอบ", "malay_thai": "อาดอความดันสูง", "thai": "มีความดันสูง", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 16}
+{"speaker": "ถาม", "malay_thai": "ป่ะกาแดความดันสูงตุห์เดาะซาเกะปาลอลีแดห", "thai": "แล้วถ้าความดันสูงไม่ได้ปวดหัวใช่มั้ยคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 17}
+{"speaker": "ตอบ", "malay_thai": "เดาะตะเดาะ", "thai": "ไม่ ไม่มี", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 18}
+{"speaker": "ถาม", "malay_thai": "ปาตู แบบลอนิงวาซอซาเกะมานอๆเตะ", "thai": "แล้วตอนนี้มีรู้สึกเจ็บตรงไหนมั้ยคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 19}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี ขาบวมอย่างเดียว", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 20}
+{"speaker": "ถาม", "malay_thai": "ขาบวมอย่างเดียว ตะเดาะซาเกะมานอลีลาแดห", "thai": "ขาบวมอย่างเดียว ไม่มีรู้สึกเจ็บตรงไหนใช่มั้ยคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 21}
+{"speaker": "ตอบ", "malay_thai": "ตุห์ เบาหวานก็ต่ำลง ไตมันระยะสุดท้ายแล้ว ระยะที่สาม", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 22}
+{"speaker": "ถาม", "malay_thai": "ปาตูตะเดาะซือรอกาตอแบบ ปือนิงปาลอแบบนี้ล้า ตะเดาะแดห์", "thai": "แล้วก็คือไม่ได้รู้สึกว่าเวียนหัวแบบนี้ใช่มั้นคะ ไม่มีเนอะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 23}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 24}
+{"speaker": "ถาม", "malay_thai": "ปาตู อาดอวาซอแบบบือลงเนาะมารีเมาะห์ซาเกะนี่อาดอดือแม เป็นไข้เดาะ", "thai": "แล้วก็มีรู้สึกก่อนจะมาโรงพยาบาลนี่มีไข้ เป็นไข้มั้ย", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 25}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ มารียอหมอนัด", "thai": "ไม่มี มาเพราะหมอนัด", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 26}
+{"speaker": "ถาม", "malay_thai": "อ๋อหมอนัด", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 27}
+{"speaker": "ตอบ", "malay_thai": "ยอ หมอนัด", "thai": "ใช่ หมอนัด มาวันที่14 เดือนสิงหานั้นมาแล้ว นอนโรงบาล5วันแล้ว บวมเหมือนกัน แล้วนี่ก็นัดมาวันที่18 ก็บวมเหมือนกัน มานอน", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 28}
+{"speaker": "ถาม", "malay_thai": "ก็คือตะเดาะไข้กาปอ ตะปียอซูโรห์ตีโด มูฆอยอบวมนิห์", "thai": "ก็คือไม่ได้มีไข้อะไรใช่มั้ยคะ แต่หมอให้นอน เพราะบวมเนอะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 29}
+{"speaker": "ตอบ", "malay_thai": "มูฆอยอบวม ยอฉีดยานิห์ ฉี่ไม่ค่อยออก ยอบวม", "thai": "เพราะมันบวม หมอฉีดยาให้ ฉี่ไม่ค่อยออกด้วย ขามันบวม", "note": "ขา", "has_parallel": true, "person": 1, "tape": 1, "line_no": 30}
+{"speaker": "ถาม", "malay_thai": "ปาตู บาโตะๆแบบนี้", "thai": "แล้วไอๆแบบนี้ล่ะคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 31}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 32}
+{"speaker": "ถาม", "malay_thai": "ยาวอปง โอเคมอและแดห์ ตะเดาะดูโดะลือกะฆาปอแดห์", "thai": "หายใจก็โอเคดีนะคะ ไม่มีติดขัดอะไรนะคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 33}
+{"speaker": "ตอบ", "malay_thai": "ตะดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 34}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือว่าอ่า ปวดท้องอะไม่มี ปวดหัวก็ไม่มี ไม่มีปวดตรงไหนด้วย", "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 36}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก้ะพูด: มีอาการบวมอย่างเดียว", "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 38}
+{"speaker": "ถาม", "malay_thai": "มีอาการบวมอย่างเดียวไม่มีไข้ ไม่มีไอ หายใจก็สะดวก โอเค อาเจียน คลื่นไส้ก็ไม่มีนะคะ", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 40}
+{"speaker": "ตอบ", "malay_thai": "ขาบวมข้างเดียวหรอคะ", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 42}
+{"speaker": "ตอบ", "malay_thai": "ติดที่ปัสสาวะไม่ออก ถ้าปัสสาวะออกมันไม่บวมหรอก", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 43}
+{"speaker": "ถาม", "malay_thai": "ซือบือเลาะห์ยอล้า", "thai": "ข้างเดียวหรอคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 44}
+{"speaker": "ตอบ", "malay_thai": "ทั้งสองข้างเลย", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 45}
+{"speaker": "ถาม", "malay_thai": "มาแรงบวมปาดอนิงกือเดาะ", "thai": "เมื่อวานบวมกว่านี้มั้ย", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 46}
+{"speaker": "ตอบ", "malay_thai": "มาแรงบวมปาดอนิงซีกิ", "thai": "เมื่อวานบวมกว่านี้นิด ตอนนี้ลดแล้ว พอดีหมอฉีดยาให้ฉี่", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 47}
+{"speaker": "ถาม", "malay_thai": "ซาเกะตือเกาะนามอตะเดาะแดห์", "thai": "เจ็บคออะไรคือไม่มีใช่มั้ยคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 48}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 49}
+{"speaker": "ถาม", "malay_thai": "ดาเราะห์ตะเดาะตูเบะโกะมานอกาลี", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 50}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 51}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ไม่มี ไม่มีอาการอะไรเลย", "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 52}
+{"speaker": "ถาม", "malay_thai": "ปาตูแบบตะเดาะในเรื่องของหัวใจปอดแบบนี้", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 53}
+{"speaker": "ตอบ", "malay_thai": "ไม่มี", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 54}
+{"speaker": "ถาม", "malay_thai": "ปาตู ฮูบะๆแบบนี้กาแดยอวี อาดอ อาเลาะห์แฮฆาปอเดาะ", "thai": "แล้วยา ถ้าหมอให้ มีแพ้มั้ย", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 55}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 56}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ไม่มีแพ้ยาหรืออะไรเลย", "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 57}
+{"speaker": "สรุป", "malay_thai": "", "thai": "กินได้ทั้งหมดเลยทั้งยาทั้งหมดเลยทุกครั้งที่เอายามาให้กิน", "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 58}
+{"speaker": "ถาม", "malay_thai": "ก็คือบอมอนัดเซาะมอ ลานิแดห์", "thai": "ก็คือหมอนัดตลอดเลยใช่มั้ยคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 59}
+{"speaker": "ตอบ", "malay_thai": "ฮือ บอมอนัด", "thai": "หมอนัด มาทุกนัดเลย", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 60}
+{"speaker": "ถาม", "malay_thai": "บางที บอกาแดบอมอนัด กาแดยอซูโรห์ตีโดเมาะห์ซาเกะ ตีโดแดห์ มูฆอยอแตเงาะกาดอแอกีตอนี่แดห", "thai": "บางทีถ้าหมอนัดแล้วให้นอนโรงพยาบาล นอนใช่มั้ยคะ เพราะหมอจะดูอาการเราใช่มั้ยคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 61}
+{"speaker": "ตอบ", "malay_thai": "ใช่ๆ", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 62}
+{"speaker": "ถาม", "malay_thai": "ป่ะตือเกาะห์บอมอนัด ดูวอ ตีกอ กาลีมารีเดาะห์นิ คือนอตีโดเมาะห์ซาเกะเซาะมอก้อ", "thai": "แล้วตั้งแต่ที่หมอนัด สองสามครั้งที่ผ่านมา ต้องนอนโรงพยาบาลตลอดเลยหรอคะ", "note": null, "has_parallel": true, "person": 1, "tape": 1, "line_no": 63}
+{"speaker": "ตอบ", "malay_thai": "ใช่ ประมาณ5วัน อาทิตย์นึง พอหายบวมก็ให้กลับ", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 1, "line_no": 64}
+{"speaker": "ถาม", "malay_thai": "ป่ะเนาะมีเตาะตายอ นามอก้ะ นามอกาปอ", "thai": "แล้วก็จะขออนุญาตถาม ชื่อก้ะ ชื่ออะไรคะ", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 68}
+{"speaker": "ตอบ", "malay_thai": "ซานะ อาลี", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 69}
+{"speaker": "ถาม", "malay_thai": "ก้ะอายุวาปอเดาะห์ลอนิง", "thai": "ก้ะอายุเท่าไหร่แล้วคะปัจจุบัน", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 70}
+{"speaker": "ตอบ", "malay_thai": "อายุ60", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 71}
+{"speaker": "ถาม", "malay_thai": "ปาตูรูเมาะห์โดะมานอนิ", "thai": "แล้วบ้านอยู่ที่ไหนคะ", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 72}
+{"speaker": "ตอบ", "malay_thai": "โดะ ตันหยงลุโละ", "thai": "อยู่ตันหยงลุโละ", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 73}
+{"speaker": "ถาม", "malay_thai": "ปาตูแบซอมารีเดาะแดห์เมาะซาเกะนิ เซาะมอเดาะห์แดห์", "thai": "เคยมาแล้วนะคะโรงพยาบาล ตลอดแล้วเนอะ", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 74}
+{"speaker": "ตอบ", "malay_thai": "ใช่", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 75}
+{"speaker": "ถาม", "malay_thai": "ดาแลรูเมาะห์อาดอออแรอีสะรอเกาะเดาะแบะนิเดาะ", "thai": "ในบ้านมีใครสูบบุหรี่แบบนี้มั้ยคะ", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 76}
+{"speaker": "ตอบ", "malay_thai": "มี", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 77}
+{"speaker": "ถาม", "malay_thai": "ป่ะปียอ", "thai": "แล้วใคร", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 78}
+{"speaker": "ตอบ", "malay_thai": "ลูกชาย", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 79}
+{"speaker": "ถาม", "malay_thai": "ตะปีตะเดาะมาแก กาลีแดห์", "thai": "แต่ไม่ได้ดื่ม ใช่มั้ยคะ", "note": "แอลกอฮอล์", "has_parallel": true, "person": 1, "tape": 2, "line_no": 80}
+{"speaker": "ตอบ", "malay_thai": "เดาะ", "thai": "ไม่", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 81}
+{"speaker": "ถาม", "malay_thai": "ป่ะ ดาแลรูเมาะห์อาดอออแรยาดีโรคนี้มั้ย", "thai": "แล้วในบ้านมีคนเป็นโรคนี้มั้ย", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 82}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 83}
+{"speaker": "สรุป", "malay_thai": "", "thai": "มีแม่คนเดียว", "note": "ก็คือผู้ให้สัมภาษณ์", "has_parallel": false, "person": 1, "tape": 2, "line_no": 84}
+{"speaker": "ถาม", "malay_thai": "ปาตูลือปะห์นิง บอมอนัดปูเลาะเดาะห์ก้อ นาตีนัดลือปะห์ก้ะตูเบะเมาะห์ซาเกะ", "thai": "แล้วหลังจากนี้หมอนัดอีกหรือค่อยนัดหลังจากก้ะออกจากโรงพยาบาล", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 85}
+{"speaker": "ตอบ", "malay_thai": "นัดก่อนที่ออกจากโรงบาลก็ค่อยนัดใหม่", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 86}
+{"speaker": "ถาม", "malay_thai": "ป่ะก้ะ มีซาแลเกาะห์บอมอเดาะนัดกอแบะนิง", "thai": "แล้วก้ะ ถ้าหมอไม่ได้นัดหรืออะไรงี้", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 87}
+{"speaker": "ตอบ", "malay_thai": "หมอให้กินยาอยู่บ้าน", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 88}
+{"speaker": "ถาม", "malay_thai": "ปาตุห มีซาแลวาซอบือลงปาแดงายอเนาะนัดแบบนี้อาดอซาเกะ ป่ะมารีเดาะ มารีลาลูแดห์", "thai": "แล้วถ้าสมมุติว่าก่อนที่หมอจะนัดแบบนี้ถ้ามีฮาการเจ็บ มาโรงพยาบาลมั้ย มาเลยเนอะ", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 89}
+{"speaker": "ตอบ", "malay_thai": "ก็มาเลย มันอยู่ใกล้ก็มาเลยไม่ต้องรอ เค้าบอกแล้วถ้าไม่ถึงวันนัดถ้าเจ็บก็มาได้ทุกเวลา", "thai": null, "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 90}
+{"speaker": "ถาม", "malay_thai": "มารีบูเละห์เซาะมอแดห์", "thai": "มาได้ทุกเวลาเนอะ", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 91}
+{"speaker": "ตอบ", "malay_thai": "ยอ", "thai": "ใช่ มาได้ทุกเวลา", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 92}
+{"speaker": "ถาม", "malay_thai": "ป่ะนิตะเดาะดูโดะหยุดยาเองกาลีแดห", "thai": "แล้วนี่ไม่ได้หยุดยาเองทีใช่มั้ยคะ", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 93}
+{"speaker": "ตอบ", "malay_thai": "ยอ", "thai": "ใช่ หมอไม่ให้หยุดยาเอง", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 94}
+{"speaker": "ตอบ", "malay_thai": "ตะปอมาและเดาะห์", "thai": "ไม่เป็นไรดีแล้ว", "note": null, "has_parallel": true, "person": 1, "tape": 2, "line_no": 95}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก้ะไม่เคยมีผ่าตัด ไม่ต้องผ่าตัด ไม่ได้ตั้งครรภ์", "note": null, "has_parallel": false, "person": 1, "tape": 2, "line_no": 98}
+{"speaker": "สรุป", "malay_thai": "", "thai": "คนที่สอง", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 1}
+{"speaker": "ถาม", "malay_thai": "เมาะยาดีกาปอนิมารี", "thai": "เมาะเป็นอะไรมาคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 3}
+{"speaker": "ตอบ", "malay_thai": "ยาดีซาดีเกะตะห์บลาแกนี นายอ์มารีตะห์ดาดอ", "thai": "เป็นการเจ็บหลังขึ้นมาที่อก", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 4}
+{"speaker": "ถาม", "malay_thai": "ปาตูตือเกาะห์เมาะมารีอาดอซาเกะปาลอเดาะ ลอนิงๆปง", "thai": "แล้วตอนที่เมาะมา มีปวดหัวบ้างมั้ย ตอนนี้ล่ะมีมั้ย", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 5}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะซาเกะ", "thai": "ไม่มีปวด", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 6}
+{"speaker": "ถาม", "malay_thai": "ตะเดาะซาเกะปาลอแดห", "thai": "ไม่มีปวดหัวเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 7}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอซาเกะปือโระเดาะ", "thai": "แล้วก็มีปวดท้องมั้ย", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 8}
+{"speaker": "ตอบ", "malay_thai": "วาซอซาเกะ", "thai": "รู้สึกเจ็บ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 9}
+{"speaker": "ถาม", "malay_thai": "วาซอซาเกะปือโระแดห์", "thai": "รู้สึกปวดท้องเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 10}
+{"speaker": "ถาม", "malay_thai": "ยอซาเกะบือเลาะห์เละมานอ เละตะห์กอ", "thai": "รู้สึกเจ็บฝั่งไหน ด้านบนหรือ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 11}
+{"speaker": "สรุป", "malay_thai": "", "thai": "เมาะชี้จุดตรงที่เจ็บ* คือด้านล่าง", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 13}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ซาเกะเละบอเวาะห์ ฝั่งขวา = เจ็บด้านล่างฝั่งขวา ปวดท้องฝั่งขวาด้านล่าง", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 14}
+{"speaker": "ถาม", "malay_thai": "วาซอซาเกะลาแดห์", "thai": "รู้สึกเจ็บใช่มั้ย", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 15}
+{"speaker": "ตอบ", "malay_thai": "ซาเกะ", "thai": "เจ็บ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 16}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอดือแมแบบนี้เดาะ", "thai": "แล้วมีไข้งี้มั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 17}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 18}
+{"speaker": "ถาม", "malay_thai": "ดือแมตะเดาะแดห", "thai": "ไม่มีไข้เนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 19}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะอาดอบาโตะแบบนี้เดาะ", "thai": "แล้วเมาะมีไอแบบนี้มั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 20}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะมานอ บาโตะลามอกาลี", "thai": "ไม่ค่อยมี มีนานๆที", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 21}
+{"speaker": "สรุป", "malay_thai": "", "thai": "มีไอแต่มีนานๆทีนานๆครั้ง", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 23}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอแบบวาซอยาวอเดาะลือปะห์แบบนี้เดาะ", "thai": null, "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 25}
+{"speaker": "ตอบ", "malay_thai": "ยาวอเดาะซือดะ ซาเกะซีนิง ยาวอเดาะซือดะ", "thai": "หายใจไม่ค่อยสะดวก เจ็บตรงนี้ หายใจไม่ค่อยสะดวก", "note": "ตรงท้อง", "has_parallel": true, "person": 2, "tape": 1, "line_no": 26}
+{"speaker": "สรุป", "malay_thai": "", "thai": "รู้สึกหายใจไม่ค่อยดี ไม่ค่อยโปร่งสักเท่าไหร่ ก็เลยต้องมาที่โรงพยาบาล", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 28}
+{"speaker": "ถาม", "malay_thai": "ปาตูวาสอแบบเนาะเนาะมูเตาะห์แบบนี้เดาะ", "thai": "แล้วรู้สึกอยากอ้วกแบบนี้มั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 30}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 31}
+{"speaker": "ถาม", "malay_thai": "คลื่นไส้แบบนี้ตะเดาะแดห", "thai": "คลื่นไส้ไม่มีเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 32}
+{"speaker": "ตอบ", "malay_thai": "ฮือ", "thai": "ไม่มี", "note": "สไตล์คนแก่", "has_parallel": true, "person": 2, "tape": 1, "line_no": 33}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะอาดอแบบซาเกะปือโระเนาะแบเราะแบบนี้เดาะ", "thai": "แล้วเมาะมีแบบปวดท้องจะถ่ายหนักแบบนี้มั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 34}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 35}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือท้องไม่เสีย", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 37}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะวาซอแบบซาเกะตือเกาะแบบนี้อาดอเดาะ", "thai": "แล้วเมาะรู้สึกเจ็บคอแบบนี้ทีมั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 39}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 40}
+{"speaker": "สรุป", "malay_thai": "", "thai": "เจ็บคอก็ไม่มี", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 41}
+{"speaker": "ถาม", "malay_thai": "ปาตูวาซออาดอแบบกือตาแบบนี้เดาะ", "thai": "แล้วรู้สึกมีแบบสั่นแบบนี้มั้ย", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 42}
+{"speaker": "ตอบ", "malay_thai": "เมาะตอบว่ามี", "thai": null, "note": "แต่เมาะตอบในบริบทว่ามือสั่น นาเลง=ตื่นเต้น", "has_parallel": false, "person": 2, "tape": 1, "line_no": 43}
+{"speaker": "ถาม", "malay_thai": "ซือโยะกือตาอาดอเดาะเมาะ", "thai": "หนาวสั่นมีมั้ยเมาะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 44}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 45}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือหนาวสั่นก็ไม่มี", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 46}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะอาดอแบบดาเราะห์ตูเบะมานอเดาะ", "thai": "แล้วเมาะมีเลือดออกตรงไหนมั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 47}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 48}
+{"speaker": "สรุป", "malay_thai": "", "thai": "เลือดออกที่ไหนก็ไม่มีเหมือนกัน ไม่มีเลือดออกทั้งร่างกายเลย", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 49}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอแบบ ซาเกะ คอซาเกะเดาะเมาะ", "thai": "แล้วมีแบบเจ็บ ยิ่งเจ็บมั้ยคะเมาะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 50}
+{"speaker": "ตอบ", "malay_thai": "ฮือ ซาเกะบลาแก ซาเกะบลาแกมารีโกะนิงนิ", "thai": "ฮือ เจ็บหลัง เจ็บหลังมาถึงตรงนี้", "note": "เจ็บหลังฝั่งขวา มาถึงอก", "has_parallel": true, "person": 2, "tape": 1, "line_no": 51}
+{"speaker": "ถาม", "malay_thai": "รู้สึก ซาเกะคอบือระกอ", "thai": "รู้สึกเจ็บยิ่งขึ้นหรือ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 52}
+{"speaker": "ตอบ", "malay_thai": "บือระยูเฆาะซาเบะมารีตุห์", "thai": "เจ็บยิ่งมากเลยมาโรงพยาบาล", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 53}
+{"speaker": "ถาม", "malay_thai": "เมาะแบบซาเกะลามอมานอเดาะห์", "thai": "เมาะเจ็บมานานแค่ไหนแล้ว", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 54}
+{"speaker": "ตอบ", "malay_thai": "ซือแมงูเดาะ", "thai": "สัปดาห์นึงแล้ว", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 55}
+{"speaker": "สรุป", "malay_thai": "", "thai": "มีอาการเจ็บที่ด้านหลังฝั่งขวา เจ็บมาประมาณสัปดาห์นึงได้แล้ว", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 57}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะอาดอแบบยาตงๆแบบนี้ตะเดาะแดห", "thai": "แล้วเมาะได้มีโรคอะไรที่เกี่ยวกับหัวใจปอดแบบนี้มั้ยคะ ไม่มีเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 59}
+{"speaker": "ตอบ", "malay_thai": "เดาะตาฮูเฆาะ บอมอตะเดาะกอยะ", "thai": "ไม่รู้หมอไม่ได้บอกอะไรนะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 60}
+{"speaker": "ถาม", "malay_thai": "ปาตูซาเกะดาดอแบบนี้อาดอเดาะ", "thai": "แล้วเจ็บหน้าอกแบบนี้มีมั้ย", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 61}
+{"speaker": "ตอบ", "malay_thai": "ฮือ ซาเกะดาดอ ซาเกะดาดอมารีตะห์บลาแก", "thai": "ฮือ เจ็บหน้าอก เจ็บหน้าอกมาที่หลัง", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 62}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือเจ็บหน้าอกร้่วไปถึงด้านหลังเมื่อกี้อะ", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 64}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะอาดออาเลาะห์แฮฮูบะกาปอเดาะ", "thai": "แล้วเมาะมีแพ้ยาอะไรมั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 65}
+{"speaker": "ตอบ", "malay_thai": "อาดอ", "thai": "มี", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 66}
+{"speaker": "สรุป", "malay_thai": "", "thai": "มี มีอาการแพ้ยาด้วย", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 68}
+{"speaker": "ถาม", "malay_thai": "เมาะอาดออาเลาะห์แฮฮูบะเฮาะมานอตุห์อาดอเดาะ", "thai": "เมาะมีแพ้ยาตัวไหนมั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 70}
+{"speaker": "ตอบ", "malay_thai": "ตะเลห์ฆอยะ ตะเดาะเวามารี", "thai": "บอกไม่ได้ เพราะไม่ได้พามา", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 71}
+{"speaker": "สรุป", "malay_thai": "", "thai": "เมาะไม่ได้พายามาก็เลยบอกไม่ได้ว่าแพ้ยาตัวไหน", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 73}
+{"speaker": "ถาม", "malay_thai": "ปาตูฮูบะเฮาะเมาะคือนอมาแกตุห์ มาแกเสาะมอลาแดห ก็คือตามที่ยอเวาะมารีแดห", "thai": "แล้วยาที่เมาะต้องกินนั้น กินทุกวันเนอะ ก็คือตามที่พยายาลเอามาให้ใช่มั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 75}
+{"speaker": "ตอบ", "malay_thai": "บอมอวีเฮาะลายน์ ตูกาฮูบะเดาะห์ลา", "thai": "หมอจัดยาใหม่มาให้ เปลี่ยนยาแล้ว", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 76}
+{"speaker": "ถาม", "malay_thai": "นาตียอเซาะมารี กีตอคือนอมาแกแดห", "thai": "ถ้าพยาบาลเอามาให้ เราก็ต้องกินเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 77}
+{"speaker": "ตอบ", "malay_thai": "มาแกฮือ", "thai": "กิน..ฮือ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 78}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอเฮาะมาแกบอลงนาซิ ลือปะห์นาซิแดห์", "thai": "แล้วมีกินก่อนอาหาร หลังอาหารเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 79}
+{"speaker": "ตอบ", "malay_thai": "ฮ๊ออ ฮอ ฮอ ฮอ", "thai": "ใช่ๆๆๆ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 80}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือจะมียาที่ต้องกินก่อนอาหารและหลังอาหารด้วย", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 82}
+{"speaker": "ถาม", "malay_thai": "เมาะนามอกาปอนิ", "thai": "เมาะชื่ออะไรคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 84}
+{"speaker": "ตอบ", "malay_thai": "แวแย", "thai": null, "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 85}
+{"speaker": "สรุป", "malay_thai": "", "thai": "เมาะชื่อแวแย", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 87}
+{"speaker": "ตอบ", "malay_thai": "แวแย จะปะกิยา", "thai": null, "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 88}
+{"speaker": "ถาม", "malay_thai": "อ๋อ แวแย จะปะกิยา", "thai": null, "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 89}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะออมอวาปอเดาะห์นิ", "thai": "แล้วเมาะอายุเท่าไหร่แล้วนิ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 91}
+{"speaker": "ตอบ", "malay_thai": "ลาแปปูโละห์ลือเบะห์เดาะห์", "thai": "แปดสิบกว่าแล้ว", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 92}
+{"speaker": "สรุป", "malay_thai": "", "thai": "แปดสิบแล้ว แปดสิบกว่าแล้ว", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 94}
+{"speaker": "ถาม", "malay_thai": "รูเมาะห์โดะมานอ", "thai": "บ้านอยู่ที่ไหนคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 96}
+{"speaker": "ตอบ", "malay_thai": "บราโอ", "thai": "บ้านบราโอ", "note": "จ.ปัตตานี", "has_parallel": true, "person": 2, "tape": 1, "line_no": 97}
+{"speaker": "ถาม", "malay_thai": "เมาะแบซอมารีดูโดะเมาะห์ซาเกะแบบนี้เดาะ", "thai": "เมาะเคยมาอยู่โรงพยาบาลแบบนี้มั้ย", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 98}
+{"speaker": "ตอบ", "malay_thai": "แบซอ ลามอเดาะห์ลา", "thai": "เคย นานแล้ว", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 99}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือเคยมาอยู่โรงพยาบาลนี้แล้ว", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 101}
+{"speaker": "ถาม", "malay_thai": "เมาะดาแลรูเมาะห์อาดอแดมออีซะรอเกาะเดาะ", "thai": "เมาะ ในบ้านมีคนสูบบุหรี่มั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 103}
+{"speaker": "ตอบ", "malay_thai": "อาดอ อาเนาะ ลาแรปงเดาะเลห", "thai": "มี ลูก ห้ามก็ไม่ได้", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 104}
+{"speaker": "ถาม", "malay_thai": "ตาปีกีตอปงตะเดาะอีซะ ยาดีกีตอดูโดะดมยูเฆาะ", "thai": "แต่เราก็ไม่ได้สูบ แต่เราก็ได้สูดดมกลิ่นควันเข้าไปเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 106}
+{"speaker": "ถาม", "malay_thai": "ตาปีออแรดาแลกือลูวัรคอกีตอตะเดาะซาเกะแบบเมาะลากีลาลอนิงแดห์", "thai": "แต่คนในครอบครัวเรายังไม่มีใครเจ็บป่วยแบบเมาะอีกเนอะตอนนี้", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 108}
+{"speaker": "ตอบ", "malay_thai": "ฮือๆ", "thai": "ใช่ๆ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 109}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะคือนอมารีตามนัดบอมอเซาะมอเดาะ", "thai": "แล้วเมาะต้องมาตามนัดหมอตลอดมั้ย", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 110}
+{"speaker": "ตอบ", "malay_thai": "ฮือ คือนอมารีลา", "thai": "ใช่ต้องมาแหละ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 111}
+{"speaker": "ถาม", "malay_thai": "มารี มารียูเฆาะลาแดห์", "thai": "มา มาเหมือนกันเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 112}
+{"speaker": "ถาม", "malay_thai": "ปะห์บอมออาดอนัดยูเฆาะเดาะ", "thai": "แล้วหมอมีนัดเราเหมือนกันมั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 113}
+{"speaker": "ตอบ", "malay_thai": "ยอนัด นัดนัด ปะห์มารีเตาะแดซาปานัด", "thai": "หมอนัด นัดนัด แต่มาไม่ทันได้ถึงวันนัด", "note": "เพราะเจ็บก่อน", "has_parallel": true, "person": 2, "tape": 1, "line_no": 114}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือหมอนัดเมาะ แต่ว่ายังไม่ได้ถึงวันนัดก็เลยต้องมาก่อนเพราะว่าเจ็บ เพราะอาการแย่ลงก็เลยมา", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 116}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะตะเดาะดูโดะหยุดฮูบะดีรีเดาะลีแดห์", "thai": "แล้วเมาะไม่ได้มีการหยุดยาเองทีใช่มั้ยคะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 118}
+{"speaker": "ตอบ", "malay_thai": "ฮือ เดาะ", "thai": "ฮือ ไม่", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 119}
+{"speaker": "ถาม", "malay_thai": "มาแกเสาะมอแดห", "thai": "กินตลอดเนอะ", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 120}
+{"speaker": "ตอบ", "malay_thai": "ฮือ", "thai": "ใช่", "note": null, "has_parallel": true, "person": 2, "tape": 1, "line_no": 121}
+{"speaker": "สรุป", "malay_thai": "", "thai": "เมาะไม่ได้มีการตั้งครรภ์หรืออะไร ไม่เคยผ่าตัด และไม่ได้มีบอกว่าต้องผ่าตัด", "note": null, "has_parallel": false, "person": 2, "tape": 1, "line_no": 123}
+{"speaker": "สรุป", "malay_thai": "", "thai": "คนที่3", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 1}
+{"speaker": "ถาม", "malay_thai": "เมาะยาดีกาปอนิมารีซีนิง", "thai": "เมาะเป็นอะไรมาคะ ถึงมาที่โรงพยาบาล", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 2}
+{"speaker": "ตอบ", "malay_thai": "ยาดี ลิ้นหัวใจตีบ มีลูกสาวเป็นคนคอยบอกด้วย", "thai": null, "note": "เป็นลิ้นหัวใจตีบ", "has_parallel": false, "person": 3, "tape": 1, "line_no": 3}
+{"speaker": "ถาม", "malay_thai": "เมาะอาดอวาซอซาเกะปาลอเดาะนิ", "thai": "เมาะมีรู้สึกปวดหัวมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 4}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 5}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ปวดหัวไม่มี", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 6}
+{"speaker": "ถาม", "malay_thai": "อาดอซาเกะปือโระเดาะปวดท้อง", "thai": "มีปวดท้องมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 7}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": "ส่ายหัว", "has_parallel": true, "person": 3, "tape": 1, "line_no": 8}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอซาเกะมานอเดาะลอนิง", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 9}
+{"speaker": "ตอบ", "malay_thai": "ลองนิงตะเดาะซาเกะ", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 10}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือไม่มีเจ็บที่ตรงไหน", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 11}
+{"speaker": "ถาม", "malay_thai": "ปาตูตะเดาะวาซอแบบปือนิงปือนิงแบบนี้ ตะเดาะเฆาะแดห", "thai": "แล้วไม่มีรู้สึกเวียนหัวเวียนหัวแบบนี้ ไม่มีเหมือนกันเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 12}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 13}
+{"speaker": "ถาม", "malay_thai": "อาดอดือแมแบบนี้ อาดอเดาะ", "thai": "มีไข้แบบนี้ มีมั้ย", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 14}
+{"speaker": "ตอบ", "malay_thai": "ดือแมอาดอ ลามอกาลีฆีตู", "thai": "ไข้มีนานครั้ง", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 15}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ไข้มีแต่จะเป็นบางวันที่มี", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 16}
+{"speaker": "ถาม", "malay_thai": "ปะห์ตือเกาะห์เมาะมารีดะซีนิง อาดอดือแมเดาะลาฆี", "thai": "แล้วตอนที่เมาะมาที่นี่ เริ่มมีไข้หรือยัง", "note": "โรงพยาบาล", "has_parallel": true, "person": 3, "tape": 1, "line_no": 17}
+{"speaker": "ตอบ", "malay_thai": "อาดอดือแมเดาะ", "thai": "มีไข้แล้ว", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 18}
+{"speaker": "ถาม", "malay_thai": "ฮารีนิงตะเดาะแดห์", "thai": "วันนี้ไม่มีเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 19}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือไม่ได้เป็นไข้มาหลายวันแล้วแต่ว่าตอนที่มาโรงพยาบาลนั้นเป็นไข้อยู่", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 20}
+{"speaker": "ถาม", "malay_thai": "มารีดูโดะวาปอฮารีเดาะห์นิ", "thai": "มาอยู่กี่วันแล้วคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 21}
+{"speaker": "ตอบ", "malay_thai": "19วัน วันนี้", "thai": null, "note": "ลูสาวตอบให้", "has_parallel": false, "person": 3, "tape": 1, "line_no": 22}
+{"speaker": "ถาม", "malay_thai": "อ๋อ มีแลบือละห์ฮารีเดาะห์", "thai": "อ๋อ 19วันแล้ว", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 23}
+{"speaker": "ตอบ", "malay_thai": "ก่อนหน้านี้อยู่ไอซียูด้วย ใส่ท่อแบบนี้เลย", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 24}
+{"speaker": "ตอบ", "malay_thai": "มูลอๆยอกาตอยาดีน้ำท่วมปอด", "thai": "แรกๆหมอบอกว่าเป็นน้ำท่วมปอด", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 25}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอแบบบาโตะอาดอเดาะ", "thai": "แล้วมีแบบไอมีมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 26}
+{"speaker": "ตอบ", "malay_thai": "มูลอๆอาดอ ช่วงแรกๆ", "thai": "แรกๆมีช่วงแรกๆ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 27}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือมีไอช่วงแรกๆ", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 28}
+{"speaker": "ถาม", "malay_thai": "ตาปีลอนิงฮีงอเดาะห์ซีกิแดห", "thai": "แต่ตอนนี้หายแล้วนิดนึงใช่ไหมมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 29}
+{"speaker": "ตอบ", "malay_thai": "ฮีงอเดาะห์", "thai": "หายแล้ว", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 30}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือเดี๋ยวนี้ก็หายแล้วนิดนึงแต่เมื่อก่อนหน่ะไอ", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 31}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอยาวอแบบเดาะซือดะเดาะ", "thai": "แล้วมีหายใจไม่สะดวกบ้างมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 32}
+{"speaker": "ตอบ", "malay_thai": "อาดอยูเฆาะเกาะห์ๆ", "thai": "มีบ้างบางช่วง", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 33}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือจะมีบางช่วงหายใจไม่ค่อยออกด้วย", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 34}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอแบบวาซอเนาะมูเตาะห์แบบนี้เดาะ", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 35}
+{"speaker": "ตอบ", "malay_thai": "ส่ายหัว", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 36}
+{"speaker": "ถาม", "malay_thai": "ตะเดาะแดห์", "thai": "ไม่มีเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 37}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือคลื่นไส้อาเจียนไม่มี", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 38}
+{"speaker": "ถาม", "malay_thai": "อาดอแบบซาเกะปือโระแบเราะ อาดอเดาะ", "thai": "มีแบบปวดท้อง มีมั้ยคะ", "note": "ถ่ายหนัก", "has_parallel": true, "person": 3, "tape": 1, "line_no": 39}
+{"speaker": "ตอบ", "malay_thai": "ส่ายหัว", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 40}
+{"speaker": "ถาม", "malay_thai": "ตะแดห", "thai": "ไม่มีเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 41}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือท้องเสียก็ไม่มี", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 42}
+{"speaker": "ถาม", "malay_thai": "ซาเกะตือเกาะอาดอเดาะ", "thai": "เจ็บคอมีมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 43}
+{"speaker": "ตอบ", "malay_thai": "อาดอเกาะห์", "thai": "มีบางครั้ง", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 44}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือเจ็บคอก็จะมีบางช่วงเหมือนกัน", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 45}
+{"speaker": "ถาม", "malay_thai": "ซือโยะกือตาแบบนี้อาดอเดาะ", "thai": "หนาวสั่นแบบนี้มีมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 46}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 47}
+{"speaker": "สรุป", "malay_thai": "", "thai": "หนาวสั่นก็ไม่มีเหมือนกัน", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 48}
+{"speaker": "ถาม", "malay_thai": "อาดอดาเราะตูเบะมานอเดาะดาแลตูโบะห์กีตอ", "thai": "มีเลือดออกที่ไหนมั้ยในร่างกายของเรา", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 49}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 50}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือไม่มีเลือดออกเหมือนกันในร่างกายของเมาะ", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 51}
+{"speaker": "ถาม", "malay_thai": "ปาตูเฮาะเมาะโดะซาเกะโดะยาดีนิ อาดอวาซอแบบซาเกะคือนายอ์เดาะ", "thai": "แล้วที่เมเจ็บที่เป็นอยู่รู้สึกว่ายิ่งเจ็บมากยิ่งขึ้นมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 52}
+{"speaker": "ตอบ", "malay_thai": "เดาะ", "thai": "ไม่", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 53}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คืออาการที่เป็นอยู่ไม่ได้มีมากขึ้นแต่มันบรรเทาลงก็คือดีขึ้น", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 54}
+{"speaker": "ถาม", "malay_thai": "เมาะยาดีนิลามอมานอเดาะห์", "thai": "เมาะเป็นมานานแค่ไหนแล้วคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 55}
+{"speaker": "ตอบ", "malay_thai": "บารูยาดี", "thai": "เพิ่งเป็นเลย", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 56}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือเพิ่งเป็น", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 57}
+{"speaker": "ถาม", "malay_thai": "ปาตูโรคไตแบบนี้ตะเดาะแดห", "thai": "แล้วโรคไตแบบนี้ไม่มีเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 58}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 59}
+{"speaker": "ถาม", "malay_thai": "กระเพาะๆ", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 60}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 61}
+{"speaker": "ถาม", "malay_thai": "เมาะอาดออาเลาะห์แฮฮูบะมานอเดาะ", "thai": "เมาะมีแพ้ยาอะไรมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 62}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 63}
+{"speaker": "สรุป", "malay_thai": "", "thai": "แพ้ยาก็คือไม่มี", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 64}
+{"speaker": "ถาม", "malay_thai": "ปาตูอาดอมาแกฮูบะเฮาะยอเวาะมารีลาแดห", "thai": "แล้วมีกินยาที่พยาบาลเอามาให้เองอย่างเดียวเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 65}
+{"speaker": "ตอบ", "malay_thai": "ฮือๆ", "thai": "ใช่ๆ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 66}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือจะกินยาที่พี่พยาบาลเอามาให้", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 67}
+{"speaker": "ถาม", "malay_thai": "อาดอบือลงมาแกนาซิ ปาตูลือปะห์มาแกนาซิแดห", "thai": "มีก่อนกินข้าวแล้วก็หลังกินข้าวเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 68}
+{"speaker": "ตอบ", "malay_thai": "ฮือ", "thai": "ใช่", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 69}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือจะมียาที่ต้องกินก่อนอาหารแล้วก็หลังอาหาร", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 70}
+{"speaker": "ถาม", "malay_thai": "ปาตูบอมออาดอแบบจอเจาะฮูบะวีเดาะ", "thai": "แล้วคุณหมอมีการฉีดยาให้มั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 71}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 72}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือหมอจะมีแค่การฉีดยาฆ่าเชื้อ ฉีดเพื่อให้ปัสสาวะออก", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 73}
+{"speaker": "ถาม", "malay_thai": "เมาะแบซอบือเลาะห์ฆาปอเดาะ", "thai": "เมาะเคยผ่าตัดมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 74}
+{"speaker": "ตอบ", "malay_thai": "เดาะ", "thai": "ไม่", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 75}
+{"speaker": "ถาม", "malay_thai": "เดาะแดห์", "thai": "ไม่เคยเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 76}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือไม่เคยผ่าตัด", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 77}
+{"speaker": "ถาม", "malay_thai": "เมาะอาดอความดันเดาะ ดาเราะห์ตีงี", "thai": "เพราะมีความดันมั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 78}
+{"speaker": "ตอบ", "malay_thai": "มูลอๆมารีอาดอ", "thai": "แรกๆมา มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 79}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือก่อนมาเนี่ยมีความดัน", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 80}
+{"speaker": "ถาม", "malay_thai": "ตาปีลอนิง ตูรงเดาะห์", "thai": "แต่เดี๋ยวนี้ลดลงแล้วเนอะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 81}
+{"speaker": "ตอบ", "malay_thai": "ตูรงเดาะห์ 140 ตือเกาะห์มารีตู 180", "thai": "ลดลงแล้วเหลือ 140 ตอนมานั้น 180", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 82}
+{"speaker": "ถาม", "malay_thai": "เมาะนามอฆาปอนิ", "thai": "เมาะขื่ออะไรคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 83}
+{"speaker": "ตอบ", "malay_thai": "ปาตีเมาะห์", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 84}
+{"speaker": "สรุป", "malay_thai": "", "thai": "เมาะชื่อปาตีเมาะห์", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 85}
+{"speaker": "ถาม", "malay_thai": "ออมอวาปอเดาะห์", "thai": "อายุเท่าไหร่แล้วคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 86}
+{"speaker": "ตอบ", "malay_thai": "56", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 87}
+{"speaker": "ถาม", "malay_thai": "ดูเมาะห์โดะโกะมานอนิ", "thai": "บ้านอยู่แถวไหนนะคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 88}
+{"speaker": "ตอบ", "malay_thai": "โดะโกะนาเกลือ", "thai": "อยู่แถวนาเกลือ", "note": "จ.ปัตตานี", "has_parallel": true, "person": 3, "tape": 1, "line_no": 89}
+{"speaker": "ถาม", "malay_thai": "ปาตูแบซอมารีเดาะลาแดห์เมาะซาเกะนิงแดห", "thai": "แล้วเคยมาแล้วใช่ไหมที่โรงพยาบาลนิ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 90}
+{"speaker": "ตอบ", "malay_thai": "นิ ครั้งแรก", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 91}
+{"speaker": "สรุป", "malay_thai": "", "thai": "อ๋อ ครั้งแรก แสดงว่าเป็นคนที่แข็งแรงมากนะ เป็นการมาโรงพยาบาลครั้งแรก ครั้งแรกที่เข้า", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 92}
+{"speaker": "ถาม", "malay_thai": "ปาตูดาแลรูเมาะห์อาดอออแรอีซะรอเกาะแบบนี้เดาะ", "thai": "แล้วในบ้านมีคนสูบบุหรี่แบบนี้มั้ยคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 93}
+{"speaker": "ตอบ", "malay_thai": "อาดอ", "thai": "มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 94}
+{"speaker": "ถาม", "malay_thai": "ปะห์ตะเดาะออแรยาดียาเกะซูปอเมาะลาฆีแดห ดาแลรูเมาะห์แดห์", "thai": "แล้วยังไม่มีใครเจ็บหรือเป็นเหมือนเมาะอีกใช่ไหมคะในครอบครัว", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 95}
+{"speaker": "ตอบ", "malay_thai": "ตะเดาะ", "thai": "ไม่มี", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 96}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือยังไม่มีใครเป็นโรคนี้มาก่อนในครอบครัว", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 97}
+{"speaker": "ถาม", "malay_thai": "ปาตูเมาะคือนอมารีตูโระบอมอนัดเซาะมอเราะกอเดาะลาฆี", "thai": "แล้วเมาะต้องมาตามที่หมอนัดตลอดหรือยัง", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 98}
+{"speaker": "ตอบ", "malay_thai": "เดาะตาฮูงาฆี", "thai": "ยังไม่รู้เลย", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 99}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือยัง ไม่รู้เพราะยังไม่ได้กลับบ้าน หมอน่าจะนัดก่อนที่จะกลับบ้าน", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 100}
+{"speaker": "ตอบ", "malay_thai": "ปะห์นาตีบอมอนัดคือนอมารีแดห์", "thai": "แล้วถ้าหมอนัดต้องมานะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 101}
+{"speaker": "ตอบ", "malay_thai": "ฮือ คือนอมารี ยอบอมอนัด", "thai": "ใช่ต้องมาเพราะหมอนัด", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 102}
+{"speaker": "สรุป", "malay_thai": "", "thai": "เมาะบอกว่าถ้าหมอนัดก็คือต้องมา", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 103}
+{"speaker": "ถาม", "malay_thai": "ปาตูกาแดคือเละเดาะปงกาแดวาซออาดอฆานอๆ คือนอมารีลา", "thai": null, "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 104}
+{"speaker": "สรุป", "malay_thai": "", "thai": "แดห์เมาะแดห์ ยาแงดูโดะลือปะห์= แล้วถ้ากลับแล้ว ถ้ารู้สึกอย่างไรๆ ต้องมานะเมาะนะ อย่าปล่อย", "note": "เมื่อมีอาการเจ็บ", "has_parallel": false, "person": 3, "tape": 1, "line_no": 105}
+{"speaker": "ตอบ", "malay_thai": "ยอแงแปะเดาะห์ยาแงโดะเลาะวีตือโระ", "thai": "สามี ลูก บ่นแล้วว่าอย่าปล่อยให้อาการแย่ก่อน", "note": "ก็คือเตือนว่ามีอาการที่ไม่ดีปุ๊ปให้มาโรงพยาบาลเลย", "has_parallel": true, "person": 3, "tape": 1, "line_no": 106}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือในครอบครัวเมาะก็คือมีการเตือนว่าถ้าสมมติว่ามีอาการอะไรใดๆที่เรารู้สึกว่ามันไม่ได้แล้ว มันต้องมาโรงบาล ก็คือต้องมา คนในครอบครัวก็คือมีการเตือนด้วย ถ้าสมมติว่ารู้สึกยังไง รู้สึกไม่ดีต้องมาเลย", "note": null, "has_parallel": false, "person": 3, "tape": 1, "line_no": 107}
+{"speaker": "ถาม", "malay_thai": "ปาตูฮูบะเดาะแบซอมาแกเดาะบือลงๆนิง", "thai": "แล้วยาไม่เคยกินใช่ไหมก่อนหน้านี้", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 108}
+{"speaker": "ตอบ", "malay_thai": "เดาะมาแก มาแกฮูบะซาเกะอูระยอออแรทูวอ", "thai": "ไม่เคย เคยกินแต่ยาคลายเส้น", "note": "ถ้ายาในโรงพยาบาล; ที่ซื้อตามแถวบ้าน", "has_parallel": true, "person": 3, "tape": 1, "line_no": 109}
+{"speaker": "ตอบ", "malay_thai": "ปาตูลือปะห์นิงกาแดบอมอวีฮูบะยาแงหยุดฮูบะดีรีแดห", "thai": "แล้วหลังจากนี้ถ้าหมอให้ยาอย่าหยุดยาเองนะคะ", "note": null, "has_parallel": true, "person": 3, "tape": 1, "line_no": 110}
+{"speaker": "ตอบ", "malay_thai": "เดาะหยุดเดาะห์มาแกเฮาะบอมอ", "thai": "ไม่หยุดแล้วกินของหมอ", "note": "ก็คือจะไม่มีการหยุดกิน ถ้าหมอให้ยามา", "has_parallel": true, "person": 3, "tape": 1, "line_no": 111}
+{"speaker": "สรุป", "malay_thai": "", "thai": "ก็คือหลังจากนี้จะไม่หยุดยาแล้ว", "note": "หมายถึงยาที่หมอให้", "has_parallel": false, "person": 3, "tape": 1, "line_no": 112}

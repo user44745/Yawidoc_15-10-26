@@ -49,12 +49,12 @@ class ToolAdapter:
                         servers_info[server_name][tool.name] = {}
                         tool_info = servers_info[server_name][tool.name]
                         tool_info["description"] = tool.description
-                        tool_info["parameters"] = tool.inputSchema.get("properties", {})
-                        tool_info["required"] = tool.inputSchema.get("required", [])
+                        tool_info["parameters"] = tool.input_schema.get("properties", {})
+                        tool_info["required"] = tool.input_schema.get("required", [])
 
                         # Store the tool info in FormattedTool format
                         formatted_tools[tool.name] = FormattedTool(
-                            input_schema=tool.inputSchema,
+                            input_schema=tool.input_schema,
                             related_server=server_name,
                             description=tool.description,
                             # Generic schema will be generated later if needed

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ล่ามโรงพยาบาล ไทย–มลายูปัตตานี</title>
+  <style>
+    :root {
+      --bg: #f4f6f8; --card: #ffffff; --ink: #17212b; --muted: #5b6875; --line: #d5dce3;
+      --doctor: #0b6e69; --doctor-soft: #e2f3f1; --patient: #7a4a12; --patient-soft: #f8ecdb;
+      --warn: #a3410b; --warn-soft: #fdeede; --stop: #b3261e; --stop-soft: #fbe6e4;
+      --ready: #1b7a3d; --ready-soft: #e3f4e8; --busy: #8a5a00; --busy-soft: #fdf1d3;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink);
+           font-family: "Sarabun", "Leelawadee UI", "Tahoma", sans-serif; font-size: 18px; line-height: 1.5; }
+    /* room at the bottom for the fixed prototype label */
+    main { max-width: 860px; margin: 0 auto; padding: 16px 16px 120px; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+    h1 { font-size: 1.25rem; margin: 0; }
+    .pills { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+    .pill { font-size: .85rem; font-weight: 600; border-radius: 999px; padding: 3px 12px; background: var(--card);
+            border: 1px solid var(--line); color: var(--muted); }
+    .pill.online { background: var(--ready-soft); border-color: var(--ready); color: var(--ready); }
+    .pill.offline { background: var(--warn-soft); border-color: var(--warn); color: var(--warn); }
+    .pill.test { background: var(--ink); border-color: var(--ink); color: #fff; }
+    .status { font-size: .85rem; color: var(--muted); }
+    .mode { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 2px solid var(--ink);
+            border-radius: 12px; overflow: hidden; margin-bottom: 16px; }
+    .mode button { border: 0; background: var(--card); padding: 14px 8px; font: inherit; font-weight: 700;
+                   cursor: pointer; color: var(--muted); }
+    .mode button[aria-pressed="true"].doctor { background: var(--doctor); color: #fff; }
+    .mode button[aria-pressed="true"].patient { background: var(--patient); color: #fff; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; margin-bottom: 14px; }
+    .card h2 { font-size: 1rem; margin: 0 0 10px; color: var(--muted); font-weight: 600; }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; }
+    input[type=text] { flex: 1; min-width: 0; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; }
+    button.act { font: inherit; font-weight: 600; border: 0; border-radius: 10px; padding: 10px 16px; cursor: pointer;
+                 background: var(--ink); color: #fff; white-space: nowrap; }
+    button.act.recording { background: var(--stop); }
+    button.act.plain { background: var(--card); color: var(--ink); border: 1px solid var(--ink); }
+    button.act:disabled { opacity: .45; cursor: default; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chips button { font: inherit; font-size: .9rem; border: 1px solid var(--line); background: var(--bg); border-radius: 999px;
+                    padding: 5px 12px; cursor: pointer; color: var(--ink); }
+    .chips button[aria-pressed="true"] { background: var(--doctor-soft); border-color: var(--doctor); font-weight: 600; }
+    .quick { display: flex; flex-wrap: wrap; gap: 8px; }
+    .quick button { font: inherit; font-weight: 600; border: 2px solid var(--doctor); background: var(--doctor-soft); color: var(--ink);
+                    border-radius: 999px; padding: 9px 18px; cursor: pointer; }
+    .quick button:hover { background: var(--doctor); color: #fff; }
+    .quick button.numbers { border-color: var(--warn); background: var(--warn-soft); }
+    .quick button.numbers:hover { background: var(--warn); }
+    .list { display: grid; gap: 6px; margin-top: 10px; }
+    .list button { font: inherit; text-align: left; border: 1px solid var(--line); background: var(--card); border-radius: 10px;
+                   padding: 9px 12px; cursor: pointer; color: var(--ink); display: flex; justify-content: space-between; gap: 10px; }
+    .list button:hover { border-color: var(--doctor); background: var(--doctor-soft); }
+    .list .score { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+    .list .flag { color: var(--warn); font-size: .85rem; display: block; }
+    .notfound { background: var(--warn-soft); color: var(--warn); border-radius: 10px; padding: 12px; font-weight: 700; }
+    .heard { color: var(--muted); font-size: .95rem; margin-bottom: 8px; }
+    .selected { border: 2px solid var(--doctor); }
+    .selected .thai { font-size: 1.05rem; color: var(--muted); }
+    .selected .pattani { font-size: 1.9rem; font-weight: 700; line-height: 1.35; margin: 4px 0; overflow-wrap: anywhere; }
+    .selected .latin { color: var(--muted); font-size: .95rem; overflow-wrap: anywhere; }
+    .verified { margin-top: 12px; background: var(--doctor-soft); color: var(--doctor); border-radius: 8px; padding: 8px 10px;
+                font-size: .9rem; font-weight: 600; }
+
+    /* ---------- patient speaking: one button, one answer ---------- */
+    .listen { text-align: center; padding: 18px 14px 20px; }
+    .state { display: inline-block; font-size: 1.5rem; font-weight: 700; border-radius: 999px; padding: 4px 22px;
+             border: 2px solid transparent; }
+    .state::before { content: "●"; margin-right: 10px; }
+    .state.ready { background: var(--ready-soft); color: var(--ready); border-color: var(--ready); }
+    .state.listening { background: var(--stop-soft); color: var(--stop); border-color: var(--stop); }
+    .state.listening::before { animation: blink 1s steps(2, start) infinite; }
+    .state.translating { background: var(--busy-soft); color: var(--busy); border-color: var(--busy); }
+    .state.error { background: var(--stop); color: #fff; border-color: var(--stop); }
+    .state.error::before { content: "⚠"; }
+    @keyframes blink { to { visibility: hidden; } }
+    @media (prefers-reduced-motion: reduce) { .state.listening::before { animation: none; } }
+    .talk { display: block; width: min(100%, 420px); min-height: 150px; margin: 16px auto 0; border: 0; border-radius: 28px;
+            font: inherit; font-size: 2rem; font-weight: 700; color: #fff; background: var(--ready); cursor: pointer;
+            box-shadow: 0 4px 0 rgba(0, 0, 0, .22); }
+    .talk small { display: block; font-size: 1rem; font-weight: 600; opacity: .9; }
+    .talk.recording { background: var(--stop); }
+    .talk:disabled { background: #8a949e; cursor: default; box-shadow: none; }
+    .talk:focus-visible, button:focus-visible { outline: 4px solid #1a73e8; outline-offset: 3px; }
+    .answer { min-height: 240px; }
+    .answer .label { font-size: .85rem; color: var(--muted); font-weight: 600; }
+    .answer .malay { font-size: 1.05rem; color: var(--muted); min-height: 1.6em; overflow-wrap: anywhere; }
+    /* about 14-20 mm letters: readable from one metre */
+    .answer .thai { font-size: clamp(2.8rem, 8vw, 4.75rem); font-weight: 700; line-height: 1.3; margin: 2px 0 8px;
+                    min-height: 1.3em; overflow-wrap: anywhere; }
+    .answer .thai.long { font-size: clamp(2.2rem, 6vw, 3.4rem); }
+    .answer .note { color: var(--warn); font-size: .95rem; font-weight: 600; }
+    .rating { border: 2px dashed var(--ink); }
+    .rating .row button { flex: 1; min-width: 140px; font: inherit; font-weight: 700; border-radius: 10px; padding: 12px 8px; cursor: pointer;
+                          background: var(--card); border: 2px solid var(--line); color: var(--ink); }
+    .rating .row button[aria-pressed="true"].correct { background: var(--ready); border-color: var(--ready); color: #fff; }
+    .rating .row button[aria-pressed="true"].minor_error { background: var(--busy); border-color: var(--busy); color: #fff; }
+    .rating .row button[aria-pressed="true"].critical_error { background: var(--stop); border-color: var(--stop); color: #fff; }
+    .prototype { position: fixed; right: 10px; bottom: 10px; max-width: min(380px, calc(100vw - 20px)); z-index: 10;
+                 background: #fff8d6; color: #4a3800; border: 2px solid #b08900; border-radius: 10px; padding: 8px 12px;
+                 font-size: .82rem; font-weight: 600; line-height: 1.4; box-shadow: 0 2px 8px rgba(0, 0, 0, .18); }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>ล่ามโรงพยาบาล ไทย–มลายูปัตตานี</h1>
+    <div class="pills">
+      <span class="pill test" id="test-badge" hidden>โหมดทดสอบ</span>
+      <span class="pill" id="network" role="status">กำลังตรวจอินเทอร์เน็ต…</span>
+      <span class="status" id="status" role="status">กำลังเชื่อมต่อ…</span>
+    </div>
+  </header>
+
+  <div class="mode" role="group" aria-label="ใครกำลังพูด">
+    <button class="patient" id="mode-patient" aria-pressed="true">ผู้ป่วยพูด</button>
+    <button class="doctor" id="mode-doctor" aria-pressed="false">แพทย์พูด</button>
+  </div>
+
+  <!-- Patient speaking: press, speak, read the Thai -->
+  <section id="patient">
+    <div class="card listen">
+      <div class="state ready" id="patient-state" role="status" aria-live="assertive">พร้อม</div>
+      <button class="talk" id="talk" disabled>🎤 กดเพื่อพูด<small>กดอีกครั้งเมื่อพูดจบ</small></button>
+    </div>
+
+    <div class="card answer">
+      <div class="label">ผู้ป่วยพูดว่า (มลายู)</div>
+      <div class="malay" id="patient-heard" lang="ms"></div>
+      <div class="label">คำแปลภาษาไทย</div>
+      <div class="thai" id="patient-thai" aria-live="polite"></div>
+      <div class="note" id="patient-note"></div>
+      <div class="row" style="margin-top:12px">
+        <button class="act" id="patient-replay" disabled>🔊 เล่นซ้ำ</button>
+        <button class="act plain" id="patient-clear">✕ ล้างหน้าจอ</button>
+      </div>
+    </div>
+
+    <!-- Test mode only (open the page with ?test=1); never shown with a patient -->
+    <div class="card rating" id="rating" hidden>
+      <h2>โหมดทดสอบ — คำแปลนี้ถูกต้องหรือไม่</h2>
+      <div class="row">
+        <button class="correct" data-rating="correct" aria-pressed="false">✓ ถูกต้อง</button>
+        <button class="minor_error" data-rating="minor_error" aria-pressed="false">△ ผิดเล็กน้อย</button>
+        <button class="critical_error" data-rating="critical_error" aria-pressed="false">✕ ผิดร้ายแรง</button>
+      </div>
+      <div class="heard" id="rating-note" style="margin:8px 0 0"></div>
+    </div>
+    <div class="card" id="patient-typing" hidden>
+      <h2>โหมดทดสอบ — พิมพ์คำมลายูแทนการพูด</h2>
+      <div class="row">
+        <input type="text" id="patient-text" placeholder="เช่น sakit perut" autocomplete="off" lang="ms">
+        <button class="act" id="patient-send">แปล</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctor speaking: standard sentences, chosen by the doctor -->
+  <section id="doctor" hidden>
+    <div class="card" id="quick-card" hidden>
+      <h2>ใช้บ่อย — กดเพื่อเล่นเสียง</h2>
+      <div class="quick" id="quick"></div>
+    </div>
+
+    <div class="card">
+      <h2>ค้นหาประโยค หรือกดพูดภาษาไทย</h2>
+      <div class="row">
+        <input type="text" id="search" placeholder="พิมพ์ภาษาไทย เช่น ปวดท้องไหม" autocomplete="off">
+        <button class="act" id="doctor-mic">🎤 พูด</button>
+      </div>
+      <div id="doctor-heard" class="heard" hidden></div>
+      <div id="candidates" class="list"></div>
+    </div>
+
+    <div class="card selected" id="selected" hidden>
+      <div class="thai" id="selected-thai"></div>
+      <div class="pattani" id="selected-pattani"></div>
+      <div class="latin" id="selected-latin"></div>
+      <div class="row" style="margin-top:10px">
+        <button class="act" id="replay">🔊 เล่นซ้ำ</button>
+        <span id="audio-note" class="heard" style="align-self:center;margin:0"></span>
+      </div>
+      <div class="verified">ประโยคมาตรฐานที่ตรวจสอบโดยเจ้าของภาษา — ไม่ใช่การแปลด้วยเครื่อง</div>
+    </div>
+
+    <div class="card">
+      <h2>เลือกตามหมวด</h2>
+      <div class="chips" id="categories"></div>
+      <div class="list" id="sentences"></div>
+    </div>
+  </section>
+
+  <audio id="player" preload="none"></audio>
+</main>
+<aside class="prototype" role="note">
+  ต้นแบบ – ยังไม่ได้ตรวจสอบความแม่นยำ ห้ามใช้ประกอบการตัดสินใจทางการแพทย์ หากไม่แน่ใจให้ใช้ล่ามที่เป็นคน
+</aside>
+<script src="/web-tool/recorder.js"></script>
+<script src="interpreter.js"></script>
+</body>
+</html>

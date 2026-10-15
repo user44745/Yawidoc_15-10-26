@@ -317,8 +317,18 @@ class ServiceContext:
             self.live2d_model = Live2dModel(live2d_model_name)
             self.character_config.live2d_model_name = live2d_model_name
         except Exception as e:
-            logger.critical(f"Error initializing Live2D: {e}")
-            logger.critical("Try to proceed without Live2D...")
+            logger.critical(f"Error initializing Live2D with model '{live2d_model_name}': {e}")
+            logger.info("Falling back to default Live2D model (mao_pro)...")
+            try:
+                # Fall back to mao_pro model
+                self.live2d_model = Live2dModel("mao_pro")
+                self.character_config.live2d_model_name = "mao_pro"
+                logger.info("Successfully fell back to mao_pro model")
+            except Exception as fallback_e:
+                logger.critical(f"Failed to load fallback model: {fallback_e}")
+                logger.critical("Critical error: Cannot initialize any Live2D model")
+                # Re-raise the exception since we cannot proceed without a Live2D model
+                raise
 
     def init_asr(self, asr_config: ASRConfig) -> None:
         if not self.asr_engine or (self.character_config.asr_config != asr_config):
@@ -455,9 +465,13 @@ class ServiceContext:
             prompt_content = prompt_loader.load_util(prompt_file)
 
             if prompt_name == "live2d_expression_prompt":
-                prompt_content = prompt_content.replace(
-                    "[<insert_emomap_keys>]", self.live2d_model.emo_str
-                )
+                if self.live2d_model is not None:
+                    prompt_content = prompt_content.replace(
+                        "[<insert_emomap_keys>]", self.live2d_model.emo_str
+                    )
+                else:
+                    # If no Live2D model is available, remove the placeholder
+                    prompt_content = prompt_content.replace("[<insert_emomap_keys>]", "")
 
             if prompt_name == "mcp_prompt":
                 continue

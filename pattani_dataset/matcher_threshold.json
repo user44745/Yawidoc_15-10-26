@@ -1,0 +1,11 @@
+{
+ "threshold": 0.672,
+ "method": "score that maximizes (standard sentences found + absent sentences refused)",
+ "test_set": "matcher_testset.jsonl",
+ "standard_sentence_queries": 765,
+ "found_at_threshold": 0.9281,
+ "absent_queries": 120,
+ "refused_at_threshold": 1.0,
+ "number_variants_not_flagged": [],
+ "sentences_in_bank": 339
+}

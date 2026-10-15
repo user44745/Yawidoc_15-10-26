@@ -1,0 +1,339 @@
+{"id": "wb015", "category": "คำถามอาการเบื้องต้น (ภาษามลายูถิ่น)", "thai": "เป็นอะไรมา", "variants": [], "pattani": "ยาดี กาปอ", "source": "word bank"}
+{"id": "wb016", "category": "คำถามอาการเบื้องต้น (ภาษามลายูถิ่น)", "thai": "ปวดตรงไหน", "variants": [], "pattani": "ซาเกะ มานอ", "source": "word bank"}
+{"id": "wb018", "category": "คำศัพท์อาการเจ็บป่วย (ภาษามลายูถิ่น)", "thai": "ปวดหัว", "variants": [], "pattani": "ปือนิง ปาลอ", "source": "word bank"}
+{"id": "wb019", "category": "คำศัพท์อาการเจ็บป่วย (ภาษามลายูถิ่น)", "thai": "ปวดท้อง", "variants": [], "pattani": "ซือเนาะ ปือโรฺะ", "source": "word bank"}
+{"id": "wb020", "category": "คำศัพท์อาการเจ็บป่วย (ภาษามลายูถิ่น)", "thai": "ไข้หวัด", "variants": ["ตัวร้อน"], "pattani": "ซือเนาะ", "source": "word bank"}
+{"id": "wb021", "category": "คำศัพท์อาการเจ็บป่วย (ภาษามลายูถิ่น)", "thai": "ท้องเสีย", "variants": ["ท้องร่วง"], "pattani": "มูละฮฺ", "source": "word bank"}
+{"id": "wb022", "category": "คำศัพท์อาการเจ็บป่วย (ภาษามลายูถิ่น)", "thai": "อาเจียน", "variants": [], "pattani": "มูเตาะฮฺ อบูจะ", "source": "word bank"}
+{"id": "wb023", "category": "คำศัพท์อาการเจ็บป่วย (ภาษามลายูถิ่น)", "thai": "ไอ", "variants": [], "pattani": "บาโตะ", "source": "word bank"}
+{"id": "wb024", "category": "คำสั่งและการปฏิบัติ", "thai": "กินยา", "variants": [], "pattani": "มาแก อูบะ", "source": "word bank"}
+{"id": "wb025", "category": "คำสั่งและการปฏิบัติ", "thai": "ฉีดยา", "variants": [], "pattani": "ปอเจาะ", "source": "word bank"}
+{"id": "wb026", "category": "คำสั่งและการปฏิบัติ", "thai": "โรงพยาบาล", "variants": [], "pattani": "อูเมาะปีตา", "source": "word bank"}
+{"id": "wb124", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ไม่ค่อยสบาย", "variants": [], "pattani": "เตาะเซฮะ", "source": "word bank"}
+{"id": "wb125", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "แกล้ง", "variants": ["โกหก"], "pattani": "วะลอเลาะ", "source": "word bank"}
+{"id": "wb126", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "กล้าหาญ", "variants": [], "pattani": "แดแบ", "source": "word bank"}
+{"id": "wb127", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "เยอะ", "variants": [], "pattani": "สตาโมง", "source": "word bank"}
+{"id": "wb128", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "จักรยาน", "variants": [], "pattani": "ซีกา", "source": "word bank"}
+{"id": "wb129", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "อะไร", "variants": [], "pattani": "กาปอ", "source": "word bank"}
+{"id": "wb130", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "นวด", "variants": [], "pattani": "แปแจะ", "source": "word bank"}
+{"id": "wb131", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ขว้าง", "variants": [], "pattani": "แปกอง", "source": "word bank"}
+{"id": "wb132", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "แฟน", "variants": ["คนรัก"], "pattani": "แกแว", "source": "word bank"}
+{"id": "wb133", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "งานเลี้ยง", "variants": [], "pattani": "แบะเวาะฮ", "source": "word bank"}
+{"id": "wb134", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ทุบ", "variants": ["ตี"], "pattani": "ตูโมะ", "source": "word bank"}
+{"id": "wb135", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ออก", "variants": [], "pattani": "ตูเบะ", "source": "word bank"}
+{"id": "wb136", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ผู้หญิง", "variants": [], "pattani": "ตีนอ", "source": "word bank"}
+{"id": "wb137", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "เงิน", "variants": [], "pattani": "ปีติฮ", "source": "word bank"}
+{"id": "wb138", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "บอก", "variants": [], "pattani": "กอยะ", "source": "word bank"}
+{"id": "wb139", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "พูด", "variants": [], "pattani": "แกแจะ", "source": "word bank"}
+{"id": "wb140", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ไม่มีแรง", "variants": ["ไม่ไหว"], "pattani": "เตาะเฆาะ", "source": "word bank"}
+{"id": "wb141", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ไม่เอา", "variants": [], "pattani": "เตาะเซ", "source": "word bank"}
+{"id": "wb142", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "แมลงวัน", "variants": [], "pattani": "ลาละ", "source": "word bank"}
+{"id": "wb143", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "เหงื่อ", "variants": [], "pattani": "ปือโละฮ", "source": "word bank"}
+{"id": "wb144", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "กอด", "variants": [], "pattani": "ปือโละ", "source": "word bank"}
+{"id": "wb145", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "นาน", "variants": [], "pattani": "ลามอ", "source": "word bank"}
+{"id": "wb146", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "น้ำหนอง", "variants": [], "pattani": "นาเนาะฮ", "source": "word bank"}
+{"id": "wb147", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "อ้าปาก", "variants": [], "pattani": "งางอ", "source": "word bank"}
+{"id": "wb148", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "อุ้ม", "variants": [], "pattani": "ดูกง", "source": "word bank"}
+{"id": "wb149", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "รวย", "variants": [], "pattani": "กายอ", "source": "word bank"}
+{"id": "wb150", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "แก้ม", "variants": [], "pattani": "ปีปี", "source": "word bank"}
+{"id": "wb151", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "จุด", "variants": [], "pattani": "ตีเตะ", "source": "word bank"}
+{"id": "wb152", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "พี่สาว", "variants": [], "pattani": "กาเกาะ", "source": "word bank"}
+{"id": "wb153", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "สุกร", "variants": ["หมู"], "pattani": "บาบี", "source": "word bank"}
+{"id": "wb154", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "นั่ง", "variants": [], "pattani": "ดูโดะ", "source": "word bank"}
+{"id": "wb155", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ฟัน", "variants": [], "pattani": "ฆีฆี", "source": "word bank"}
+{"id": "wb156", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ปลา", "variants": [], "pattani": "อีแก", "source": "word bank"}
+{"id": "wb157", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "หัก", "variants": [], "pattani": "ปาเตาะฮ", "source": "word bank"}
+{"id": "wb158", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "นม", "variants": [], "pattani": "ซูซู", "source": "word bank"}
+{"id": "wb159", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ฉีด", "variants": [], "pattani": "จอเจาะ", "source": "word bank"}
+{"id": "wb160a", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ทะเล", "variants": [], "pattani": "ลาโอะ", "source": "word bank"}
+{"id": "wb160b", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "กับข้าว", "variants": [], "pattani": "ลาโอะ", "source": "word bank"}
+{"id": "wb161", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "เหม็น", "variants": [], "pattani": "บูซุ", "source": "word bank"}
+{"id": "wb162", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "กลางคืน", "variants": [], "pattani": "มาแล", "source": "word bank"}
+{"id": "wb163", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ยุง", "variants": [], "pattani": "ญาเมาะ", "source": "word bank"}
+{"id": "wb164", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ทำ", "variants": [], "pattani": "บูวะ", "source": "word bank"}
+{"id": "wb165", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "วัว", "variants": [], "pattani": "ลืมบู", "source": "word bank"}
+{"id": "wb166", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "สิ่งของ", "variants": [], "pattani": "บาแฆ", "source": "word bank"}
+{"id": "wb167", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "วิ่ง", "variants": [], "pattani": "อูงา", "source": "word bank"}
+{"id": "wb168", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ชี้", "variants": [], "pattani": "ตูโญะ", "source": "word bank"}
+{"id": "wb169", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "วันพุธ", "variants": [], "pattani": "ฮาฆี ฆาบู", "source": "word bank"}
+{"id": "wb170", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "คิด", "variants": [], "pattani": "ปีเก", "source": "word bank"}
+{"id": "wb171", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "เลือดประจำเดือน", "variants": [], "pattani": "เฮะ", "source": "word bank"}
+{"id": "wb172", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ซาตาน", "variants": [], "pattani": "แซแต", "source": "word bank"}
+{"id": "wb173", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ขวา", "variants": [], "pattani": "กาแน", "source": "word bank"}
+{"id": "wb174", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ไปไหน", "variants": [], "pattani": "กีมานอ", "source": "word bank"}
+{"id": "wb175", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "กินข้าว", "variants": [], "pattani": "มาแกนาชิ", "source": "word bank"}
+{"id": "wb176", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "นอน", "variants": [], "pattani": "ตีโด", "source": "word bank"}
+{"id": "wb177", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "คิดถึง", "variants": ["คิดถึงเธอ"], "pattani": "รินดู", "source": "word bank"}
+{"id": "wb178", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "สวย", "variants": [], "pattani": "ยาเงาะ", "source": "word bank"}
+{"id": "wb179", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "หวาน", "variants": [], "pattani": "มานีส", "source": "word bank"}
+{"id": "wb180", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "กลับบ้าน", "variants": [], "pattani": "กือเล็กรูเมาะ", "source": "word bank"}
+{"id": "wb181", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "สบายดี", "variants": ["สุขภาพดี"], "pattani": "แซฮะ", "source": "word bank"}
+{"id": "wb182", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "เท่าไหร่", "variants": [], "pattani": "วาปอ", "source": "word bank"}
+{"id": "wb183", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "มี", "variants": [], "pattani": "อาดอ", "source": "word bank"}
+{"id": "wb184", "category": "คำศัพท์ภาษาถิ่น/ชีวิตประจำวัน", "thai": "ไม่มี", "variants": [], "pattani": "ตะเด๊าะ", "source": "word bank"}
+{"id": "wb185", "category": "คำศัพท์เกี่ยวกับบุคคลและครอบครัว", "thai": "พ่อ", "variants": [], "pattani": "อาเยาะ", "source": "word bank"}
+{"id": "wb186", "category": "คำศัพท์เกี่ยวกับบุคคลและครอบครัว", "thai": "แม่", "variants": [], "pattani": "มา", "source": "word bank"}
+{"id": "wb187", "category": "คำศัพท์เกี่ยวกับบุคคลและครอบครัว", "thai": "พี่ชาย", "variants": [], "pattani": "อาแบ", "source": "word bank"}
+{"id": "wb189", "category": "คำศัพท์เกี่ยวกับบุคคลและครอบครัว", "thai": "น้องชาย", "variants": ["น้องสาว"], "pattani": "อาเด๊ะ", "source": "word bank"}
+{"id": "wb190", "category": "คำศัพท์เกี่ยวกับบุคคลและครอบครัว", "thai": "เพื่อน", "variants": [], "pattani": "กาวัน", "source": "word bank"}
+{"id": "wb191a", "category": "คำศัพท์เกี่ยวกับบุคคลและครอบครัว", "thai": "ป้า", "variants": [], "pattani": "เมาะ", "source": "word bank"}
+{"id": "wb192", "category": "คำศัพท์เกี่ยวกับบุคคลและครอบครัว", "thai": "ลุง", "variants": [], "pattani": "เปาะจิ", "source": "word bank"}
+{"id": "wb193", "category": "คำศัพท์การกินและการใช้ชีวิต", "thai": "หิวข้าว", "variants": [], "pattani": "ลาปานาซิ", "source": "word bank"}
+{"id": "wb194", "category": "คำศัพท์การกินและการใช้ชีวิต", "thai": "หิวน้ำ", "variants": [], "pattani": "ลาปาอาย", "source": "word bank"}
+{"id": "wb202", "category": "หมวดตัวเลข", "thai": "หนึ่ง", "variants": [], "pattani": "ซาตู", "source": "word bank"}
+{"id": "wb203", "category": "หมวดตัวเลข", "thai": "สอง", "variants": [], "pattani": "ดูวอ", "source": "word bank"}
+{"id": "wb204", "category": "หมวดตัวเลข", "thai": "สาม", "variants": [], "pattani": "ตีฆอ", "source": "word bank"}
+{"id": "wb205", "category": "หมวดตัวเลข", "thai": "สี่", "variants": [], "pattani": "ปะ", "source": "word bank"}
+{"id": "wb206", "category": "หมวดตัวเลข", "thai": "ห้า", "variants": [], "pattani": "ลีมอ", "source": "word bank"}
+{"id": "wb207", "category": "หมวดตัวเลข", "thai": "หก", "variants": [], "pattani": "แน", "source": "word bank"}
+{"id": "wb208", "category": "หมวดตัวเลข", "thai": "เจ็ด", "variants": [], "pattani": "ตูโญะ", "source": "word bank"}
+{"id": "wb209", "category": "หมวดตัวเลข", "thai": "แปด", "variants": [], "pattani": "ลาแป", "source": "word bank"}
+{"id": "wb210", "category": "หมวดตัวเลข", "thai": "เก้า", "variants": [], "pattani": "ซือมีแล", "source": "word bank"}
+{"id": "wb211", "category": "หมวดตัวเลข", "thai": "สิบ", "variants": [], "pattani": "ซือปูโละ", "source": "word bank"}
+{"id": "wb212", "category": "หมวดตัวเลข", "thai": "สิบเอ็ด", "variants": [], "pattani": "ซือบือละ", "source": "word bank"}
+{"id": "wb213", "category": "หมวดตัวเลข", "thai": "สิบสอง", "variants": [], "pattani": "ดูวอบือละ", "source": "word bank"}
+{"id": "wb214", "category": "หมวดตัวเลข", "thai": "สิบสาม", "variants": [], "pattani": "ตีฆอบือละ", "source": "word bank"}
+{"id": "wb215", "category": "หมวดตัวเลข", "thai": "สิบสี่", "variants": [], "pattani": "ปะบือละฮ", "source": "word bank"}
+{"id": "wb216", "category": "หมวดตัวเลข", "thai": "สิบห้า", "variants": [], "pattani": "ลีมอบือละฮ", "source": "word bank"}
+{"id": "wb217", "category": "หมวดตัวเลข", "thai": "สิบหก", "variants": [], "pattani": "แนบือละฮ", "source": "word bank"}
+{"id": "wb218", "category": "หมวดตัวเลข", "thai": "สิบเจ็ด", "variants": [], "pattani": "ตูโญะบือละฮ", "source": "word bank"}
+{"id": "wb219", "category": "หมวดตัวเลข", "thai": "สิบแปด", "variants": [], "pattani": "ลาแปบือละฮ", "source": "word bank"}
+{"id": "wb220", "category": "หมวดตัวเลข", "thai": "สิบเก้า", "variants": [], "pattani": "ซือมีแลบือละฮ", "source": "word bank"}
+{"id": "wb221", "category": "หมวดตัวเลข", "thai": "ยี่สิบ", "variants": [], "pattani": "ดูวอปูโละฮ", "source": "word bank"}
+{"id": "wb222", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สวัสดีครับ เป็นอย่างไรบ้าง คุณลุงสบายดีไหม", "variants": [], "pattani": "อัซซาลามูอาลัยกุม อาปอกาบา เปาะจิ แซฮะ", "source": "word bank"}
+{"id": "wb223", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สวัสดี ก็สบายดี ขอบใจนะ แล้วคุณล่ะ", "variants": [], "pattani": "วาไลกุมมุซซาลาม กาบา บา เวาะ ลากู เอะตือรีมอ กาเซะฮ อา มานอ", "source": "word bank"}
+{"id": "wb224", "category": "บทสนทนาที่ใช้บ่อย", "thai": "ผมก็สบายดีครับ ขอบคุณ", "variants": [], "pattani": "ซายอ ยูเกาะ แซฮะ ตือรีมอกาเซะฮ", "source": "word bank"}
+{"id": "wb225", "category": "บทสนทนาที่ใช้บ่อย", "thai": "แล้วนี่มาหาใคร", "variants": [], "pattani": "ปะฮนิฮ มารี จารี ปียอ", "source": "word bank"}
+{"id": "wb226", "category": "บทสนทนาที่ใช้บ่อย", "thai": "ผมชื่ออะฮหมัด ผมมาหาสุกรี เขาอยู่ไหม", "variants": [], "pattani": "ซายอ นามอ อะฮมะ ซายอ มารี จารี สุกรี ดียอ อาดอกือเดาะ", "source": "word bank"}
+{"id": "wb227", "category": "บทสนทนาที่ใช้บ่อย", "thai": "ลุงเป็นพ่อของสุกรี เขาอยู่ในบ้าน เข้ามาซิ", "variants": [], "pattani": "เปาะจิ อาเยาะฮ สุกรี ดียอ โดะ ดาแล อูเมาะฮ มาโซะ ลา", "source": "word bank"}
+{"id": "wb228", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สวัสดี", "variants": [], "pattani": "ซลามะ", "source": "word bank"}
+{"id": "wb229a", "category": "บทสนทนาที่ใช้บ่อย", "thai": "ฉัน", "variants": [], "pattani": "อามอ", "source": "word bank"}
+{"id": "wb229b", "category": "บทสนทนาที่ใช้บ่อย", "thai": "กระผม", "variants": [], "pattani": "ซายอ", "source": "word bank"}
+{"id": "wb229c", "category": "บทสนทนาที่ใช้บ่อย", "thai": "กู", "variants": [], "pattani": "อากู", "source": "word bank"}
+{"id": "wb231", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สวัสดีตอนเช้า", "variants": [], "pattani": "ซลามะ ปาฆี", "source": "word bank"}
+{"id": "wb232a", "category": "บทสนทนาที่ใช้บ่อย", "thai": "คุณ", "variants": [], "pattani": "แดมอ", "source": "word bank"}
+{"id": "wb232b", "category": "บทสนทนาที่ใช้บ่อย", "thai": "เธอ", "variants": [], "pattani": "อาเวาะ", "source": "word bank"}
+{"id": "wb234", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สวัสดีตอนเที่ยง", "variants": [], "pattani": "ซลามะ ตือเงาะฮารี", "source": "word bank"}
+{"id": "wb235", "category": "บทสนทนาที่ใช้บ่อย", "thai": "เรา", "variants": [], "pattani": "กีตอ", "source": "word bank"}
+{"id": "wb237", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สวัสดีตอนเย็น", "variants": [], "pattani": "ซลามะ ปือแต", "source": "word bank"}
+{"id": "wb238", "category": "บทสนทนาที่ใช้บ่อย", "thai": "ฉันรักคุณ", "variants": [], "pattani": "ซายอกาเซะห์แดมอ", "source": "word bank"}
+{"id": "wb239", "category": "บทสนทนาที่ใช้บ่อย", "thai": "เรียนวิชาอะไร", "variants": [], "pattani": "งายี มาดะกะปอ", "source": "word bank"}
+{"id": "wb240", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สวัสดีตอนค่ำ", "variants": [], "pattani": "ซลามะ มาแล", "source": "word bank"}
+{"id": "wb241", "category": "บทสนทนาที่ใช้บ่อย", "thai": "ชื่ออะไร", "variants": [], "pattani": "นามออาปอ", "source": "word bank"}
+{"id": "wb243", "category": "บทสนทนาที่ใช้บ่อย", "thai": "เดินทางโดยสวัสดิภาพ", "variants": [], "pattani": "ซลามะ ยาแล", "source": "word bank"}
+{"id": "wb246", "category": "บทสนทนาที่ใช้บ่อย", "thai": "เช่นกัน", "variants": ["ไม่เป็นไร"], "pattani": "สามอสามอ", "source": "word bank"}
+{"id": "wb247", "category": "บทสนทนาที่ใช้บ่อย", "thai": "มาจากไหน", "variants": [], "pattani": "มารีมานอ", "source": "word bank"}
+{"id": "wb248", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สุขสันต์วันรายอ", "variants": [], "pattani": "ซลามะฮารีรายอ", "source": "word bank"}
+{"id": "wb249", "category": "บทสนทนาที่ใช้บ่อย", "thai": "สบายดีหรือ", "variants": [], "pattani": "อาปอ คอบา", "source": "word bank"}
+{"id": "wb250", "category": "บทสนทนาที่ใช้บ่อย", "thai": "กินข้าวหรือยัง", "variants": [], "pattani": "มาแกนาซิลาฆี", "source": "word bank"}
+{"id": "wb251", "category": "บทสนทนาที่ใช้บ่อย", "thai": "ลาก่อน", "variants": [], "pattani": "ซลามะตีงา", "source": "word bank"}
+{"id": "wb254", "category": "บทสนทนาที่ใช้บ่อย", "thai": "โอกาสหน้า", "variants": [], "pattani": "มาซอ ดะแป", "source": "word bank"}
+{"id": "wb255", "category": "บทสนทนาที่ใช้บ่อย", "thai": "ยินดีที่ได้พบกัน", "variants": [], "pattani": "ซลามะยูปอ", "source": "word bank"}
+{"id": "wb256", "category": "บทสนทนาที่ใช้บ่อย", "thai": "เรากินแล้ว", "variants": [], "pattani": "กีตอมากันเดาะห์", "source": "word bank"}
+{"id": "wb257", "category": "บทสนทนาที่ใช้บ่อย", "thai": "แล้วเจอกันใหม่", "variants": [], "pattani": "ยูปอ ซือมูลา", "source": "word bank"}
+{"id": "wb004", "category": "การทักทายและสร้างความคุ้นเคย", "thai": "คุณรู้สึกเป็นยังไงบ้างวันนี้", "variants": [], "pattani": "เอนจิก ราซา มาจัม มานา ฮารี อีนี", "source": "word bank"}
+{"id": "wb005", "category": "การถามอาการเจ็บป่วยเบื้องต้น", "thai": "ปวดอะไร", "variants": ["เจ็บอะไร"], "pattani": "ซากิต อาปา", "source": "word bank"}
+{"id": "wb007", "category": "การถามอาการเจ็บป่วยเบื้องต้น", "thai": "มีไข้ไหม", "variants": [], "pattani": "อัดดอ เดอมัม เดอะ", "source": "word bank"}
+{"id": "wb008", "category": "การถามอาการเจ็บป่วยเบื้องต้น", "thai": "เวียนหัวไหม", "variants": ["มึนหัวไหม"], "pattani": "เปนิง เกปาลา เเดอะ", "source": "word bank"}
+{"id": "wb011", "category": "คำศัพท์ระบุตำแหน่งและอาการปวด", "thai": "ปวดหลัง", "variants": [], "pattani": "ซากิต เบอลาคัง", "source": "word bank"}
+{"id": "wb012", "category": "คำศัพท์ระบุตำแหน่งและอาการปวด", "thai": "แน่นหน้าอก", "variants": ["เจ็บหน้าอก"], "pattani": "ซากิต ดาดา", "source": "word bank"}
+{"id": "wb013a", "category": "คำศัพท์ระบุตำแหน่งและอาการปวด", "thai": "คลื่นไส้", "variants": [], "pattani": "ราซา โลยา", "source": "word bank"}
+{"id": "wb013b", "category": "คำศัพท์ระบุตำแหน่งและอาการปวด", "thai": "อยากอาเจียน", "variants": [], "pattani": "มุนต๊ะฮ์", "source": "word bank"}
+{"id": "wb027", "category": "คำสั่งและการปฏิบัติตัวในห้องตรวจ", "thai": "เชิญนั่ง", "variants": [], "pattani": "ซีลาคัน ดูดุก", "source": "word bank"}
+{"id": "wb029", "category": "คำสั่งและการปฏิบัติตัวในห้องตรวจ", "thai": "หายใจเข้าลึกๆ", "variants": [], "pattani": "ตาริก นาฟัส ดาลัม-ดาลัม", "source": "word bank"}
+{"id": "wb030", "category": "คำสั่งและการปฏิบัติตัวในห้องตรวจ", "thai": "นอนลงตรงนี้", "variants": [], "pattani": "บาริง ดี ซีนี", "source": "word bank"}
+{"id": "wb031a", "category": "ประโยคคำถามยอดฮิต", "thai": "คุณเป็นอะไรมา", "variants": [], "pattani": "อาปา มาซะละห์ กามู", "source": "word bank"}
+{"id": "wb031b", "category": "ประโยคคำถามยอดฮิต", "thai": "ไม่สบายตรงไหน", "variants": [], "pattani": "อาดา ซากิต อาปา", "source": "word bank"}
+{"id": "wb036", "category": "คำศัพท์อาการป่วยที่พบบ่อย", "thai": "มีไข้", "variants": [], "pattani": "เดอมัม", "source": "word bank"}
+{"id": "wb038", "category": "คำศัพท์อาการป่วยที่พบบ่อย", "thai": "เจ็บคอ", "variants": [], "pattani": "ซากิต เตการ์ต", "source": "word bank"}
+{"id": "wb040", "category": "คำศัพท์อาการป่วยที่พบบ่อย", "thai": "รู้สึกไม่สบาย", "variants": [], "pattani": "ราซา ตีดัก ซีฮัต", "source": "word bank"}
+{"id": "wb041", "category": "คำศัพท์อาการป่วยที่พบบ่อย", "thai": "ปวดฟัน", "variants": [], "pattani": "ซาเกต์ กีจี", "source": "word bank"}
+{"id": "wb042", "category": "คำศัพท์อาการป่วยที่พบบ่อย", "thai": "เป็นหวัด", "variants": ["น้ำมูกไหล"], "pattani": "เซลเซมา", "source": "word bank"}
+{"id": "wb043", "category": "คำศัพท์อาการป่วยที่พบบ่อย", "thai": "เวียนหัว", "variants": ["มึนหัว"], "pattani": "เกอปาลา ปูซิง", "source": "word bank"}
+{"id": "wb045", "category": "การกล่าวทักทายและมารยาท", "thai": "สวัสดีตอนบ่าย", "variants": [], "pattani": "ซลามัต เตงะฮ์ ฮารี", "source": "word bank"}
+{"id": "wb047", "category": "การกล่าวทักทายและมารยาท", "thai": "สวัสดีตอนกลางคืน", "variants": ["ราตรีสวัสดิ์"], "pattani": "สลามัต มาลัม", "source": "word bank"}
+{"id": "wb048", "category": "การกล่าวทักทายและมารยาท", "thai": "คุณสบายดีไหม", "variants": [], "pattani": "อัปปา คาบาร์", "source": "word bank"}
+{"id": "wb049", "category": "การกล่าวทักทายและมารยาท", "thai": "สบายดี ขอบคุณ", "variants": [], "pattani": "คาบาร์ บาอิค", "source": "word bank"}
+{"id": "wb050", "category": "การกล่าวทักทายและมารยาท", "thai": "ขอบคุณ", "variants": [], "pattani": "ตรีมะ กาซิง", "source": "word bank"}
+{"id": "wb051", "category": "การกล่าวทักทายและมารยาท", "thai": "ขอโทษ", "variants": [], "pattani": "มาอัฟ", "source": "word bank"}
+{"id": "wb053", "category": "คำศัพท์พื้นฐานเกี่ยวกับยา", "thai": "ยา", "variants": [], "pattani": "อู-บัต", "source": "word bank"}
+{"id": "wb054", "category": "คำศัพท์พื้นฐานเกี่ยวกับยา", "thai": "ใบสั่งยา", "variants": [], "pattani": "ซู-รัต อู-บัต", "source": "word bank"}
+{"id": "wb056", "category": "คำศัพท์พื้นฐานเกี่ยวกับยา", "thai": "วันละครั้ง", "variants": [], "pattani": "เซ-ฮา-รี เซ-กา-ลี", "source": "word bank"}
+{"id": "wb057", "category": "คำศัพท์พื้นฐานเกี่ยวกับยา", "thai": "วันละสามครั้ง", "variants": [], "pattani": "เซ-ฮา-รี ตี-กา คา-ลี", "source": "word bank"}
+{"id": "wb058", "category": "คำศัพท์พื้นฐานเกี่ยวกับยา", "thai": "ก่อนอาหาร", "variants": [], "pattani": "เซ-เบ-ลุม มา-กัน", "source": "word bank"}
+{"id": "wb059", "category": "คำศัพท์พื้นฐานเกี่ยวกับยา", "thai": "หลังอาหาร", "variants": [], "pattani": "เซ-เล-ปัส มา-กัน", "source": "word bank"}
+{"id": "wb060", "category": "ประโยคสนทนาสำหรับเจ้าหน้าที่ห้องยา", "thai": "เชิญรับยาที่นี่", "variants": [], "pattani": "ซี-ลา อัม-บิล อู-บัต ดี ซี-นี", "source": "word bank"}
+{"id": "wb061", "category": "ประโยคสนทนาสำหรับเจ้าหน้าที่ห้องยา", "thai": "นี่คือยาของคุณ", "variants": [], "pattani": "อี-นี อู-บัต อัน-ดา", "source": "word bank"}
+{"id": "wb062", "category": "ประโยคสนทนาสำหรับเจ้าหน้าที่ห้องยา", "thai": "ทานยานี้หลังอาหาร", "variants": [], "pattani": "มา-กัน อู-บัต อี-นี เซ-เล-ปัส มา-กัน", "source": "word bank"}
+{"id": "wb063", "category": "ประโยคสนทนาสำหรับเจ้าหน้าที่ห้องยา", "thai": "ทานยานี้วันละ 3 ครั้ง เช้า กลางวัน เย็น", "variants": [], "pattani": "มา-กัน อู-บัต อี-นี เซ-ฮา-รี ตี-กา คา-ลี, ปา-กี, เต็ง-งะ-ฮา-รี, ดัน มา-ลัม", "source": "word bank"}
+{"id": "wb064", "category": "ประโยคสนทนาสำหรับเจ้าหน้าที่ห้องยา", "thai": "มีข้อสงสัยเรื่องการใช้ยาไหม", "variants": [], "pattani": "อา-ดา อา-ปา-อา-ปา เปอร์-ตัน-ยา-อัน เต็น-ตัง อู-บัต อี-นี", "source": "word bank"}
+{"id": "wb066", "category": "การเจาะเลือดและเก็บตัวอย่าง", "thai": "โปรดนั่งลงก่อน", "variants": [], "pattani": "โตลอง ดูดุก ดูลู", "source": "word bank"}
+{"id": "wb067a", "category": "การเจาะเลือดและเก็บตัวอย่าง", "thai": "ยื่นแขนขวามา", "variants": [], "pattani": "ฮูลูร์กัน ตางัน กานัน", "source": "word bank"}
+{"id": "wb067b", "category": "การเจาะเลือดและเก็บตัวอย่าง", "thai": "ยื่นแขนซ้ายมา", "variants": [], "pattani": "ฮูลูร์กัน ตางัน กิรี", "source": "word bank"}
+{"id": "wb068", "category": "การเจาะเลือดและเก็บตัวอย่าง", "thai": "กำมือ", "variants": [], "pattani": "เก็งงัม ตางัน", "source": "word bank"}
+{"id": "wb069", "category": "การเจาะเลือดและเก็บตัวอย่าง", "thai": "คลายมือได้", "variants": [], "pattani": "บูกา ตางัน", "source": "word bank"}
+{"id": "wb070", "category": "การเจาะเลือดและเก็บตัวอย่าง", "thai": "เจ็บนิดเดียวนะ", "variants": [], "pattani": "ซากิต เซดีดิก ซาฮาจา", "source": "word bank"}
+{"id": "wb071", "category": "การเจาะเลือดและเก็บตัวอย่าง", "thai": "เสร็จแล้ว", "variants": [], "pattani": "ซูดะฮ์ ซียาป", "source": "word bank"}
+{"id": "wb072", "category": "การเจาะเลือดและเก็บตัวอย่าง", "thai": "กดแผลตรงนี้ไว้สักครู่", "variants": [], "pattani": "เตกัน ดี ซีนี เซเบนตาร์", "source": "word bank"}
+{"id": "wb073", "category": "คำศัพท์อุปกรณ์และตัวอย่างในห้อง Lab", "thai": "เลือด", "variants": [], "pattani": "ดาระฮ์", "source": "word bank"}
+{"id": "wb074", "category": "คำศัพท์อุปกรณ์และตัวอย่างในห้อง Lab", "thai": "ปัสสาวะ", "variants": [], "pattani": "อายร์ เก็นจิง", "source": "word bank"}
+{"id": "wb075", "category": "คำศัพท์อุปกรณ์และตัวอย่างในห้อง Lab", "thai": "หลอดเก็บเลือด", "variants": [], "pattani": "ทูบ ดาระฮ์", "source": "word bank"}
+{"id": "wb076", "category": "คำศัพท์อุปกรณ์และตัวอย่างในห้อง Lab", "thai": "เข็มฉีดยา", "variants": [], "pattani": "จารุม", "source": "word bank"}
+{"id": "wb077", "category": "คำศัพท์อุปกรณ์และตัวอย่างในห้อง Lab", "thai": "สำลี", "variants": [], "pattani": "กาปัส", "source": "word bank"}
+{"id": "wb078", "category": "คำศัพท์อุปกรณ์และตัวอย่างในห้อง Lab", "thai": "แอลกอฮอล์", "variants": [], "pattani": "อัลโกฮอล", "source": "word bank"}
+{"id": "wb079", "category": "หมวดศีรษะและใบหน้า", "thai": "ศีรษะ", "variants": [], "pattani": "เกปลา", "source": "word bank"}
+{"id": "wb080", "category": "หมวดศีรษะและใบหน้า", "thai": "ผม", "variants": [], "pattani": "ลัมบุต", "source": "word bank"}
+{"id": "wb081", "category": "หมวดศีรษะและใบหน้า", "thai": "ใบหน้า", "variants": [], "pattani": "มูกา", "source": "word bank"}
+{"id": "wb082", "category": "หมวดศีรษะและใบหน้า", "thai": "หน้าผาก", "variants": [], "pattani": "ดาฮี", "source": "word bank"}
+{"id": "wb083", "category": "หมวดศีรษะและใบหน้า", "thai": "คิ้ว", "variants": [], "pattani": "เกนิง", "source": "word bank"}
+{"id": "wb084", "category": "หมวดศีรษะและใบหน้า", "thai": "ตา", "variants": [], "pattani": "มาตา", "source": "word bank"}
+{"id": "wb085", "category": "หมวดศีรษะและใบหน้า", "thai": "ขนตา", "variants": [], "pattani": "บูลู มาตา", "source": "word bank"}
+{"id": "wb086", "category": "หมวดศีรษะและใบหน้า", "thai": "หู", "variants": [], "pattani": "เตอลีงา", "source": "word bank"}
+{"id": "wb087", "category": "หมวดศีรษะและใบหน้า", "thai": "จมูก", "variants": [], "pattani": "ฮิดุง", "source": "word bank"}
+{"id": "wb088", "category": "หมวดศีรษะและใบหน้า", "thai": "ปาก", "variants": [], "pattani": "มูรุต", "source": "word bank"}
+{"id": "wb090", "category": "หมวดศีรษะและใบหน้า", "thai": "ลิ้น", "variants": [], "pattani": "ลิดะห์", "source": "word bank"}
+{"id": "wb091", "category": "หมวดศีรษะและใบหน้า", "thai": "คาง", "variants": [], "pattani": "ดากู", "source": "word bank"}
+{"id": "wb092", "category": "หมวดลำตัว", "thai": "คอ", "variants": [], "pattani": "เลเฮอร์", "source": "word bank"}
+{"id": "wb093", "category": "หมวดลำตัว", "thai": "ไหล่", "variants": [], "pattani": "บาฮู", "source": "word bank"}
+{"id": "wb094", "category": "หมวดลำตัว", "thai": "หน้าอก", "variants": [], "pattani": "ดาดา", "source": "word bank"}
+{"id": "wb095", "category": "หมวดลำตัว", "thai": "หลัง", "variants": [], "pattani": "เบลากัง", "source": "word bank"}
+{"id": "wb096", "category": "หมวดลำตัว", "thai": "ท้อง", "variants": ["หน้าท้อง"], "pattani": "ปรุต", "source": "word bank"}
+{"id": "wb097", "category": "หมวดลำตัว", "thai": "เอว", "variants": [], "pattani": "ปิงกัง", "source": "word bank"}
+{"id": "wb098", "category": "หมวดลำตัว", "thai": "สะโพก", "variants": [], "pattani": "ปุงกุง", "source": "word bank"}
+{"id": "wb099", "category": "หมวดแขนและมือ", "thai": "แขน", "variants": [], "pattani": "เลงกัน", "source": "word bank"}
+{"id": "wb100", "category": "หมวดแขนและมือ", "thai": "ข้อศอก", "variants": [], "pattani": "ซีกู", "source": "word bank"}
+{"id": "wb101", "category": "หมวดแขนและมือ", "thai": "มือ", "variants": [], "pattani": "ตางัน", "source": "word bank"}
+{"id": "wb102", "category": "หมวดแขนและมือ", "thai": "ข้อมือ", "variants": [], "pattani": "เปอร์เกลังกัน ตางัน", "source": "word bank"}
+{"id": "wb103", "category": "หมวดแขนและมือ", "thai": "นิ้วมือ", "variants": [], "pattani": "จารี", "source": "word bank"}
+{"id": "wb104", "category": "หมวดแขนและมือ", "thai": "นิ้วโป้ง", "variants": [], "pattani": "อีบู จารี", "source": "word bank"}
+{"id": "wb105", "category": "หมวดแขนและมือ", "thai": "เล็บมือ", "variants": [], "pattani": "คูกู", "source": "word bank"}
+{"id": "wb106", "category": "หมวดขาและเท้า", "thai": "ขา", "variants": ["เท้า"], "pattani": "กากี", "source": "word bank"}
+{"id": "wb107", "category": "หมวดขาและเท้า", "thai": "เข่า", "variants": [], "pattani": "ลูตรุต", "source": "word bank"}
+{"id": "wb109", "category": "หมวดขาและเท้า", "thai": "ข้อเท้า", "variants": [], "pattani": "เปอร์เกลังกัน กากี", "source": "word bank"}
+{"id": "wb110", "category": "หมวดขาและเท้า", "thai": "นิ้วเท้า", "variants": [], "pattani": "จารี กากี", "source": "word bank"}
+{"id": "wb111", "category": "หมวดอวัยวะภายใน", "thai": "หัวใจ", "variants": [], "pattani": "จันตุง", "source": "word bank"}
+{"id": "wb112", "category": "หมวดอวัยวะภายใน", "thai": "ตับ", "variants": [], "pattani": "ฮาตี", "source": "word bank"}
+{"id": "wb113", "category": "หมวดอวัยวะภายใน", "thai": "ปอด", "variants": [], "pattani": "ปารู-ปารู", "source": "word bank"}
+{"id": "wb114", "category": "หมวดอวัยวะภายใน", "thai": "ไต", "variants": [], "pattani": "บัวะ ปิงกัง", "source": "word bank"}
+{"id": "wb115", "category": "หมวดอวัยวะภายใน", "thai": "กระเพาะอาหาร", "variants": [], "pattani": "เปรูต", "source": "word bank"}
+{"id": "wb116", "category": "หมวดอวัยวะภายใน", "thai": "ลำไส้", "variants": [], "pattani": "อูซุส", "source": "word bank"}
+{"id": "wb117", "category": "หมวดอวัยวะภายใน", "thai": "กระเพาะปัสสาวะ", "variants": [], "pattani": "ปุนดี เกินจิง", "source": "word bank"}
+{"id": "wb119", "category": "หมวดโครงสร้างและระบบในร่างกาย", "thai": "กระดูก", "variants": [], "pattani": "ตูลัง", "source": "word bank"}
+{"id": "wb120", "category": "หมวดโครงสร้างและระบบในร่างกาย", "thai": "ซี่โครง", "variants": [], "pattani": "ตูลัง รูซุก", "source": "word bank"}
+{"id": "wb121", "category": "หมวดโครงสร้างและระบบในร่างกาย", "thai": "กล้ามเนื้อ", "variants": [], "pattani": "โอตอต", "source": "word bank"}
+{"id": "wb122", "category": "หมวดโครงสร้างและระบบในร่างกาย", "thai": "ผิวหนัง", "variants": [], "pattani": "กูลิต", "source": "word bank"}
+{"id": "wb123", "category": "หมวดโครงสร้างและระบบในร่างกาย", "thai": "เส้นประสาท", "variants": [], "pattani": "ซารัฟ", "source": "word bank"}
+{"id": "wb195", "category": "หมวดวัน", "thai": "วันจันทร์", "variants": [], "pattani": "อิสนิน", "source": "word bank"}
+{"id": "wb196", "category": "หมวดวัน", "thai": "วันอังคาร", "variants": [], "pattani": "ซลาซา", "source": "word bank"}
+{"id": "wb198", "category": "หมวดวัน", "thai": "วันพฤหัสบดี", "variants": [], "pattani": "คามิส", "source": "word bank"}
+{"id": "wb199", "category": "หมวดวัน", "thai": "วันศุกร์", "variants": [], "pattani": "จูมาอัต", "source": "word bank"}
+{"id": "wb200", "category": "หมวดวัน", "thai": "วันเสาร์", "variants": [], "pattani": "ซับตู", "source": "word bank"}
+{"id": "wb201", "category": "หมวดวัน", "thai": "วันอาทิตย์", "variants": [], "pattani": "อาฮัด", "source": "word bank"}
+{"id": "iv11-003", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ก้ะเป็นอะไรมา", "variants": [], "pattani": "นิก้ะยาดีฆาป้อนิ มารี", "source": "interview"}
+{"id": "iv11-005", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ก็คือบวมนี่เลยใช่มั้ยคะ", "variants": [], "pattani": "ยาดีซือมะนิแดห์", "source": "interview"}
+{"id": "iv11-007", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มาอยู่โรงพยาบาลกี่วันแล้วคะ", "variants": [], "pattani": "ปาตูมารีดูโดะวาปอฮารีเดาะห์นิ", "source": "interview"}
+{"id": "iv11-011", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วตอนที่เป็นนี่มีปวดหัวมั้ย", "variants": [], "pattani": "ปะห์ตือเกาะห์ดูโดะยาดี อาดอซาเกะปาลอเดาะ ปวดหัว ตะเดาะแดห", "source": "interview"}
+{"id": "iv11-013", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "รู้สึกมีอาการปวดท้องมั้ย ไม่มีเนอะ", "variants": [], "pattani": "วาซอซาเกะปือโระแบบนี้อาดอเดาะ ตะเดาะแดห์", "source": "interview"}
+{"id": "iv11-017", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วถ้าความดันสูงไม่ได้ปวดหัวใช่มั้ยคะ", "variants": [], "pattani": "ป่ะกาแดความดันสูงตุห์เดาะซาเกะปาลอลีแดห", "source": "interview"}
+{"id": "iv11-019", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วตอนนี้มีรู้สึกเจ็บตรงไหนมั้ยคะ", "variants": [], "pattani": "ปาตู แบบลอนิงวาซอซาเกะมานอๆเตะ", "source": "interview"}
+{"id": "iv11-021", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ขาบวมอย่างเดียว ไม่มีรู้สึกเจ็บตรงไหนใช่มั้ยคะ", "variants": [], "pattani": "ขาบวมอย่างเดียว ตะเดาะซาเกะมานอลีลาแดห", "source": "interview"}
+{"id": "iv11-023", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วก็คือไม่ได้รู้สึกว่าเวียนหัวแบบนี้ใช่มั้นคะ ไม่มีเนอะ", "variants": [], "pattani": "ปาตูตะเดาะซือรอกาตอแบบ ปือนิงปาลอแบบนี้ล้า ตะเดาะแดห์", "source": "interview"}
+{"id": "iv11-025", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วก็มีรู้สึกก่อนจะมาโรงพยาบาลนี่มีไข้ เป็นไข้มั้ย", "variants": [], "pattani": "ปาตู อาดอวาซอแบบบือลงเนาะมารีเมาะห์ซาเกะนี่อาดอดือแม เป็นไข้เดาะ", "source": "interview"}
+{"id": "iv11-029", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ก็คือไม่ได้มีไข้อะไรใช่มั้ยคะ แต่หมอให้นอน เพราะบวมเนอะ", "variants": [], "pattani": "ก็คือตะเดาะไข้กาปอ ตะปียอซูโรห์ตีโด มูฆอยอบวมนิห์", "source": "interview"}
+{"id": "iv11-031", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วไอๆแบบนี้ล่ะคะ", "variants": [], "pattani": "ปาตู บาโตะๆแบบนี้", "source": "interview"}
+{"id": "iv11-033", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "หายใจก็โอเคดีนะคะ ไม่มีติดขัดอะไรนะคะ", "variants": [], "pattani": "ยาวอปง โอเคมอและแดห์ ตะเดาะดูโดะลือกะฆาปอแดห์", "source": "interview"}
+{"id": "iv11-044", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ข้างเดียวหรอคะ", "variants": [], "pattani": "ซือบือเลาะห์ยอล้า", "source": "interview"}
+{"id": "iv11-046", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมื่อวานบวมกว่านี้มั้ย", "variants": [], "pattani": "มาแรงบวมปาดอนิงกือเดาะ", "source": "interview"}
+{"id": "iv11-048", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เจ็บคออะไรคือไม่มีใช่มั้ยคะ", "variants": [], "pattani": "ซาเกะตือเกาะนามอตะเดาะแดห์", "source": "interview"}
+{"id": "iv11-055", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วยา ถ้าหมอให้ มีแพ้มั้ย", "variants": [], "pattani": "ปาตู ฮูบะๆแบบนี้กาแดยอวี อาดอ อาเลาะห์แฮฆาปอเดาะ", "source": "interview"}
+{"id": "iv11-059", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ก็คือหมอนัดตลอดเลยใช่มั้ยคะ", "variants": [], "pattani": "ก็คือบอมอนัดเซาะมอ ลานิแดห์", "source": "interview"}
+{"id": "iv11-061", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "บางทีถ้าหมอนัดแล้วให้นอนโรงพยาบาล นอนใช่มั้ยคะ เพราะหมอจะดูอาการเราใช่มั้ยคะ", "variants": [], "pattani": "บางที บอกาแดบอมอนัด กาแดยอซูโรห์ตีโดเมาะห์ซาเกะ ตีโดแดห์ มูฆอยอแตเงาะกาดอแอกีตอนี่แดห", "source": "interview"}
+{"id": "iv11-063", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วตั้งแต่ที่หมอนัด สองสามครั้งที่ผ่านมา ต้องนอนโรงพยาบาลตลอดเลยหรอคะ", "variants": [], "pattani": "ป่ะตือเกาะห์บอมอนัด ดูวอ ตีกอ กาลีมารีเดาะห์นิ คือนอตีโดเมาะห์ซาเกะเซาะมอก้อ", "source": "interview"}
+{"id": "iv12-068", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วก็จะขออนุญาตถาม ชื่อก้ะ ชื่ออะไรคะ", "variants": [], "pattani": "ป่ะเนาะมีเตาะตายอ นามอก้ะ นามอกาปอ", "source": "interview"}
+{"id": "iv12-070", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ก้ะอายุเท่าไหร่แล้วคะปัจจุบัน", "variants": [], "pattani": "ก้ะอายุวาปอเดาะห์ลอนิง", "source": "interview"}
+{"id": "iv12-072", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วบ้านอยู่ที่ไหนคะ", "variants": [], "pattani": "ปาตูรูเมาะห์โดะมานอนิ", "source": "interview"}
+{"id": "iv12-074", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เคยมาแล้วนะคะโรงพยาบาล ตลอดแล้วเนอะ", "variants": [], "pattani": "ปาตูแบซอมารีเดาะแดห์เมาะซาเกะนิ เซาะมอเดาะห์แดห์", "source": "interview"}
+{"id": "iv12-076", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ในบ้านมีใครสูบบุหรี่แบบนี้มั้ยคะ", "variants": [], "pattani": "ดาแลรูเมาะห์อาดอออแรอีสะรอเกาะเดาะแบะนิเดาะ", "source": "interview"}
+{"id": "iv12-078", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วใคร", "variants": [], "pattani": "ป่ะปียอ", "source": "interview"}
+{"id": "iv12-080", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แต่ไม่ได้ดื่ม ใช่มั้ยคะ", "variants": [], "pattani": "ตะปีตะเดาะมาแก กาลีแดห์", "source": "interview"}
+{"id": "iv12-082", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วในบ้านมีคนเป็นโรคนี้มั้ย", "variants": [], "pattani": "ป่ะ ดาแลรูเมาะห์อาดอออแรยาดีโรคนี้มั้ย", "source": "interview"}
+{"id": "iv12-085", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วหลังจากนี้หมอนัดอีกหรือค่อยนัดหลังจากก้ะออกจากโรงพยาบาล", "variants": [], "pattani": "ปาตูลือปะห์นิง บอมอนัดปูเลาะเดาะห์ก้อ นาตีนัดลือปะห์ก้ะตูเบะเมาะห์ซาเกะ", "source": "interview"}
+{"id": "iv12-087", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วก้ะ ถ้าหมอไม่ได้นัดหรืออะไรงี้", "variants": [], "pattani": "ป่ะก้ะ มีซาแลเกาะห์บอมอเดาะนัดกอแบะนิง", "source": "interview"}
+{"id": "iv12-089", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วถ้าสมมุติว่าก่อนที่หมอจะนัดแบบนี้ถ้ามีฮาการเจ็บ มาโรงพยาบาลมั้ย มาเลยเนอะ", "variants": [], "pattani": "ปาตุห มีซาแลวาซอบือลงปาแดงายอเนาะนัดแบบนี้อาดอซาเกะ ป่ะมารีเดาะ มารีลาลูแดห์", "source": "interview"}
+{"id": "iv12-091", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มาได้ทุกเวลาเนอะ", "variants": [], "pattani": "มารีบูเละห์เซาะมอแดห์", "source": "interview"}
+{"id": "iv12-093", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วนี่ไม่ได้หยุดยาเองทีใช่มั้ยคะ", "variants": [], "pattani": "ป่ะนิตะเดาะดูโดะหยุดยาเองกาลีแดห", "source": "interview"}
+{"id": "iv21-003", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะเป็นอะไรมาคะ", "variants": [], "pattani": "เมาะยาดีกาปอนิมารี", "source": "interview"}
+{"id": "iv21-005", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วตอนที่เมาะมา มีปวดหัวบ้างมั้ย ตอนนี้ล่ะมีมั้ย", "variants": [], "pattani": "ปาตูตือเกาะห์เมาะมารีอาดอซาเกะปาลอเดาะ ลอนิงๆปง", "source": "interview"}
+{"id": "iv21-007", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ไม่มีปวดหัวเนอะ", "variants": [], "pattani": "ตะเดาะซาเกะปาลอแดห", "source": "interview"}
+{"id": "iv21-008", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วก็มีปวดท้องมั้ย", "variants": [], "pattani": "ปาตูอาดอซาเกะปือโระเดาะ", "source": "interview"}
+{"id": "iv21-010", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "รู้สึกปวดท้องเนอะ", "variants": [], "pattani": "วาซอซาเกะปือโระแดห์", "source": "interview"}
+{"id": "iv21-011", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "รู้สึกเจ็บฝั่งไหน ด้านบนหรือ", "variants": [], "pattani": "ยอซาเกะบือเลาะห์เละมานอ เละตะห์กอ", "source": "interview"}
+{"id": "iv21-015", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "รู้สึกเจ็บใช่มั้ย", "variants": [], "pattani": "วาซอซาเกะลาแดห์", "source": "interview"}
+{"id": "iv21-017", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วมีไข้งี้มั้ยคะ", "variants": [], "pattani": "ปาตูอาดอดือแมแบบนี้เดาะ", "source": "interview"}
+{"id": "iv21-019", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ไม่มีไข้เนอะ", "variants": [], "pattani": "ดือแมตะเดาะแดห", "source": "interview"}
+{"id": "iv21-020", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะมีไอแบบนี้มั้ยคะ", "variants": [], "pattani": "ปาตูเมาะอาดอบาโตะแบบนี้เดาะ", "source": "interview"}
+{"id": "iv21-030", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วรู้สึกอยากอ้วกแบบนี้มั้ยคะ", "variants": [], "pattani": "ปาตูวาสอแบบเนาะเนาะมูเตาะห์แบบนี้เดาะ", "source": "interview"}
+{"id": "iv21-032", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "คลื่นไส้ไม่มีเนอะ", "variants": [], "pattani": "คลื่นไส้แบบนี้ตะเดาะแดห", "source": "interview"}
+{"id": "iv21-034", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะมีแบบปวดท้องจะถ่ายหนักแบบนี้มั้ยคะ", "variants": [], "pattani": "ปาตูเมาะอาดอแบบซาเกะปือโระเนาะแบเราะแบบนี้เดาะ", "source": "interview"}
+{"id": "iv21-039", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะรู้สึกเจ็บคอแบบนี้ทีมั้ยคะ", "variants": [], "pattani": "ปาตูเมาะวาซอแบบซาเกะตือเกาะแบบนี้อาดอเดาะ", "source": "interview"}
+{"id": "iv21-042", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วรู้สึกมีแบบสั่นแบบนี้มั้ย", "variants": [], "pattani": "ปาตูวาซออาดอแบบกือตาแบบนี้เดาะ", "source": "interview"}
+{"id": "iv21-044", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "หนาวสั่นมีมั้ยเมาะ", "variants": [], "pattani": "ซือโยะกือตาอาดอเดาะเมาะ", "source": "interview"}
+{"id": "iv21-047", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะมีเลือดออกตรงไหนมั้ยคะ", "variants": [], "pattani": "ปาตูเมาะอาดอแบบดาเราะห์ตูเบะมานอเดาะ", "source": "interview"}
+{"id": "iv21-050", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วมีแบบเจ็บ ยิ่งเจ็บมั้ยคะเมาะ", "variants": [], "pattani": "ปาตูอาดอแบบ ซาเกะ คอซาเกะเดาะเมาะ", "source": "interview"}
+{"id": "iv21-052", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "รู้สึกเจ็บยิ่งขึ้นหรือ", "variants": [], "pattani": "รู้สึก ซาเกะคอบือระกอ", "source": "interview"}
+{"id": "iv21-054", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะเจ็บมานานแค่ไหนแล้ว", "variants": [], "pattani": "เมาะแบบซาเกะลามอมานอเดาะห์", "source": "interview"}
+{"id": "iv21-059", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะได้มีโรคอะไรที่เกี่ยวกับหัวใจปอดแบบนี้มั้ยคะ ไม่มีเนอะ", "variants": [], "pattani": "ปาตูเมาะอาดอแบบยาตงๆแบบนี้ตะเดาะแดห", "source": "interview"}
+{"id": "iv21-061", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเจ็บหน้าอกแบบนี้มีมั้ย", "variants": [], "pattani": "ปาตูซาเกะดาดอแบบนี้อาดอเดาะ", "source": "interview"}
+{"id": "iv21-065", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะมีแพ้ยาอะไรมั้ยคะ", "variants": [], "pattani": "ปาตูเมาะอาดออาเลาะห์แฮฮูบะกาปอเดาะ", "source": "interview"}
+{"id": "iv21-070", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะมีแพ้ยาตัวไหนมั้ยคะ", "variants": [], "pattani": "เมาะอาดออาเลาะห์แฮฮูบะเฮาะมานอตุห์อาดอเดาะ", "source": "interview"}
+{"id": "iv21-075", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วยาที่เมาะต้องกินนั้น กินทุกวันเนอะ ก็คือตามที่พยายาลเอามาให้ใช่มั้ยคะ", "variants": [], "pattani": "ปาตูฮูบะเฮาะเมาะคือนอมาแกตุห์ มาแกเสาะมอลาแดห ก็คือตามที่ยอเวาะมารีแดห", "source": "interview"}
+{"id": "iv21-077", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ถ้าพยาบาลเอามาให้ เราก็ต้องกินเนอะ", "variants": [], "pattani": "นาตียอเซาะมารี กีตอคือนอมาแกแดห", "source": "interview"}
+{"id": "iv21-079", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วมีกินก่อนอาหาร หลังอาหารเนอะ", "variants": [], "pattani": "ปาตูอาดอเฮาะมาแกบอลงนาซิ ลือปะห์นาซิแดห์", "source": "interview"}
+{"id": "iv21-084", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะชื่ออะไรคะ", "variants": [], "pattani": "เมาะนามอกาปอนิ", "source": "interview"}
+{"id": "iv21-091", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะอายุเท่าไหร่แล้วนิ", "variants": [], "pattani": "ปาตูเมาะออมอวาปอเดาะห์นิ", "source": "interview"}
+{"id": "iv21-096", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "บ้านอยู่ที่ไหนคะ", "variants": [], "pattani": "รูเมาะห์โดะมานอ", "source": "interview"}
+{"id": "iv21-098", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะเคยมาอยู่โรงพยาบาลแบบนี้มั้ย", "variants": [], "pattani": "เมาะแบซอมารีดูโดะเมาะห์ซาเกะแบบนี้เดาะ", "source": "interview"}
+{"id": "iv21-103", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะ ในบ้านมีคนสูบบุหรี่มั้ยคะ", "variants": [], "pattani": "เมาะดาแลรูเมาะห์อาดอแดมออีซะรอเกาะเดาะ", "source": "interview"}
+{"id": "iv21-106", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แต่เราก็ไม่ได้สูบ แต่เราก็ได้สูดดมกลิ่นควันเข้าไปเนอะ", "variants": [], "pattani": "ตาปีกีตอปงตะเดาะอีซะ ยาดีกีตอดูโดะดมยูเฆาะ", "source": "interview"}
+{"id": "iv21-108", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แต่คนในครอบครัวเรายังไม่มีใครเจ็บป่วยแบบเมาะอีกเนอะตอนนี้", "variants": [], "pattani": "ตาปีออแรดาแลกือลูวัรคอกีตอตะเดาะซาเกะแบบเมาะลากีลาลอนิงแดห์", "source": "interview"}
+{"id": "iv21-110", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะต้องมาตามนัดหมอตลอดมั้ย", "variants": [], "pattani": "ปาตูเมาะคือนอมารีตามนัดบอมอเซาะมอเดาะ", "source": "interview"}
+{"id": "iv21-112", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มา มาเหมือนกันเนอะ", "variants": [], "pattani": "มารี มารียูเฆาะลาแดห์", "source": "interview"}
+{"id": "iv21-113", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วหมอมีนัดเราเหมือนกันมั้ยคะ", "variants": [], "pattani": "ปะห์บอมออาดอนัดยูเฆาะเดาะ", "source": "interview"}
+{"id": "iv21-118", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะไม่ได้มีการหยุดยาเองทีใช่มั้ยคะ", "variants": [], "pattani": "ปาตูเมาะตะเดาะดูโดะหยุดฮูบะดีรีเดาะลีแดห์", "source": "interview"}
+{"id": "iv21-120", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "กินตลอดเนอะ", "variants": [], "pattani": "มาแกเสาะมอแดห", "source": "interview"}
+{"id": "iv31-002", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะเป็นอะไรมาคะ ถึงมาที่โรงพยาบาล", "variants": [], "pattani": "เมาะยาดีกาปอนิมารีซีนิง", "source": "interview"}
+{"id": "iv31-004", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะมีรู้สึกปวดหัวมั้ยคะ", "variants": [], "pattani": "เมาะอาดอวาซอซาเกะปาลอเดาะนิ", "source": "interview"}
+{"id": "iv31-007", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มีปวดท้องมั้ยคะ", "variants": [], "pattani": "อาดอซาเกะปือโระเดาะปวดท้อง", "source": "interview"}
+{"id": "iv31-012", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วไม่มีรู้สึกเวียนหัวเวียนหัวแบบนี้ ไม่มีเหมือนกันเนอะ", "variants": [], "pattani": "ปาตูตะเดาะวาซอแบบปือนิงปือนิงแบบนี้ ตะเดาะเฆาะแดห", "source": "interview"}
+{"id": "iv31-014", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มีไข้แบบนี้ มีมั้ย", "variants": [], "pattani": "อาดอดือแมแบบนี้ อาดอเดาะ", "source": "interview"}
+{"id": "iv31-017", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วตอนที่เมาะมาที่นี่ เริ่มมีไข้หรือยัง", "variants": [], "pattani": "ปะห์ตือเกาะห์เมาะมารีดะซีนิง อาดอดือแมเดาะลาฆี", "source": "interview"}
+{"id": "iv31-019", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "วันนี้ไม่มีเนอะ", "variants": [], "pattani": "ฮารีนิงตะเดาะแดห์", "source": "interview"}
+{"id": "iv31-021", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มาอยู่กี่วันแล้วคะ", "variants": [], "pattani": "มารีดูโดะวาปอฮารีเดาะห์นิ", "source": "interview"}
+{"id": "iv31-023", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "อ๋อ 19วันแล้ว", "variants": [], "pattani": "อ๋อ มีแลบือละห์ฮารีเดาะห์", "source": "interview"}
+{"id": "iv31-026", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วมีแบบไอมีมั้ยคะ", "variants": [], "pattani": "ปาตูอาดอแบบบาโตะอาดอเดาะ", "source": "interview"}
+{"id": "iv31-029", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แต่ตอนนี้หายแล้วนิดนึงใช่ไหมมั้ยคะ", "variants": [], "pattani": "ตาปีลอนิงฮีงอเดาะห์ซีกิแดห", "source": "interview"}
+{"id": "iv31-032", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วมีหายใจไม่สะดวกบ้างมั้ยคะ", "variants": [], "pattani": "ปาตูอาดอยาวอแบบเดาะซือดะเดาะ", "source": "interview"}
+{"id": "iv31-037", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ไม่มีเนอะ", "variants": [], "pattani": "ตะเดาะแดห์", "source": "interview"}
+{"id": "iv31-039", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มีแบบปวดท้อง มีมั้ยคะ", "variants": [], "pattani": "อาดอแบบซาเกะปือโระแบเราะ อาดอเดาะ", "source": "interview"}
+{"id": "iv31-043", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เจ็บคอมีมั้ยคะ", "variants": [], "pattani": "ซาเกะตือเกาะอาดอเดาะ", "source": "interview"}
+{"id": "iv31-046", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "หนาวสั่นแบบนี้มีมั้ยคะ", "variants": [], "pattani": "ซือโยะกือตาแบบนี้อาดอเดาะ", "source": "interview"}
+{"id": "iv31-049", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มีเลือดออกที่ไหนมั้ยในร่างกายของเรา", "variants": [], "pattani": "อาดอดาเราะตูเบะมานอเดาะดาแลตูโบะห์กีตอ", "source": "interview"}
+{"id": "iv31-052", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วที่เมเจ็บที่เป็นอยู่รู้สึกว่ายิ่งเจ็บมากยิ่งขึ้นมั้ยคะ", "variants": [], "pattani": "ปาตูเฮาะเมาะโดะซาเกะโดะยาดีนิ อาดอวาซอแบบซาเกะคือนายอ์เดาะ", "source": "interview"}
+{"id": "iv31-055", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะเป็นมานานแค่ไหนแล้วคะ", "variants": [], "pattani": "เมาะยาดีนิลามอมานอเดาะห์", "source": "interview"}
+{"id": "iv31-058", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วโรคไตแบบนี้ไม่มีเนอะ", "variants": [], "pattani": "ปาตูโรคไตแบบนี้ตะเดาะแดห", "source": "interview"}
+{"id": "iv31-062", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะมีแพ้ยาอะไรมั้ยคะ", "variants": [], "pattani": "เมาะอาดออาเลาะห์แฮฮูบะมานอเดาะ", "source": "interview"}
+{"id": "iv31-065", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วมีกินยาที่พยาบาลเอามาให้เองอย่างเดียวเนอะ", "variants": [], "pattani": "ปาตูอาดอมาแกฮูบะเฮาะยอเวาะมารีลาแดห", "source": "interview"}
+{"id": "iv31-068", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "มีก่อนกินข้าวแล้วก็หลังกินข้าวเนอะ", "variants": [], "pattani": "อาดอบือลงมาแกนาซิ ปาตูลือปะห์มาแกนาซิแดห", "source": "interview"}
+{"id": "iv31-071", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วคุณหมอมีการฉีดยาให้มั้ยคะ", "variants": [], "pattani": "ปาตูบอมออาดอแบบจอเจาะฮูบะวีเดาะ", "source": "interview"}
+{"id": "iv31-074", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะเคยผ่าตัดมั้ยคะ", "variants": [], "pattani": "เมาะแบซอบือเลาะห์ฆาปอเดาะ", "source": "interview"}
+{"id": "iv31-076", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "ไม่เคยเนอะ", "variants": [], "pattani": "เดาะแดห์", "source": "interview"}
+{"id": "iv31-078", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เพราะมีความดันมั้ยคะ", "variants": [], "pattani": "เมาะอาดอความดันเดาะ ดาเราะห์ตีงี", "source": "interview"}
+{"id": "iv31-081", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แต่เดี๋ยวนี้ลดลงแล้วเนอะ", "variants": [], "pattani": "ตาปีลอนิง ตูรงเดาะห์", "source": "interview"}
+{"id": "iv31-083", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "เมาะขื่ออะไรคะ", "variants": [], "pattani": "เมาะนามอฆาปอนิ", "source": "interview"}
+{"id": "iv31-086", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "อายุเท่าไหร่แล้วคะ", "variants": [], "pattani": "ออมอวาปอเดาะห์", "source": "interview"}
+{"id": "iv31-088", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "บ้านอยู่แถวไหนนะคะ", "variants": [], "pattani": "ดูเมาะห์โดะโกะมานอนิ", "source": "interview"}
+{"id": "iv31-090", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเคยมาแล้วใช่ไหมที่โรงพยาบาลนิ", "variants": [], "pattani": "ปาตูแบซอมารีเดาะลาแดห์เมาะซาเกะนิงแดห", "source": "interview"}
+{"id": "iv31-093", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วในบ้านมีคนสูบบุหรี่แบบนี้มั้ยคะ", "variants": [], "pattani": "ปาตูดาแลรูเมาะห์อาดอออแรอีซะรอเกาะแบบนี้เดาะ", "source": "interview"}
+{"id": "iv31-095", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วยังไม่มีใครเจ็บหรือเป็นเหมือนเมาะอีกใช่ไหมคะในครอบครัว", "variants": [], "pattani": "ปะห์ตะเดาะออแรยาดียาเกะซูปอเมาะลาฆีแดห ดาแลรูเมาะห์แดห์", "source": "interview"}
+{"id": "iv31-098", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วเมาะต้องมาตามที่หมอนัดตลอดหรือยัง", "variants": [], "pattani": "ปาตูเมาะคือนอมารีตูโระบอมอนัดเซาะมอเราะกอเดาะลาฆี", "source": "interview"}
+{"id": "iv31-108", "category": "คำถามซักประวัติ (จากบทสัมภาษณ์)", "thai": "แล้วยาไม่เคยกินใช่ไหมก่อนหน้านี้", "variants": [], "pattani": "ปาตูฮูบะเดาะแบซอมาแกเดาะบือลงๆนิง", "source": "interview"}

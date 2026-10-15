@@ -185,8 +185,9 @@ character_config:
       download_root: 'models/whisper' # 模型下载根目录
       language: 'zh' # 语言，en、zh 或其他。留空表示自动检测。
       device: 'auto' # 设备，cpu、cuda 或 auto。faster-whisper 不支持 mps
-      compute_type: 'int8'
+      compute_type: 'int8' # int8、int8_float16（GPU）、float16（GPU）或 float32
       prompt: '' # 提示词，用于辅助生成正确的文本
+      vad_filter: False # True = 先去除静音和噪声，避免它们被识别成虚构的文字
 
     whisper_cpp:
       # 所有可用模型都列在 https://abdeladim-s.github.io/pywhispercpp/#pywhispercpp.constants.AVAILABLE_MODELS
@@ -301,6 +302,8 @@ character_config:
       # 查看文档：https://github.com/rany2/edge-tts
       # 使用 `edge-tts --list-voices` 列出所有可用语音
       voice: zh-CN-XiaoxiaoNeural # 'en-US-AvaMultilingualNeural' #'zh-CN-XiaoxiaoNeural' # 'ja-JP-NanamiNeural'
+      # 可选：同一语言的备用语音，在 `voice` 未返回音频时使用
+      fallback_voice: null
 
     # pyttsx3_tts 没有任何配置。
 
@@ -473,7 +476,7 @@ character_config:
     translator_config:
       # 比如...你说话并阅读英语字幕，而 TTS 说日语之类的
       translate_audio: False # 警告：请确保翻译引擎配置成功再开启此选项，否则会翻译失败
-      translate_provider: 'deeplx' # 翻译提供商, 目前支持 deeplx 或 tencent
+      translate_provider: 'deeplx' # 翻译提供商, 目前支持 deeplx、tencent、nllb、pattani 或 pattani_thai
 
       deeplx:
         deeplx_target_lang: 'JA'
@@ -489,6 +492,34 @@ character_config:
         region: 'ap-guangzhou'
         source_lang: 'zh'
         target_lang: 'ja'
+
+      # 泰语 -> 北大年马来语（以泰文字母书写）。NLLB 先将泰语翻译为标准马来语，
+      # 语音规则将其转换为北大年方言，再由 LLM 参考短语库
+      # （uv run python build_phrasebook.py）写出最终句子。
+      pattani:
+        phrasebook_path: 'pattani_dataset/phrasebook.jsonl'
+        nllb_model: 'facebook/nllb-200-distilled-600M' # Hugging Face 名称或本地路径
+        device: 'cpu' # cpu 或 cuda（用于 NLLB）
+        llm_consult: True # False = 直接返回按语音规则生成的北大年语版本
+        llm_base_url: 'http://localhost:11434/v1' # OpenAI 兼容端点（Ollama）
+        llm_model: 'qwen3:8b'
+        llm_api_key: 'ollama'
+        llm_temperature: 0.0
+        num_examples: 10 # 提供给 LLM 的相似短语库句子数量
+        show_latin: True # 同时显示拉丁字母拼写的北大年语句子
+
+      # 北大年马来语 / 马来语 -> 泰语，用于医院对话。已知的医院常用语直接查表；
+      # 其余由 NLLB 翻译，再由 LLM 纠正误听并重新翻译不符合医院语境的句子。
+      pattani_thai:
+        phrases_path: 'pattani_dataset/medical_phrases.jsonl' # 每行 {"malay", "thai"}
+        nllb_model: 'facebook/nllb-200-distilled-600M' # Hugging Face 名称或本地路径
+        device: 'cpu' # cpu 或 cuda（用于 NLLB）
+        llm_review: True # False = 仅使用常用语表和 NLLB
+        llm_base_url: 'http://localhost:11434/v1' # OpenAI 兼容端点（Ollama）
+        llm_model: 'qwen3:8b'
+        llm_api_key: 'ollama'
+        llm_temperature: 0.0
+        num_examples: 6 # 提供给 LLM 的相似常用语条目数量
 
 # 直播平台集成
 live_config:

@@ -15,6 +15,7 @@ class ASRFactory:
                 device=kwargs.get("device"),
                 compute_type=kwargs.get("compute_type"),
                 prompt=kwargs.get("prompt", None),
+                vad_filter=kwargs.get("vad_filter", False),
             )
         elif system_name == "whisper_cpp":
             from .whisper_cpp_asr import VoiceRecognition as WhisperCPPASR

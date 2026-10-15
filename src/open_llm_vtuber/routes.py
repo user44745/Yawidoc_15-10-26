@@ -1,5 +1,6 @@
 import os
 import json
+import asyncio
 from uuid import uuid4
 import numpy as np
 from datetime import datetime
@@ -9,6 +10,7 @@ from starlette.websockets import WebSocketDisconnect
 from loguru import logger
 from .service_context import ServiceContext
 from .websocket_handler import WebSocketHandler
+from .interpreter.service import shared_service
 from .proxy_handler import ProxyHandler
 
 
@@ -250,5 +252,84 @@ def init_webtool_routes(default_context_cache: ServiceContext) -> APIRouter:
         except Exception as e:
             logger.error(f"Error in TTS WebSocket connection: {e}")
             await websocket.close()
+
+    return router
+
+
+def init_interpreter_route() -> APIRouter:
+    """
+    Create and return the route of the interpreter page (/interpreter).
+
+    `/interpreter-ws` messages, all JSON with a `type`:
+
+        list_categories                 -> categories  [{name, count}]
+        list_sentences {category}       -> sentences   [{id, thai, check_numbers}]
+        list_quick                      -> quick       [{id, thai, check_numbers, count}]
+                                           (the sentences chosen most often)
+        doctor_text {text}              -> candidates  [{id, score, thai, ...}]
+        doctor_audio {audio: base64 WAV, 16 kHz mono}
+                                        -> candidates, with `heard`
+        play {id}                       -> audio_url   {thai, pattani, latin, audio_url}
+        patient_text {text} / patient_audio {audio}
+                                        -> patient_translation {id, heard, thai,
+                                           audio_url, online}
+        rate {id, rating}               -> rated       (test mode; rating is correct,
+                                           minor_error or critical_error)
+        network_status                  -> network_status {online}
+
+    A doctor's sentence is never played on its own: `candidates` only lists
+    standard sentences (none when nothing is close enough), and audio exists
+    only after `play` names one of them.
+
+    Returns:
+        APIRouter: Configured router with the WebSocket endpoint.
+    """
+    router = APIRouter()
+    service = shared_service()
+
+    def answer(data: dict) -> dict:
+        kind = data.get("type")
+        if kind == "list_categories":
+            return service.catalog()
+        if kind == "list_sentences":
+            return service.sentences(data.get("category", ""))
+        if kind == "list_quick":
+            return service.quick()
+        if kind == "doctor_text":
+            return service.doctor_text((data.get("text") or "").strip())
+        if kind == "doctor_audio":
+            return service.doctor_audio(data.get("audio") or "")
+        if kind == "play":
+            return service.play(data.get("id", ""))
+        if kind == "patient_text":
+            return service.patient_text((data.get("text") or "").strip())
+        if kind == "patient_audio":
+            return service.patient_audio(data.get("audio") or "")
+        if kind == "rate":
+            return service.rate(data.get("id", ""), data.get("rating", ""))
+        if kind == "network_status":
+            return service.network_status()
+        return {"type": "error", "message": f"unknown message type: {kind}"}
+
+    @router.websocket("/interpreter-ws")
+    async def interpreter_endpoint(websocket: WebSocket):
+        """WebSocket endpoint of the interpreter page"""
+        await websocket.accept()
+        logger.info("Interpreter WebSocket connection established")
+        try:
+            while True:
+                data = await websocket.receive_json()
+                try:
+                    # speech recognition, translation and voices block
+                    reply = await asyncio.to_thread(answer, data)
+                except Exception as e:
+                    logger.exception(f"Interpreter request failed: {e}")
+                    reply = {"type": "error", "message": str(e)}
+                # lets the page tell which request an answer belongs to
+                if "request" in data:
+                    reply["request"] = data["request"]
+                await websocket.send_json(reply)
+        except WebSocketDisconnect:
+            logger.info("Interpreter WebSocket client disconnected")
 
     return router

@@ -9,6 +9,7 @@ from loguru import logger
 from ..chat_group import ChatGroupManager
 from ..chat_history_manager import store_message
 from ..service_context import ServiceContext
+from ..interpreter.service import quick_direction, shared_service
 from .group_conversation import process_group_conversation
 from .single_conversation import process_single_conversation
 from .conversation_utils import EMOJI_LIST
@@ -62,6 +63,28 @@ async def handle_conversation_trigger(
                 }
             )
         )
+    elif msg_type == "quick-phrase":
+        # A standard sentence picked from the quick bar of the avatar page.
+        # The avatar says it in the other language as the sentence bank has
+        # it (Pattani for the Thai bar, Thai for the Pattani bar of the
+        # Pattani -> Thai translator). Nothing is translated.
+        group = chat_group_manager.get_client_group(client_uid)
+        phrase = None
+        direction = quick_direction(context)
+        # the bar on the page must be the one of this character: a press on
+        # the bar of the character before it is not said the other way round
+        current = data.get("direction") in (None, direction)
+        if current and not (group and len(group.members) > 1):
+            phrase = await asyncio.to_thread(
+                shared_service().quick_phrase, data.get("id", ""), direction
+            )
+        if phrase is None:
+            await websocket.send_text(
+                json.dumps({"type": "error", "message": "Quick phrase not available"})
+            )
+            return
+        user_input = phrase["said"]
+        metadata = {"quick_phrase": phrase}
     elif msg_type == "text-input":
         user_input = data.get("text", "")
     else:  # mic-audio-end

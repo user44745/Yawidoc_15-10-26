@@ -1,0 +1,889 @@
+{"kind": "typed", "query": "เป็นอะไรมาครับ", "expected": "wb015"}
+{"kind": "spoken", "query": "เป็น อะไร มา", "expected": "wb015"}
+{"kind": "typed", "query": "ปวดตรงไหนค่ะ", "expected": "wb016"}
+{"kind": "spoken", "query": "ปวดตรงไหน", "expected": "wb016"}
+{"kind": "typed", "query": "ปวดหัวนะคะ", "expected": "wb018"}
+{"kind": "spoken", "query": "ปวดหัว", "expected": "wb018"}
+{"kind": "typed", "query": "ปวดท้องคะ", "expected": "wb019"}
+{"kind": "spoken", "query": "ปวดท้อง", "expected": "wb019"}
+{"kind": "typed", "query": "ไข้หวัดครับ", "expected": "wb020"}
+{"kind": "spoken", "query": "ไข้หวัด", "expected": "wb020"}
+{"kind": "typed", "query": "ตัวร้อนค่ะ", "expected": "wb020"}
+{"kind": "spoken", "query": "ตัวร้อน", "expected": "wb020"}
+{"kind": "typed", "query": "ท้องเสียค่ะ", "expected": "wb021"}
+{"kind": "spoken", "query": "ท้องเสีย", "expected": "wb021"}
+{"kind": "typed", "query": "ท้องร่วงนะคะ", "expected": "wb021"}
+{"kind": "spoken", "query": "ท้องร่วง", "expected": "wb021"}
+{"kind": "typed", "query": "อาเจียนนะคะ", "expected": "wb022"}
+{"kind": "spoken", "query": "อาเจียน", "expected": "wb022"}
+{"kind": "typed", "query": "ไอคะ", "expected": "wb023"}
+{"kind": "spoken", "query": "ไอ่", "expected": "wb023"}
+{"kind": "typed", "query": "กินยาครับ", "expected": "wb024"}
+{"kind": "reworded", "query": "ช่วยกินยาหน่อยครับ", "expected": "wb024"}
+{"kind": "reworded", "query": "กรุณากินยาด้วยค่ะ", "expected": "wb024"}
+{"kind": "spoken", "query": "กินยา", "expected": "wb024"}
+{"kind": "typed", "query": "ฉีดยาค่ะ", "expected": "wb025"}
+{"kind": "reworded", "query": "ช่วยฉีดยาหน่อยครับ", "expected": "wb025"}
+{"kind": "reworded", "query": "กรุณาฉีดยาด้วยค่ะ", "expected": "wb025"}
+{"kind": "spoken", "query": "ฉีดยา", "expected": "wb025"}
+{"kind": "typed", "query": "โรงพยาบาลนะคะ", "expected": "wb026"}
+{"kind": "reworded", "query": "ช่วยโรงพยาบาลหน่อยครับ", "expected": "wb026"}
+{"kind": "reworded", "query": "กรุณาโรงพยาบาลด้วยค่ะ", "expected": "wb026"}
+{"kind": "spoken", "query": "โรงพยาบาล", "expected": "wb026"}
+{"kind": "typed", "query": "ไม่ค่อยสบายคะ", "expected": "wb124"}
+{"kind": "spoken", "query": "ไม่ค่อยสบาย", "expected": "wb124"}
+{"kind": "typed", "query": "แกล้งครับ", "expected": "wb125"}
+{"kind": "spoken", "query": "แกล้ง", "expected": "wb125"}
+{"kind": "typed", "query": "โกหกค่ะ", "expected": "wb125"}
+{"kind": "spoken", "query": "โกหก", "expected": "wb125"}
+{"kind": "typed", "query": "กล้าหาญค่ะ", "expected": "wb126"}
+{"kind": "spoken", "query": "กล้าหาญ", "expected": "wb126"}
+{"kind": "typed", "query": "เยอะนะคะ", "expected": "wb127"}
+{"kind": "spoken", "query": "เยอะ", "expected": "wb127"}
+{"kind": "typed", "query": "จักรยานคะ", "expected": "wb128"}
+{"kind": "spoken", "query": "จักรยาน", "expected": "wb128"}
+{"kind": "typed", "query": "อะไรครับ", "expected": "wb129"}
+{"kind": "spoken", "query": "อะไร", "expected": "wb129"}
+{"kind": "typed", "query": "นวดค่ะ", "expected": "wb130"}
+{"kind": "spoken", "query": "นวด", "expected": "wb130"}
+{"kind": "typed", "query": "ขว้างนะคะ", "expected": "wb131"}
+{"kind": "spoken", "query": "ขว้าง", "expected": "wb131"}
+{"kind": "typed", "query": "แฟนคะ", "expected": "wb132"}
+{"kind": "spoken", "query": "แฟน", "expected": "wb132"}
+{"kind": "typed", "query": "คนรักครับ", "expected": "wb132"}
+{"kind": "spoken", "query": "คนรัก", "expected": "wb132"}
+{"kind": "typed", "query": "งานเลี้ยงครับ", "expected": "wb133"}
+{"kind": "spoken", "query": "งานเหลียง", "expected": "wb133"}
+{"kind": "typed", "query": "ทุบค่ะ", "expected": "wb134"}
+{"kind": "spoken", "query": "ทุบ", "expected": "wb134"}
+{"kind": "typed", "query": "ตีนะคะ", "expected": "wb134"}
+{"kind": "spoken", "query": "ตี้", "expected": "wb134"}
+{"kind": "typed", "query": "ออกนะคะ", "expected": "wb135"}
+{"kind": "spoken", "query": "ออก", "expected": "wb135"}
+{"kind": "typed", "query": "ผู้หญิงคะ", "expected": "wb136"}
+{"kind": "spoken", "query": "ผู้หญิง", "expected": "wb136"}
+{"kind": "typed", "query": "เงินครับ", "expected": "wb137"}
+{"kind": "spoken", "query": "เงิน", "expected": "wb137"}
+{"kind": "typed", "query": "บอกค่ะ", "expected": "wb138"}
+{"kind": "spoken", "query": "บอก", "expected": "wb138"}
+{"kind": "typed", "query": "พูดนะคะ", "expected": "wb139"}
+{"kind": "spoken", "query": "พูด", "expected": "wb139"}
+{"kind": "typed", "query": "ไม่มีแรงคะ", "expected": "wb140"}
+{"kind": "spoken", "query": "ไม่มีแรง", "expected": "wb140"}
+{"kind": "typed", "query": "ไม่ไหวครับ", "expected": "wb140"}
+{"kind": "spoken", "query": "ไม่ไหว", "expected": "wb140"}
+{"kind": "typed", "query": "ไม่เอาครับ", "expected": "wb141"}
+{"kind": "spoken", "query": "ไม่เอา", "expected": "wb141"}
+{"kind": "typed", "query": "แมลงวันค่ะ", "expected": "wb142"}
+{"kind": "spoken", "query": "แมลงวัน", "expected": "wb142"}
+{"kind": "typed", "query": "เหงื่อนะคะ", "expected": "wb143"}
+{"kind": "spoken", "query": "หมึก", "expected": "wb143"}
+{"kind": "typed", "query": "กอดคะ", "expected": "wb144"}
+{"kind": "spoken", "query": "กด", "expected": "wb144"}
+{"kind": "typed", "query": "นานครับ", "expected": "wb145"}
+{"kind": "spoken", "query": "นาน", "expected": "wb145"}
+{"kind": "typed", "query": "น้ำหนองค่ะ", "expected": "wb146"}
+{"kind": "spoken", "query": "น้ำหนอง", "expected": "wb146"}
+{"kind": "typed", "query": "อ้าปากนะคะ", "expected": "wb147"}
+{"kind": "spoken", "query": "อ้าป่ะ", "expected": "wb147"}
+{"kind": "typed", "query": "อุ้มคะ", "expected": "wb148"}
+{"kind": "spoken", "query": "อุ้ม", "expected": "wb148"}
+{"kind": "typed", "query": "รวยครับ", "expected": "wb149"}
+{"kind": "spoken", "query": "ร่วย", "expected": "wb149"}
+{"kind": "typed", "query": "แก้มค่ะ", "expected": "wb150"}
+{"kind": "spoken", "query": "แก้ม", "expected": "wb150"}
+{"kind": "typed", "query": "จุดนะคะ", "expected": "wb151"}
+{"kind": "spoken", "query": "จุด จุด จุด", "expected": "wb151"}
+{"kind": "typed", "query": "พี่สาวคะ", "expected": "wb152"}
+{"kind": "spoken", "query": "พี่สาว", "expected": "wb152"}
+{"kind": "typed", "query": "สุกรครับ", "expected": "wb153"}
+{"kind": "spoken", "query": "สุโกน", "expected": "wb153"}
+{"kind": "typed", "query": "หมูค่ะ", "expected": "wb153"}
+{"kind": "spoken", "query": "หมู", "expected": "wb153"}
+{"kind": "typed", "query": "นั่งค่ะ", "expected": "wb154"}
+{"kind": "spoken", "query": "นั่ง", "expected": "wb154"}
+{"kind": "typed", "query": "ฟันนะคะ", "expected": "wb155"}
+{"kind": "spoken", "query": "ฟัน", "expected": "wb155"}
+{"kind": "typed", "query": "ปลาคะ", "expected": "wb156"}
+{"kind": "spoken", "query": "ปลา", "expected": "wb156"}
+{"kind": "typed", "query": "หักครับ", "expected": "wb157"}
+{"kind": "spoken", "query": "หัก", "expected": "wb157"}
+{"kind": "typed", "query": "นมค่ะ", "expected": "wb158"}
+{"kind": "spoken", "query": "นม", "expected": "wb158"}
+{"kind": "typed", "query": "ฉีดนะคะ", "expected": "wb159"}
+{"kind": "spoken", "query": "ฉีด", "expected": "wb159"}
+{"kind": "typed", "query": "ทะเลคะ", "expected": "wb160a"}
+{"kind": "spoken", "query": "ทะเล", "expected": "wb160a"}
+{"kind": "typed", "query": "กับข้าวครับ", "expected": "wb160b"}
+{"kind": "spoken", "query": "กับข้าว", "expected": "wb160b"}
+{"kind": "typed", "query": "เหม็นค่ะ", "expected": "wb161"}
+{"kind": "spoken", "query": "เหม็นท์", "expected": "wb161"}
+{"kind": "typed", "query": "กลางคืนนะคะ", "expected": "wb162"}
+{"kind": "spoken", "query": "กลางคืน", "expected": "wb162"}
+{"kind": "typed", "query": "ยุงคะ", "expected": "wb163"}
+{"kind": "spoken", "query": "ยุ่ม", "expected": "wb163"}
+{"kind": "typed", "query": "ทำครับ", "expected": "wb164"}
+{"kind": "spoken", "query": "ถ่ำ", "expected": "wb164"}
+{"kind": "typed", "query": "วัวค่ะ", "expected": "wb165"}
+{"kind": "spoken", "query": "วัว", "expected": "wb165"}
+{"kind": "typed", "query": "สิ่งของนะคะ", "expected": "wb166"}
+{"kind": "spoken", "query": "สิ่งของ", "expected": "wb166"}
+{"kind": "typed", "query": "วิ่งคะ", "expected": "wb167"}
+{"kind": "spoken", "query": "วิ่ง", "expected": "wb167"}
+{"kind": "typed", "query": "ชี้ครับ", "expected": "wb168"}
+{"kind": "spoken", "query": "ชีค", "expected": "wb168"}
+{"kind": "typed", "query": "วันพุธค่ะ", "expected": "wb169"}
+{"kind": "spoken", "query": "วันพุธ", "expected": "wb169"}
+{"kind": "typed", "query": "คิดนะคะ", "expected": "wb170"}
+{"kind": "spoken", "query": "คิด", "expected": "wb170"}
+{"kind": "typed", "query": "เลือดประจำเดือนคะ", "expected": "wb171"}
+{"kind": "spoken", "query": "เลือกประจำเดือน", "expected": "wb171"}
+{"kind": "typed", "query": "ซาตานครับ", "expected": "wb172"}
+{"kind": "spoken", "query": "ซาตาน", "expected": "wb172"}
+{"kind": "typed", "query": "ขวาค่ะ", "expected": "wb173"}
+{"kind": "spoken", "query": "ขวา", "expected": "wb173"}
+{"kind": "typed", "query": "ไปไหนนะคะ", "expected": "wb174"}
+{"kind": "spoken", "query": "ไป ไหน", "expected": "wb174"}
+{"kind": "typed", "query": "กินข้าวคะ", "expected": "wb175"}
+{"kind": "spoken", "query": "กินข้าว", "expected": "wb175"}
+{"kind": "typed", "query": "นอนครับ", "expected": "wb176"}
+{"kind": "spoken", "query": "นอน", "expected": "wb176"}
+{"kind": "typed", "query": "คิดถึงค่ะ", "expected": "wb177"}
+{"kind": "spoken", "query": "คิดถึง", "expected": "wb177"}
+{"kind": "typed", "query": "คิดถึงเธอนะคะ", "expected": "wb177"}
+{"kind": "spoken", "query": "คิดถึงเธอ", "expected": "wb177"}
+{"kind": "typed", "query": "สวยนะคะ", "expected": "wb178"}
+{"kind": "spoken", "query": "สวย", "expected": "wb178"}
+{"kind": "typed", "query": "หวานคะ", "expected": "wb179"}
+{"kind": "spoken", "query": "หวาน", "expected": "wb179"}
+{"kind": "typed", "query": "กลับบ้านครับ", "expected": "wb180"}
+{"kind": "spoken", "query": "กลับบ้าน", "expected": "wb180"}
+{"kind": "typed", "query": "สบายดีค่ะ", "expected": "wb181"}
+{"kind": "spoken", "query": "สบายดี", "expected": "wb181"}
+{"kind": "typed", "query": "สุขภาพดีนะคะ", "expected": "wb181"}
+{"kind": "spoken", "query": "สุขภาพดี", "expected": "wb181"}
+{"kind": "typed", "query": "เท่าไหร่นะคะ", "expected": "wb182"}
+{"kind": "spoken", "query": "เท่าไหร่", "expected": "wb182"}
+{"kind": "typed", "query": "มีคะ", "expected": "wb183"}
+{"kind": "spoken", "query": "บีก", "expected": "wb183"}
+{"kind": "typed", "query": "ไม่มีครับ", "expected": "wb184"}
+{"kind": "spoken", "query": "ไม่มี", "expected": "wb184"}
+{"kind": "typed", "query": "พ่อค่ะ", "expected": "wb185"}
+{"kind": "spoken", "query": "เพาะ", "expected": "wb185"}
+{"kind": "typed", "query": "แม่นะคะ", "expected": "wb186"}
+{"kind": "spoken", "query": "แม่", "expected": "wb186"}
+{"kind": "typed", "query": "พี่ชายคะ", "expected": "wb187"}
+{"kind": "spoken", "query": "พี่ชาย", "expected": "wb187"}
+{"kind": "typed", "query": "น้องชายครับ", "expected": "wb189"}
+{"kind": "spoken", "query": "น้องชาย", "expected": "wb189"}
+{"kind": "typed", "query": "น้องสาวค่ะ", "expected": "wb189"}
+{"kind": "spoken", "query": "น้องสาว", "expected": "wb189"}
+{"kind": "typed", "query": "เพื่อนค่ะ", "expected": "wb190"}
+{"kind": "spoken", "query": "เพื่อน", "expected": "wb190"}
+{"kind": "typed", "query": "ป้านะคะ", "expected": "wb191a"}
+{"kind": "spoken", "query": "ต้า", "expected": "wb191a"}
+{"kind": "typed", "query": "ลุงคะ", "expected": "wb192"}
+{"kind": "spoken", "query": "ลุง", "expected": "wb192"}
+{"kind": "typed", "query": "หิวข้าวครับ", "expected": "wb193"}
+{"kind": "spoken", "query": "หิวข้าว", "expected": "wb193"}
+{"kind": "typed", "query": "หิวน้ำค่ะ", "expected": "wb194"}
+{"kind": "spoken", "query": "หิวน้ำ", "expected": "wb194"}
+{"kind": "typed", "query": "หนึ่งนะคะ", "expected": "wb202"}
+{"kind": "spoken", "query": "หนึ่ง", "expected": "wb202"}
+{"kind": "typed", "query": "สองคะ", "expected": "wb203"}
+{"kind": "spoken", "query": "สอง", "expected": "wb203"}
+{"kind": "typed", "query": "สามครับ", "expected": "wb204"}
+{"kind": "spoken", "query": "สาม", "expected": "wb204"}
+{"kind": "typed", "query": "สี่ค่ะ", "expected": "wb205"}
+{"kind": "spoken", "query": "สี่", "expected": "wb205"}
+{"kind": "typed", "query": "ห้านะคะ", "expected": "wb206"}
+{"kind": "spoken", "query": "ห้า", "expected": "wb206"}
+{"kind": "typed", "query": "หกคะ", "expected": "wb207"}
+{"kind": "spoken", "query": "หก", "expected": "wb207"}
+{"kind": "typed", "query": "เจ็ดครับ", "expected": "wb208"}
+{"kind": "spoken", "query": "เจ็ด", "expected": "wb208"}
+{"kind": "typed", "query": "แปดค่ะ", "expected": "wb209"}
+{"kind": "spoken", "query": "แปด", "expected": "wb209"}
+{"kind": "typed", "query": "เก้านะคะ", "expected": "wb210"}
+{"kind": "spoken", "query": "เก้า", "expected": "wb210"}
+{"kind": "typed", "query": "สิบคะ", "expected": "wb211"}
+{"kind": "spoken", "query": "สิบ สิบ สิบ สิบ", "expected": "wb211"}
+{"kind": "typed", "query": "สิบเอ็ดครับ", "expected": "wb212"}
+{"kind": "spoken", "query": "สิบเอ็ด", "expected": "wb212"}
+{"kind": "typed", "query": "สิบสองค่ะ", "expected": "wb213"}
+{"kind": "spoken", "query": "สิบสอง", "expected": "wb213"}
+{"kind": "typed", "query": "สิบสามนะคะ", "expected": "wb214"}
+{"kind": "spoken", "query": "สิบสาม", "expected": "wb214"}
+{"kind": "typed", "query": "สิบสี่คะ", "expected": "wb215"}
+{"kind": "spoken", "query": "สิบสี่", "expected": "wb215"}
+{"kind": "typed", "query": "สิบห้าครับ", "expected": "wb216"}
+{"kind": "spoken", "query": "สิบห้า", "expected": "wb216"}
+{"kind": "typed", "query": "สิบหกค่ะ", "expected": "wb217"}
+{"kind": "spoken", "query": "สิบหก", "expected": "wb217"}
+{"kind": "typed", "query": "สิบเจ็ดนะคะ", "expected": "wb218"}
+{"kind": "spoken", "query": "สิบเจ็ด", "expected": "wb218"}
+{"kind": "typed", "query": "สิบแปดคะ", "expected": "wb219"}
+{"kind": "spoken", "query": "สิบแปด", "expected": "wb219"}
+{"kind": "typed", "query": "สิบเก้าครับ", "expected": "wb220"}
+{"kind": "spoken", "query": "สิบเก้า", "expected": "wb220"}
+{"kind": "typed", "query": "ยี่สิบค่ะ", "expected": "wb221"}
+{"kind": "spoken", "query": "ยี่สิบเอ็ด", "expected": "wb221"}
+{"kind": "typed", "query": "สวัสดีครับ เป็นอย่างไรบ้าง คุณลุงสบายดีไหมนะคะ", "expected": "wb222"}
+{"kind": "reworded", "query": "สวัสดีครับ เป็นอย่างไรบ้าง คุณลุงสบายดีมั้ย", "expected": "wb222"}
+{"kind": "spoken", "query": "สวัสดีครับ เป็นอย่างไรบ้าง คุณลุงสบายดีไหม", "expected": "wb222"}
+{"kind": "typed", "query": "สวัสดี ก็สบายดี ขอบใจนะ แล้วคุณล่ะคะ", "expected": "wb223"}
+{"kind": "spoken", "query": "สวัสดีก็สบายดีขอบใจนะแล้วคุณล่ะ", "expected": "wb223"}
+{"kind": "typed", "query": "ผมก็สบายดีครับ ขอบคุณครับ", "expected": "wb224"}
+{"kind": "spoken", "query": "ผมก็สบายดีครับ ขอบคุณ", "expected": "wb224"}
+{"kind": "typed", "query": "แล้วนี่มาหาใครค่ะ", "expected": "wb225"}
+{"kind": "spoken", "query": "แล้วนี่มาหาใคร", "expected": "wb225"}
+{"kind": "typed", "query": "ผมชื่ออะฮหมัด ผมมาหาสุกรี เขาอยู่ไหมนะคะ", "expected": "wb226"}
+{"kind": "reworded", "query": "ผมชื่ออะฮหมัด ผมมาหาสุกรี เขาอยู่มั้ย", "expected": "wb226"}
+{"kind": "spoken", "query": "ผมชื่ออาฮัทผมมหาสุกรีเขาอยู่ไหม", "expected": "wb226"}
+{"kind": "typed", "query": "ลุงเป็นพ่อของสุกรี เขาอยู่ในบ้าน เข้ามาซิคะ", "expected": "wb227"}
+{"kind": "spoken", "query": "ลุงเป็นพ่อของสุกรีเขาอยู่ในบ้านเข้ามาสิ", "expected": "wb227"}
+{"kind": "typed", "query": "สวัสดีครับ", "expected": "wb228"}
+{"kind": "spoken", "query": "สวัสดี", "expected": "wb228"}
+{"kind": "typed", "query": "ฉันค่ะ", "expected": "wb229a"}
+{"kind": "spoken", "query": "ฉัน", "expected": "wb229a"}
+{"kind": "typed", "query": "กระผมนะคะ", "expected": "wb229b"}
+{"kind": "spoken", "query": "ครับผม", "expected": "wb229b"}
+{"kind": "typed", "query": "กูคะ", "expected": "wb229c"}
+{"kind": "spoken", "query": "กู่", "expected": "wb229c"}
+{"kind": "typed", "query": "สวัสดีตอนเช้าครับ", "expected": "wb231"}
+{"kind": "spoken", "query": "สวัสดีตอนเช้า", "expected": "wb231"}
+{"kind": "typed", "query": "คุณค่ะ", "expected": "wb232a"}
+{"kind": "spoken", "query": "คุณ", "expected": "wb232a"}
+{"kind": "typed", "query": "เธอนะคะ", "expected": "wb232b"}
+{"kind": "spoken", "query": "เถอะ", "expected": "wb232b"}
+{"kind": "typed", "query": "สวัสดีตอนเที่ยงคะ", "expected": "wb234"}
+{"kind": "spoken", "query": "สวัสดีตอนเที่ยง", "expected": "wb234"}
+{"kind": "typed", "query": "เราครับ", "expected": "wb235"}
+{"kind": "spoken", "query": "เรา", "expected": "wb235"}
+{"kind": "typed", "query": "สวัสดีตอนเย็นค่ะ", "expected": "wb237"}
+{"kind": "spoken", "query": "สวัสดีตอนเย็น", "expected": "wb237"}
+{"kind": "typed", "query": "ฉันรักคุณนะคะ", "expected": "wb238"}
+{"kind": "spoken", "query": "ฉันรักคุณ", "expected": "wb238"}
+{"kind": "typed", "query": "เรียนวิชาอะไรคะ", "expected": "wb239"}
+{"kind": "spoken", "query": "เรียนวิชาอะไร", "expected": "wb239"}
+{"kind": "typed", "query": "สวัสดีตอนค่ำครับ", "expected": "wb240"}
+{"kind": "spoken", "query": "สวัสดีตอนค่ำ", "expected": "wb240"}
+{"kind": "typed", "query": "ชื่ออะไรค่ะ", "expected": "wb241"}
+{"kind": "spoken", "query": "ชื่อ อะไร", "expected": "wb241"}
+{"kind": "typed", "query": "เดินทางโดยสวัสดิภาพนะคะ", "expected": "wb243"}
+{"kind": "spoken", "query": "เดินทางโดยสวัสดิภาค", "expected": "wb243"}
+{"kind": "typed", "query": "เช่นกันคะ", "expected": "wb246"}
+{"kind": "spoken", "query": "เช่นกัน", "expected": "wb246"}
+{"kind": "typed", "query": "ไม่เป็นไรครับ", "expected": "wb246"}
+{"kind": "spoken", "query": "ไม่เป็นไร", "expected": "wb246"}
+{"kind": "typed", "query": "มาจากไหนครับ", "expected": "wb247"}
+{"kind": "spoken", "query": "มาจากไหน", "expected": "wb247"}
+{"kind": "typed", "query": "สุขสันต์วันรายอค่ะ", "expected": "wb248"}
+{"kind": "spoken", "query": "สุขสันต์วันระย่อ", "expected": "wb248"}
+{"kind": "typed", "query": "สบายดีหรือนะคะ", "expected": "wb249"}
+{"kind": "spoken", "query": "สบายดีหรือ", "expected": "wb249"}
+{"kind": "typed", "query": "กินข้าวหรือยังคะ", "expected": "wb250"}
+{"kind": "spoken", "query": "กินข้าวหรือยัง", "expected": "wb250"}
+{"kind": "typed", "query": "ลาก่อนครับ", "expected": "wb251"}
+{"kind": "spoken", "query": "ลาก่อน", "expected": "wb251"}
+{"kind": "typed", "query": "โอกาสหน้าค่ะ", "expected": "wb254"}
+{"kind": "spoken", "query": "โอกาสหน้า", "expected": "wb254"}
+{"kind": "typed", "query": "ยินดีที่ได้พบกันนะคะ", "expected": "wb255"}
+{"kind": "spoken", "query": "ยินดีที่ได้พบกัน", "expected": "wb255"}
+{"kind": "typed", "query": "เรากินแล้วคะ", "expected": "wb256"}
+{"kind": "spoken", "query": "เรากินแล้ว", "expected": "wb256"}
+{"kind": "typed", "query": "แล้วเจอกันใหม่ครับ", "expected": "wb257"}
+{"kind": "spoken", "query": "แล้ว เจอกันใหม่", "expected": "wb257"}
+{"kind": "typed", "query": "คุณรู้สึกเป็นยังไงบ้างวันนี้ค่ะ", "expected": "wb004"}
+{"kind": "spoken", "query": "คุณรู้สึกเป็นยังไงบ้างวันนี้", "expected": "wb004"}
+{"kind": "typed", "query": "ปวดอะไรนะคะ", "expected": "wb005"}
+{"kind": "spoken", "query": "ปวดอะไร", "expected": "wb005"}
+{"kind": "typed", "query": "เจ็บอะไรคะ", "expected": "wb005"}
+{"kind": "spoken", "query": "เจ็บอะไร", "expected": "wb005"}
+{"kind": "typed", "query": "มีไข้ไหมคะ", "expected": "wb007"}
+{"kind": "reworded", "query": "มีไข้มั้ย", "expected": "wb007"}
+{"kind": "spoken", "query": "มีไข้ไหม", "expected": "wb007"}
+{"kind": "typed", "query": "เวียนหัวไหมครับ", "expected": "wb008"}
+{"kind": "reworded", "query": "เวียนหัวมั้ย", "expected": "wb008"}
+{"kind": "spoken", "query": "เวียนหัวไหม", "expected": "wb008"}
+{"kind": "typed", "query": "มึนหัวไหมค่ะ", "expected": "wb008"}
+{"kind": "reworded", "query": "มึนหัวมั้ย", "expected": "wb008"}
+{"kind": "spoken", "query": "มึนหัวไหม", "expected": "wb008"}
+{"kind": "typed", "query": "ปวดหลังค่ะ", "expected": "wb011"}
+{"kind": "spoken", "query": "ปวดหลัง", "expected": "wb011"}
+{"kind": "typed", "query": "แน่นหน้าอกนะคะ", "expected": "wb012"}
+{"kind": "spoken", "query": "แน่นหน้าอก", "expected": "wb012"}
+{"kind": "typed", "query": "เจ็บหน้าอกคะ", "expected": "wb012"}
+{"kind": "spoken", "query": "เจ็บหน้าอก", "expected": "wb012"}
+{"kind": "typed", "query": "คลื่นไส้คะ", "expected": "wb013a"}
+{"kind": "spoken", "query": "คลื่นไส้", "expected": "wb013a"}
+{"kind": "typed", "query": "อยากอาเจียนครับ", "expected": "wb013b"}
+{"kind": "spoken", "query": "อยากอาเจียน", "expected": "wb013b"}
+{"kind": "typed", "query": "เชิญนั่งค่ะ", "expected": "wb027"}
+{"kind": "reworded", "query": "ช่วยเชิญนั่งหน่อยครับ", "expected": "wb027"}
+{"kind": "reworded", "query": "กรุณาเชิญนั่งด้วยค่ะ", "expected": "wb027"}
+{"kind": "spoken", "query": "เชิญนั่ง", "expected": "wb027"}
+{"kind": "typed", "query": "หายใจเข้าลึกๆนะคะ", "expected": "wb029"}
+{"kind": "reworded", "query": "ช่วยหายใจเข้าลึกๆหน่อยครับ", "expected": "wb029"}
+{"kind": "reworded", "query": "กรุณาหายใจเข้าลึกๆด้วยค่ะ", "expected": "wb029"}
+{"kind": "spoken", "query": "หายใจเข้าลึก ๆ", "expected": "wb029"}
+{"kind": "typed", "query": "นอนลงตรงนี้คะ", "expected": "wb030"}
+{"kind": "reworded", "query": "ช่วยนอนลงตรงนี้หน่อยครับ", "expected": "wb030"}
+{"kind": "reworded", "query": "กรุณานอนลงตรงนี้ด้วยค่ะ", "expected": "wb030"}
+{"kind": "spoken", "query": "นอนลงตรงนี้", "expected": "wb030"}
+{"kind": "typed", "query": "คุณเป็นอะไรมาครับ", "expected": "wb031a"}
+{"kind": "spoken", "query": "คุณเป็นอะไรมา", "expected": "wb031a"}
+{"kind": "typed", "query": "ไม่สบายตรงไหนค่ะ", "expected": "wb031b"}
+{"kind": "spoken", "query": "ไม่สบายตรงไหน", "expected": "wb031b"}
+{"kind": "typed", "query": "มีไข้นะคะ", "expected": "wb036"}
+{"kind": "spoken", "query": "มีไข้", "expected": "wb036"}
+{"kind": "typed", "query": "เจ็บคอคะ", "expected": "wb038"}
+{"kind": "spoken", "query": "เจ็บขอ", "expected": "wb038"}
+{"kind": "typed", "query": "รู้สึกไม่สบายครับ", "expected": "wb040"}
+{"kind": "spoken", "query": "รู้สึกไม่สบาย", "expected": "wb040"}
+{"kind": "typed", "query": "ปวดฟันค่ะ", "expected": "wb041"}
+{"kind": "spoken", "query": "ปวดฟัน", "expected": "wb041"}
+{"kind": "typed", "query": "เป็นหวัดนะคะ", "expected": "wb042"}
+{"kind": "spoken", "query": "เป็นหวัด", "expected": "wb042"}
+{"kind": "typed", "query": "น้ำมูกไหลคะ", "expected": "wb042"}
+{"kind": "spoken", "query": "น้ำมูกไหล", "expected": "wb042"}
+{"kind": "typed", "query": "เวียนหัวคะ", "expected": "wb043"}
+{"kind": "spoken", "query": "เวียนหัว", "expected": "wb043"}
+{"kind": "typed", "query": "มึนหัวครับ", "expected": "wb043"}
+{"kind": "spoken", "query": "มึนหัว", "expected": "wb043"}
+{"kind": "typed", "query": "สวัสดีตอนบ่ายครับ", "expected": "wb045"}
+{"kind": "spoken", "query": "สวัสดีตอนบ่าย", "expected": "wb045"}
+{"kind": "typed", "query": "สวัสดีตอนกลางคืนค่ะ", "expected": "wb047"}
+{"kind": "spoken", "query": "สวัสดีตอนกลางคืน", "expected": "wb047"}
+{"kind": "typed", "query": "ราตรีสวัสดิ์นะคะ", "expected": "wb047"}
+{"kind": "spoken", "query": "ราตรีสวัสดิ์", "expected": "wb047"}
+{"kind": "typed", "query": "คุณสบายดีไหมนะคะ", "expected": "wb048"}
+{"kind": "reworded", "query": "คุณสบายดีมั้ย", "expected": "wb048"}
+{"kind": "spoken", "query": "คุณสบายดีไหม", "expected": "wb048"}
+{"kind": "typed", "query": "สบายดี ขอบคุณคะ", "expected": "wb049"}
+{"kind": "spoken", "query": "สบายดีขอบคุณ", "expected": "wb049"}
+{"kind": "typed", "query": "ขอบคุณครับ", "expected": "wb050"}
+{"kind": "spoken", "query": "ขอบคุณ", "expected": "wb050"}
+{"kind": "typed", "query": "ขอโทษค่ะ", "expected": "wb051"}
+{"kind": "spoken", "query": "ขอโทษ", "expected": "wb051"}
+{"kind": "typed", "query": "ยานะคะ", "expected": "wb053"}
+{"kind": "spoken", "query": "หญ้า", "expected": "wb053"}
+{"kind": "typed", "query": "ใบสั่งยาคะ", "expected": "wb054"}
+{"kind": "spoken", "query": "ใบสัญญา", "expected": "wb054"}
+{"kind": "typed", "query": "วันละครั้งครับ", "expected": "wb056"}
+{"kind": "spoken", "query": "วันละครั้ง", "expected": "wb056"}
+{"kind": "typed", "query": "วันละสามครั้งค่ะ", "expected": "wb057"}
+{"kind": "spoken", "query": "วันละสามครั้ง", "expected": "wb057"}
+{"kind": "typed", "query": "ก่อนอาหารนะคะ", "expected": "wb058"}
+{"kind": "spoken", "query": "ก่อนอาหาร", "expected": "wb058"}
+{"kind": "typed", "query": "หลังอาหารคะ", "expected": "wb059"}
+{"kind": "spoken", "query": "หลังอาหาร", "expected": "wb059"}
+{"kind": "typed", "query": "เชิญรับยาที่นี่ครับ", "expected": "wb060"}
+{"kind": "reworded", "query": "ช่วยเชิญรับยาที่นี่หน่อยครับ", "expected": "wb060"}
+{"kind": "reworded", "query": "กรุณาเชิญรับยาที่นี่ด้วยค่ะ", "expected": "wb060"}
+{"kind": "spoken", "query": "เชิญรับอย่าที่นี่", "expected": "wb060"}
+{"kind": "typed", "query": "นี่คือยาของคุณค่ะ", "expected": "wb061"}
+{"kind": "reworded", "query": "ช่วยนี่คือยาของคุณหน่อยครับ", "expected": "wb061"}
+{"kind": "reworded", "query": "กรุณานี่คือยาของคุณด้วยค่ะ", "expected": "wb061"}
+{"kind": "spoken", "query": "นี่คือยาของคุณ", "expected": "wb061"}
+{"kind": "typed", "query": "ทานยานี้หลังอาหารนะคะ", "expected": "wb062"}
+{"kind": "reworded", "query": "ช่วยทานยานี้หลังอาหารหน่อยครับ", "expected": "wb062"}
+{"kind": "reworded", "query": "กรุณาทานยานี้หลังอาหารด้วยค่ะ", "expected": "wb062"}
+{"kind": "spoken", "query": "ทานยานี้หลังอาหาร", "expected": "wb062"}
+{"kind": "typed", "query": "ทานยานี้วันละ 3 ครั้ง เช้า กลางวัน เย็นคะ", "expected": "wb063"}
+{"kind": "reworded", "query": "ช่วยทานยานี้วันละ 3 ครั้ง เช้า กลางวัน เย็นหน่อยครับ", "expected": "wb063"}
+{"kind": "reworded", "query": "กรุณาทานยานี้วันละ 3 ครั้ง เช้า กลางวัน เย็นด้วยค่ะ", "expected": "wb063"}
+{"kind": "spoken", "query": "ทานยานนี้วันละสามครั้ง เช้ากลางวันเย็น", "expected": "wb063"}
+{"kind": "typed", "query": "มีข้อสงสัยเรื่องการใช้ยาไหมครับ", "expected": "wb064"}
+{"kind": "reworded", "query": "มีข้อสงสัยเรื่องการใช้ยามั้ย", "expected": "wb064"}
+{"kind": "reworded", "query": "ช่วยมีข้อสงสัยเรื่องการใช้ยาไหมหน่อยครับ", "expected": "wb064"}
+{"kind": "reworded", "query": "กรุณามีข้อสงสัยเรื่องการใช้ยาไหมด้วยค่ะ", "expected": "wb064"}
+{"kind": "spoken", "query": "มีข้อสงสัยเรื่องการใช้ยาไหม", "expected": "wb064"}
+{"kind": "typed", "query": "โปรดนั่งลงก่อนค่ะ", "expected": "wb066"}
+{"kind": "reworded", "query": "ช่วยโปรดนั่งลงก่อนหน่อยครับ", "expected": "wb066"}
+{"kind": "reworded", "query": "กรุณาโปรดนั่งลงก่อนด้วยค่ะ", "expected": "wb066"}
+{"kind": "spoken", "query": "โปรดนั่งลงก่อน", "expected": "wb066"}
+{"kind": "typed", "query": "ยื่นแขนขวามานะคะ", "expected": "wb067a"}
+{"kind": "reworded", "query": "ช่วยยื่นแขนขวามาหน่อยครับ", "expected": "wb067a"}
+{"kind": "reworded", "query": "กรุณายื่นแขนขวามาด้วยค่ะ", "expected": "wb067a"}
+{"kind": "spoken", "query": "ยื่นแขนขวามา", "expected": "wb067a"}
+{"kind": "typed", "query": "ยื่นแขนซ้ายมาคะ", "expected": "wb067b"}
+{"kind": "reworded", "query": "ช่วยยื่นแขนซ้ายมาหน่อยครับ", "expected": "wb067b"}
+{"kind": "reworded", "query": "กรุณายื่นแขนซ้ายมาด้วยค่ะ", "expected": "wb067b"}
+{"kind": "spoken", "query": "ยื่นแขนซ้ายหมา", "expected": "wb067b"}
+{"kind": "typed", "query": "กำมือครับ", "expected": "wb068"}
+{"kind": "reworded", "query": "ช่วยกำมือหน่อยครับ", "expected": "wb068"}
+{"kind": "reworded", "query": "กรุณากำมือด้วยค่ะ", "expected": "wb068"}
+{"kind": "spoken", "query": "ก้ามมืด", "expected": "wb068"}
+{"kind": "typed", "query": "คลายมือได้ค่ะ", "expected": "wb069"}
+{"kind": "reworded", "query": "ช่วยคลายมือได้หน่อยครับ", "expected": "wb069"}
+{"kind": "reworded", "query": "กรุณาคลายมือได้ด้วยค่ะ", "expected": "wb069"}
+{"kind": "spoken", "query": "คล้ายมือได้", "expected": "wb069"}
+{"kind": "typed", "query": "เจ็บนิดเดียวนะนะคะ", "expected": "wb070"}
+{"kind": "reworded", "query": "ช่วยเจ็บนิดเดียวนะหน่อยครับ", "expected": "wb070"}
+{"kind": "reworded", "query": "กรุณาเจ็บนิดเดียวนะด้วยค่ะ", "expected": "wb070"}
+{"kind": "spoken", "query": "เจ็ดนิดเดี่ยวนัด", "expected": "wb070"}
+{"kind": "typed", "query": "เสร็จแล้วคะ", "expected": "wb071"}
+{"kind": "reworded", "query": "ช่วยเสร็จแล้วหน่อยครับ", "expected": "wb071"}
+{"kind": "reworded", "query": "กรุณาเสร็จแล้วด้วยค่ะ", "expected": "wb071"}
+{"kind": "spoken", "query": "เสร็จแล้ว", "expected": "wb071"}
+{"kind": "typed", "query": "กดแผลตรงนี้ไว้สักครู่ครับ", "expected": "wb072"}
+{"kind": "reworded", "query": "ช่วยกดแผลตรงนี้ไว้สักครู่หน่อยครับ", "expected": "wb072"}
+{"kind": "reworded", "query": "กรุณากดแผลตรงนี้ไว้สักครู่ด้วยค่ะ", "expected": "wb072"}
+{"kind": "spoken", "query": "กดแผลตรงนี้ไว้สักครู่", "expected": "wb072"}
+{"kind": "typed", "query": "เลือดค่ะ", "expected": "wb073"}
+{"kind": "spoken", "query": "เลือด", "expected": "wb073"}
+{"kind": "typed", "query": "ปัสสาวะนะคะ", "expected": "wb074"}
+{"kind": "spoken", "query": "ปัสสาวัตต์", "expected": "wb074"}
+{"kind": "typed", "query": "หลอดเก็บเลือดคะ", "expected": "wb075"}
+{"kind": "spoken", "query": "หลอดเก็บเลือด", "expected": "wb075"}
+{"kind": "typed", "query": "เข็มฉีดยาครับ", "expected": "wb076"}
+{"kind": "spoken", "query": "เข็มฉีดยา", "expected": "wb076"}
+{"kind": "typed", "query": "สำลีค่ะ", "expected": "wb077"}
+{"kind": "spoken", "query": "สำลีก", "expected": "wb077"}
+{"kind": "typed", "query": "แอลกอฮอล์นะคะ", "expected": "wb078"}
+{"kind": "spoken", "query": "แอลกอฮอล์", "expected": "wb078"}
+{"kind": "typed", "query": "ศีรษะคะ", "expected": "wb079"}
+{"kind": "spoken", "query": "ศรีสะกัดการถุงรัติ ศรีสะกัดการ", "expected": "wb079"}
+{"kind": "typed", "query": "ผมครับ", "expected": "wb080"}
+{"kind": "spoken", "query": "ผม", "expected": "wb080"}
+{"kind": "typed", "query": "ใบหน้าค่ะ", "expected": "wb081"}
+{"kind": "spoken", "query": "ใบหน้า", "expected": "wb081"}
+{"kind": "typed", "query": "หน้าผากนะคะ", "expected": "wb082"}
+{"kind": "spoken", "query": "หน้าผาก", "expected": "wb082"}
+{"kind": "typed", "query": "คิ้วคะ", "expected": "wb083"}
+{"kind": "spoken", "query": "คิ้ว", "expected": "wb083"}
+{"kind": "typed", "query": "ตาครับ", "expected": "wb084"}
+{"kind": "spoken", "query": "ต้า", "expected": "wb084"}
+{"kind": "typed", "query": "ขนตาค่ะ", "expected": "wb085"}
+{"kind": "spoken", "query": "ขนตา", "expected": "wb085"}
+{"kind": "typed", "query": "หูนะคะ", "expected": "wb086"}
+{"kind": "spoken", "query": "หู", "expected": "wb086"}
+{"kind": "typed", "query": "จมูกคะ", "expected": "wb087"}
+{"kind": "spoken", "query": "จมูก", "expected": "wb087"}
+{"kind": "typed", "query": "ปากครับ", "expected": "wb088"}
+{"kind": "spoken", "query": "ปาก", "expected": "wb088"}
+{"kind": "typed", "query": "ลิ้นค่ะ", "expected": "wb090"}
+{"kind": "spoken", "query": "ลิ้น", "expected": "wb090"}
+{"kind": "typed", "query": "คางนะคะ", "expected": "wb091"}
+{"kind": "spoken", "query": "ข้าง", "expected": "wb091"}
+{"kind": "typed", "query": "คอคะ", "expected": "wb092"}
+{"kind": "spoken", "query": "ขอ", "expected": "wb092"}
+{"kind": "typed", "query": "ไหล่ครับ", "expected": "wb093"}
+{"kind": "spoken", "query": "ไหล่", "expected": "wb093"}
+{"kind": "typed", "query": "หน้าอกค่ะ", "expected": "wb094"}
+{"kind": "spoken", "query": "หน้าอก", "expected": "wb094"}
+{"kind": "typed", "query": "หลังนะคะ", "expected": "wb095"}
+{"kind": "spoken", "query": "หลัง", "expected": "wb095"}
+{"kind": "typed", "query": "ท้องคะ", "expected": "wb096"}
+{"kind": "spoken", "query": "ถอง", "expected": "wb096"}
+{"kind": "typed", "query": "หน้าท้องครับ", "expected": "wb096"}
+{"kind": "spoken", "query": "หน้าท้อง", "expected": "wb096"}
+{"kind": "typed", "query": "เอวครับ", "expected": "wb097"}
+{"kind": "spoken", "query": "เกล ล์ ล์ ล์", "expected": "wb097"}
+{"kind": "typed", "query": "สะโพกค่ะ", "expected": "wb098"}
+{"kind": "spoken", "query": "สะพวก", "expected": "wb098"}
+{"kind": "typed", "query": "แขนนะคะ", "expected": "wb099"}
+{"kind": "spoken", "query": "แขน", "expected": "wb099"}
+{"kind": "typed", "query": "ข้อศอกคะ", "expected": "wb100"}
+{"kind": "spoken", "query": "ข้อโศก", "expected": "wb100"}
+{"kind": "typed", "query": "มือครับ", "expected": "wb101"}
+{"kind": "spoken", "query": "มืด", "expected": "wb101"}
+{"kind": "typed", "query": "ข้อมือค่ะ", "expected": "wb102"}
+{"kind": "spoken", "query": "ข้อมือ", "expected": "wb102"}
+{"kind": "typed", "query": "นิ้วมือนะคะ", "expected": "wb103"}
+{"kind": "spoken", "query": "นิ้วมือ", "expected": "wb103"}
+{"kind": "typed", "query": "นิ้วโป้งคะ", "expected": "wb104"}
+{"kind": "spoken", "query": "นิ้วโป้ง", "expected": "wb104"}
+{"kind": "typed", "query": "เล็บมือครับ", "expected": "wb105"}
+{"kind": "spoken", "query": "เล็บมือ", "expected": "wb105"}
+{"kind": "typed", "query": "ขาค่ะ", "expected": "wb106"}
+{"kind": "spoken", "query": "ขา", "expected": "wb106"}
+{"kind": "typed", "query": "เท้านะคะ", "expected": "wb106"}
+{"kind": "spoken", "query": "เท้า", "expected": "wb106"}
+{"kind": "typed", "query": "เข่านะคะ", "expected": "wb107"}
+{"kind": "spoken", "query": "เข้า", "expected": "wb107"}
+{"kind": "typed", "query": "ข้อเท้าคะ", "expected": "wb109"}
+{"kind": "spoken", "query": "ข้อเท้า", "expected": "wb109"}
+{"kind": "typed", "query": "นิ้วเท้าครับ", "expected": "wb110"}
+{"kind": "spoken", "query": "นิ้วเท้า", "expected": "wb110"}
+{"kind": "typed", "query": "หัวใจค่ะ", "expected": "wb111"}
+{"kind": "spoken", "query": "หัวใจ", "expected": "wb111"}
+{"kind": "typed", "query": "ตับนะคะ", "expected": "wb112"}
+{"kind": "spoken", "query": "ตัด", "expected": "wb112"}
+{"kind": "typed", "query": "ปอดคะ", "expected": "wb113"}
+{"kind": "spoken", "query": "ปอด", "expected": "wb113"}
+{"kind": "typed", "query": "ไตครับ", "expected": "wb114"}
+{"kind": "spoken", "query": "ไต่", "expected": "wb114"}
+{"kind": "typed", "query": "กระเพาะอาหารค่ะ", "expected": "wb115"}
+{"kind": "spoken", "query": "กระเพาะอาหาร", "expected": "wb115"}
+{"kind": "typed", "query": "ลำไส้นะคะ", "expected": "wb116"}
+{"kind": "spoken", "query": "ลำไส้", "expected": "wb116"}
+{"kind": "typed", "query": "กระเพาะปัสสาวะคะ", "expected": "wb117"}
+{"kind": "spoken", "query": "กระเพาะปัสสาวัติ", "expected": "wb117"}
+{"kind": "typed", "query": "กระดูกครับ", "expected": "wb119"}
+{"kind": "spoken", "query": "กระดุก", "expected": "wb119"}
+{"kind": "typed", "query": "ซี่โครงค่ะ", "expected": "wb120"}
+{"kind": "spoken", "query": "ซี่โครง", "expected": "wb120"}
+{"kind": "typed", "query": "กล้ามเนื้อนะคะ", "expected": "wb121"}
+{"kind": "spoken", "query": "กล้ามเนื้อ", "expected": "wb121"}
+{"kind": "typed", "query": "ผิวหนังคะ", "expected": "wb122"}
+{"kind": "spoken", "query": "ผิวหนัง", "expected": "wb122"}
+{"kind": "typed", "query": "เส้นประสาทครับ", "expected": "wb123"}
+{"kind": "spoken", "query": "สิ้นประสาท", "expected": "wb123"}
+{"kind": "typed", "query": "วันจันทร์ค่ะ", "expected": "wb195"}
+{"kind": "spoken", "query": "วันจันทร์", "expected": "wb195"}
+{"kind": "typed", "query": "วันอังคารนะคะ", "expected": "wb196"}
+{"kind": "spoken", "query": "วันอังคาร", "expected": "wb196"}
+{"kind": "typed", "query": "วันพฤหัสบดีคะ", "expected": "wb198"}
+{"kind": "spoken", "query": "วันพฤหัสบดี", "expected": "wb198"}
+{"kind": "typed", "query": "วันศุกร์ครับ", "expected": "wb199"}
+{"kind": "spoken", "query": "วันศุกร์", "expected": "wb199"}
+{"kind": "typed", "query": "วันเสาร์ค่ะ", "expected": "wb200"}
+{"kind": "spoken", "query": "วันเสาร์", "expected": "wb200"}
+{"kind": "typed", "query": "วันอาทิตย์นะคะ", "expected": "wb201"}
+{"kind": "spoken", "query": "วันอาทิตย์", "expected": "wb201"}
+{"kind": "typed", "query": "ก้ะเป็นอะไรมาคะ", "expected": "iv11-003"}
+{"kind": "spoken", "query": "ก็เป็นอะไรมา", "expected": "iv11-003"}
+{"kind": "typed", "query": "ก็คือบวมนี่เลยใช่มั้ยคะครับ", "expected": "iv11-005"}
+{"kind": "spoken", "query": "ก็คือบวมนี่เลยใช่ไหมครับ", "expected": "iv11-005"}
+{"kind": "typed", "query": "มาอยู่โรงพยาบาลกี่วันแล้วคะค่ะ", "expected": "iv11-007"}
+{"kind": "spoken", "query": "มาอยู่โรงพยาบาลกี่วันแล้วครับ", "expected": "iv11-007"}
+{"kind": "typed", "query": "แล้วตอนที่เป็นนี่มีปวดหัวมั้ยนะคะ", "expected": "iv11-011"}
+{"kind": "spoken", "query": "แล้วตอนที่เป็นหนี้มีปวดหัวไหม", "expected": "iv11-011"}
+{"kind": "typed", "query": "รู้สึกมีอาการปวดท้องมั้ย ไม่มีเนอะคะ", "expected": "iv11-013"}
+{"kind": "spoken", "query": "รู้สึกมีอาการปวดท้องไหม ไม่มีเนื้อ", "expected": "iv11-013"}
+{"kind": "typed", "query": "แล้วถ้าความดันสูงไม่ได้ปวดหัวใช่มั้ยคะครับ", "expected": "iv11-017"}
+{"kind": "spoken", "query": "แล้วถ้าความดันสูงไม่ได้ปวดหัวใช่ไหมคะ", "expected": "iv11-017"}
+{"kind": "typed", "query": "แล้วตอนนี้มีรู้สึกเจ็บตรงไหนมั้ยคะค่ะ", "expected": "iv11-019"}
+{"kind": "spoken", "query": "แล้วตอนนี้มีรู้สึกเจ็บตรงไหนไม่คัก", "expected": "iv11-019"}
+{"kind": "typed", "query": "ขาบวมอย่างเดียว ไม่มีรู้สึกเจ็บตรงไหนใช่มั้ยคะนะคะ", "expected": "iv11-021"}
+{"kind": "spoken", "query": "ขาบ้มอย่างเดียว ไม่มีรู้สึกเจ็บตรงไหนใช่ไหมคะ", "expected": "iv11-021"}
+{"kind": "typed", "query": "แล้วก็คือไม่ได้รู้สึกว่าเวียนหัวแบบนี้ใช่มั้นคะ ไม่มีเนอะคะ", "expected": "iv11-023"}
+{"kind": "spoken", "query": "แล้วก็คือไม่ได้รู้สึกว่าเวียนหัวแบบนี้ใช่มั้นเขาไม่มีเนิร์ด", "expected": "iv11-023"}
+{"kind": "typed", "query": "แล้วก็มีรู้สึกก่อนจะมาโรงพยาบาลนี่มีไข้ เป็นไข้มั้ยครับ", "expected": "iv11-025"}
+{"kind": "spoken", "query": "แล้วก็มีรู้สึกก่อนจะมาโรงพยาบาล นี่มีไข้เป็นไข้ไหม", "expected": "iv11-025"}
+{"kind": "typed", "query": "ก็คือไม่ได้มีไข้อะไรใช่มั้ยคะ แต่หมอให้นอน เพราะบวมเนอะค่ะ", "expected": "iv11-029"}
+{"kind": "spoken", "query": "ก็คือไม่ได้มีไข้อะไรใช่ไหมคะแต่หมอให้นอนเพราะบ่วมเนื้อ", "expected": "iv11-029"}
+{"kind": "typed", "query": "แล้วไอๆแบบนี้ล่ะคะนะคะ", "expected": "iv11-031"}
+{"kind": "spoken", "query": "แล้วไอไอแบบนี้แหละคะ", "expected": "iv11-031"}
+{"kind": "typed", "query": "หายใจก็โอเคดีนะคะ ไม่มีติดขัดอะไรนะคะคะ", "expected": "iv11-033"}
+{"kind": "spoken", "query": "หายใจก็โอเคดีนะครับ ไม่มีติดขัดอะไรนะครับ", "expected": "iv11-033"}
+{"kind": "typed", "query": "ข้างเดียวหรอคะครับ", "expected": "iv11-044"}
+{"kind": "spoken", "query": "ข้างเดียวหรอครับ", "expected": "iv11-044"}
+{"kind": "typed", "query": "เมื่อวานบวมกว่านี้มั้ยค่ะ", "expected": "iv11-046"}
+{"kind": "spoken", "query": "เมื่อวานบวมกว่านี้ไหม", "expected": "iv11-046"}
+{"kind": "typed", "query": "เจ็บคออะไรคือไม่มีใช่มั้ยคะนะคะ", "expected": "iv11-048"}
+{"kind": "spoken", "query": "เจ็บข้ออะไรคือไม่มีใช่ไหมครับ", "expected": "iv11-048"}
+{"kind": "typed", "query": "แล้วยา ถ้าหมอให้ มีแพ้มั้ยคะ", "expected": "iv11-055"}
+{"kind": "spoken", "query": "แล้ว ยาท่าหมอให้มีแพ้ไหม", "expected": "iv11-055"}
+{"kind": "typed", "query": "ก็คือหมอนัดตลอดเลยใช่มั้ยคะครับ", "expected": "iv11-059"}
+{"kind": "spoken", "query": "ก็คือหมอนัดตลอดเลยใช่ไหมคะ", "expected": "iv11-059"}
+{"kind": "typed", "query": "บางทีถ้าหมอนัดแล้วให้นอนโรงพยาบาล นอนใช่มั้ยคะ เพราะหมอจะดูอาการเราใช่มั้ยคะค่ะ", "expected": "iv11-061"}
+{"kind": "spoken", "query": "บางทีถ้าหมอนัดแล้ว ให้นอนโรงพยาบาลนอน ใช่ไหมครับ เพราะหมอจะดูอาการเราใช่ไหมครับ", "expected": "iv11-061"}
+{"kind": "typed", "query": "แล้วตั้งแต่ที่หมอนัด สองสามครั้งที่ผ่านมา ต้องนอนโรงพยาบาลตลอดเลยหรอคะนะคะ", "expected": "iv11-063"}
+{"kind": "spoken", "query": "แล้วตั้งแต่ที่เหมาะนัดสองสามครั้งที่ผ่านมา ต้องนอนโรงพยาบาลตลอดเลยหรอกครับ", "expected": "iv11-063"}
+{"kind": "typed", "query": "แล้วก็จะขออนุญาตถาม ชื่อก้ะ ชื่ออะไรคะคะ", "expected": "iv12-068"}
+{"kind": "spoken", "query": "แล้วก็จะขออนุญาตถามชื่อก็ชื่ออะไรคะ", "expected": "iv12-068"}
+{"kind": "typed", "query": "ก้ะอายุเท่าไหร่แล้วคะปัจจุบันครับ", "expected": "iv12-070"}
+{"kind": "spoken", "query": "กล้าอายุเท่าไหร่แล้วครับปัจจุบัน", "expected": "iv12-070"}
+{"kind": "typed", "query": "แล้วบ้านอยู่ที่ไหนคะค่ะ", "expected": "iv12-072"}
+{"kind": "spoken", "query": "แล้วบ้านอยู่ที่ไหนครัก", "expected": "iv12-072"}
+{"kind": "typed", "query": "เคยมาแล้วนะคะโรงพยาบาล ตลอดแล้วเนอะนะคะ", "expected": "iv12-074"}
+{"kind": "spoken", "query": "เคยมาแล้วนักข้าโรงพยาบาลตลอดแล้วเนิร์ก", "expected": "iv12-074"}
+{"kind": "typed", "query": "ในบ้านมีใครสูบบุหรี่แบบนี้มั้ยคะคะ", "expected": "iv12-076"}
+{"kind": "spoken", "query": "ในบ้านมีใครสูบบุหรี่แบบนี้ไหมคะ", "expected": "iv12-076"}
+{"kind": "typed", "query": "แล้วใครครับ", "expected": "iv12-078"}
+{"kind": "spoken", "query": "แล้วไข่", "expected": "iv12-078"}
+{"kind": "typed", "query": "แต่ไม่ได้ดื่ม ใช่มั้ยคะค่ะ", "expected": "iv12-080"}
+{"kind": "spoken", "query": "แต่ไม่ได้ดื่มใช่ไหมครับ", "expected": "iv12-080"}
+{"kind": "typed", "query": "แล้วในบ้านมีคนเป็นโรคนี้มั้ยนะคะ", "expected": "iv12-082"}
+{"kind": "spoken", "query": "แล้วในบ้านมีคนเป็นโรคนี้ไหม", "expected": "iv12-082"}
+{"kind": "typed", "query": "แล้วหลังจากนี้หมอนัดอีกหรือค่อยนัดหลังจากก้ะออกจากโรงพยาบาลคะ", "expected": "iv12-085"}
+{"kind": "spoken", "query": "แล้วหลังจากนี้หมอนัดอีกหรือค่อยนัด หลังจากก็ออกจากโรงพยาบาล", "expected": "iv12-085"}
+{"kind": "typed", "query": "แล้วก้ะ ถ้าหมอไม่ได้นัดหรืออะไรงี้ครับ", "expected": "iv12-087"}
+{"kind": "spoken", "query": "แล้วก็ถ้าหมอไม่ได้นัดหรืออะไรนี้", "expected": "iv12-087"}
+{"kind": "typed", "query": "แล้วถ้าสมมุติว่าก่อนที่หมอจะนัดแบบนี้ถ้ามีฮาการเจ็บ มาโรงพยาบาลมั้ย มาเลยเนอะค่ะ", "expected": "iv12-089"}
+{"kind": "spoken", "query": "แล้วถ้าสมมุติว่าก่อนที่หมอจะนัดแบบนี้ ถ้ามีอาการเจ็บมาโรงพยาบาลไม่มาเลยเนอะ", "expected": "iv12-089"}
+{"kind": "typed", "query": "มาได้ทุกเวลาเนอะนะคะ", "expected": "iv12-091"}
+{"kind": "spoken", "query": "มาได้ทุกเวลาเนอะ", "expected": "iv12-091"}
+{"kind": "typed", "query": "แล้วนี่ไม่ได้หยุดยาเองทีใช่มั้ยคะคะ", "expected": "iv12-093"}
+{"kind": "spoken", "query": "แล้วนี่ไม่ได้หยุดยาเองทีใช่ไหมคะ", "expected": "iv12-093"}
+{"kind": "typed", "query": "เมาะเป็นอะไรมาคะครับ", "expected": "iv21-003"}
+{"kind": "spoken", "query": "ม็อคเป็นอะไรมะคะ", "expected": "iv21-003"}
+{"kind": "typed", "query": "แล้วตอนที่เมาะมา มีปวดหัวบ้างมั้ย ตอนนี้ล่ะมีมั้ยค่ะ", "expected": "iv21-005"}
+{"kind": "spoken", "query": "แล้วตอนที่ม็อบมันมีปวดหัวบ้างไหม ตอนนี้แหละมีไหม", "expected": "iv21-005"}
+{"kind": "typed", "query": "ไม่มีปวดหัวเนอะนะคะ", "expected": "iv21-007"}
+{"kind": "spoken", "query": "ไม่มีปวดหัวเนิด", "expected": "iv21-007"}
+{"kind": "typed", "query": "แล้วก็มีปวดท้องมั้ยคะ", "expected": "iv21-008"}
+{"kind": "spoken", "query": "แล้วก็มีปวดท้องไหม", "expected": "iv21-008"}
+{"kind": "typed", "query": "รู้สึกปวดท้องเนอะครับ", "expected": "iv21-010"}
+{"kind": "spoken", "query": "รู้สึกปวดท้องเนิ้น", "expected": "iv21-010"}
+{"kind": "typed", "query": "รู้สึกเจ็บฝั่งไหน ด้านบนหรือค่ะ", "expected": "iv21-011"}
+{"kind": "spoken", "query": "รู้สึกเจ็บฝั่งไหนด้านบนหรือ", "expected": "iv21-011"}
+{"kind": "typed", "query": "รู้สึกเจ็บใช่มั้ยนะคะ", "expected": "iv21-015"}
+{"kind": "spoken", "query": "รู้สึกเจ็บใช่ไหม", "expected": "iv21-015"}
+{"kind": "typed", "query": "แล้วมีไข้งี้มั้ยคะคะ", "expected": "iv21-017"}
+{"kind": "spoken", "query": "แล้วมีแค่งี้มั้ยคะ", "expected": "iv21-017"}
+{"kind": "typed", "query": "ไม่มีไข้เนอะครับ", "expected": "iv21-019"}
+{"kind": "spoken", "query": "ไม่มีใครเนอะ", "expected": "iv21-019"}
+{"kind": "typed", "query": "แล้วเมาะมีไอแบบนี้มั้ยคะค่ะ", "expected": "iv21-020"}
+{"kind": "spoken", "query": "แล้วม็อบมีไอแบบนี้มั้ยครับ", "expected": "iv21-020"}
+{"kind": "typed", "query": "แล้วรู้สึกอยากอ้วกแบบนี้มั้ยคะนะคะ", "expected": "iv21-030"}
+{"kind": "spoken", "query": "แล้วรู้สึกอยากอ้วบแบบนี้ไหมครับ", "expected": "iv21-030"}
+{"kind": "typed", "query": "คลื่นไส้ไม่มีเนอะคะ", "expected": "iv21-032"}
+{"kind": "spoken", "query": "คลื่นไส้ไม่มีเนิร์ด", "expected": "iv21-032"}
+{"kind": "typed", "query": "แล้วเมาะมีแบบปวดท้องจะถ่ายหนักแบบนี้มั้ยคะครับ", "expected": "iv21-034"}
+{"kind": "spoken", "query": "แล้วเมาะมีแบบปวดท้องจะถ่ายหนักแบบนี้ไหมครับ", "expected": "iv21-034"}
+{"kind": "typed", "query": "แล้วเมาะรู้สึกเจ็บคอแบบนี้ทีมั้ยคะค่ะ", "expected": "iv21-039"}
+{"kind": "spoken", "query": "แล้วม็อครู้สึกเจ็บคอแบบนี้ทีมั้ยคะ", "expected": "iv21-039"}
+{"kind": "typed", "query": "แล้วรู้สึกมีแบบสั่นแบบนี้มั้ยนะคะ", "expected": "iv21-042"}
+{"kind": "spoken", "query": "แล้วรู้สึกมีแบบสั่นแบบนี้ไหม", "expected": "iv21-042"}
+{"kind": "typed", "query": "หนาวสั่นมีมั้ยเมาะคะ", "expected": "iv21-044"}
+{"kind": "spoken", "query": "หนาวสั่นมีไม้ม็อก", "expected": "iv21-044"}
+{"kind": "typed", "query": "แล้วเมาะมีเลือดออกตรงไหนมั้ยคะครับ", "expected": "iv21-047"}
+{"kind": "spoken", "query": "แล้วม็อบมีเลือดออกตรงไหนมั้ยคะ", "expected": "iv21-047"}
+{"kind": "typed", "query": "แล้วมีแบบเจ็บ ยิ่งเจ็บมั้ยคะเมาะค่ะ", "expected": "iv21-050"}
+{"kind": "spoken", "query": "แล้วมีแบบเจ็ดยิ่งเจ็ดไมคม", "expected": "iv21-050"}
+{"kind": "typed", "query": "รู้สึกเจ็บยิ่งขึ้นหรือนะคะ", "expected": "iv21-052"}
+{"kind": "spoken", "query": "รู้สึกเจ็บยิ่งขึ้นหรือ", "expected": "iv21-052"}
+{"kind": "typed", "query": "เมาะเจ็บมานานแค่ไหนแล้วคะ", "expected": "iv21-054"}
+{"kind": "spoken", "query": "หมอเจ็บมานานแค่ไหนแล้ว", "expected": "iv21-054"}
+{"kind": "typed", "query": "แล้วเมาะได้มีโรคอะไรที่เกี่ยวกับหัวใจปอดแบบนี้มั้ยคะ ไม่มีเนอะครับ", "expected": "iv21-059"}
+{"kind": "spoken", "query": "แล้วมอสได้มีโรคอะไรที่เกี่ยวกับหัวใจ ปอดแบบนี้ไหม เค้าไม่มีเนอะ", "expected": "iv21-059"}
+{"kind": "typed", "query": "แล้วเจ็บหน้าอกแบบนี้มีมั้ยค่ะ", "expected": "iv21-061"}
+{"kind": "spoken", "query": "แล้วเจ็บหน้าอกแบบนี้มีไหม", "expected": "iv21-061"}
+{"kind": "typed", "query": "แล้วเมาะมีแพ้ยาอะไรมั้ยคะนะคะ", "expected": "iv21-065"}
+{"kind": "spoken", "query": "แล้วม็อบมีแพ้อย่าอะไรมั้ยคะ", "expected": "iv21-065"}
+{"kind": "typed", "query": "เมาะมีแพ้ยาตัวไหนมั้ยคะคะ", "expected": "iv21-070"}
+{"kind": "spoken", "query": "ม็อคมีแพ้ยาตัวไหนไหมคะ", "expected": "iv21-070"}
+{"kind": "typed", "query": "แล้วยาที่เมาะต้องกินนั้น กินทุกวันเนอะ ก็คือตามที่พยายาลเอามาให้ใช่มั้ยคะครับ", "expected": "iv21-075"}
+{"kind": "spoken", "query": "แล้วยาที่หม้อต้องกินนั้น กินทุกวันเนอะ ก็คือตามที่พยายามเอามาให้ใช่ไหมคะ", "expected": "iv21-075"}
+{"kind": "typed", "query": "ถ้าพยาบาลเอามาให้ เราก็ต้องกินเนอะค่ะ", "expected": "iv21-077"}
+{"kind": "spoken", "query": "ถ้าพยาบาลเอามาให้เราก็ต้องกินเนิน", "expected": "iv21-077"}
+{"kind": "typed", "query": "แล้วมีกินก่อนอาหาร หลังอาหารเนอะนะคะ", "expected": "iv21-079"}
+{"kind": "spoken", "query": "แล้วมีกินก่อนอาหารหลังอาหารนึก", "expected": "iv21-079"}
+{"kind": "typed", "query": "เมาะชื่ออะไรคะคะ", "expected": "iv21-084"}
+{"kind": "spoken", "query": "ม้อชื่ออะไรคะ", "expected": "iv21-084"}
+{"kind": "typed", "query": "แล้วเมาะอายุเท่าไหร่แล้วนิครับ", "expected": "iv21-091"}
+{"kind": "spoken", "query": "แล้วมอายุเท่าไหร่แล้วนี้", "expected": "iv21-091"}
+{"kind": "typed", "query": "บ้านอยู่ที่ไหนคะค่ะ", "expected": "iv21-096"}
+{"kind": "spoken", "query": "บ้านอยู่ที่ไหนครัก", "expected": "iv21-096"}
+{"kind": "typed", "query": "เมาะเคยมาอยู่โรงพยาบาลแบบนี้มั้ยนะคะ", "expected": "iv21-098"}
+{"kind": "spoken", "query": "ม็อคเคยมาอยู่โรงพยาบาลแบบนี้ไหม", "expected": "iv21-098"}
+{"kind": "typed", "query": "เมาะ ในบ้านมีคนสูบบุหรี่มั้ยคะคะ", "expected": "iv21-103"}
+{"kind": "spoken", "query": "มอสในบ้านมีคนสูบบุหรี่ไหมครับ", "expected": "iv21-103"}
+{"kind": "typed", "query": "แต่เราก็ไม่ได้สูบ แต่เราก็ได้สูดดมกลิ่นควันเข้าไปเนอะครับ", "expected": "iv21-106"}
+{"kind": "spoken", "query": "แต่เราก็ไม่ได้สูบ แต่เราก็ได้สูดดมกลิ่นควันเข้าไปเนอะ", "expected": "iv21-106"}
+{"kind": "typed", "query": "แต่คนในครอบครัวเรายังไม่มีใครเจ็บป่วยแบบเมาะอีกเนอะตอนนี้ค่ะ", "expected": "iv21-108"}
+{"kind": "spoken", "query": "แต่คนในครอบครัวเรายังไม่มีใครเจ็บป่วยแบบหม้ออีกเนอะตอนนี้", "expected": "iv21-108"}
+{"kind": "typed", "query": "แล้วเมาะต้องมาตามนัดหมอตลอดมั้ยนะคะ", "expected": "iv21-110"}
+{"kind": "spoken", "query": "แล้วมอดต้องมาตามนัดหมอตลอดไหม", "expected": "iv21-110"}
+{"kind": "typed", "query": "มา มาเหมือนกันเนอะคะ", "expected": "iv21-112"}
+{"kind": "spoken", "query": "มาม่าเหมือนกันเนอะ", "expected": "iv21-112"}
+{"kind": "typed", "query": "แล้วหมอมีนัดเราเหมือนกันมั้ยคะครับ", "expected": "iv21-113"}
+{"kind": "spoken", "query": "แล้วหมอมีนัดเราเหมือนกันไหมคะ", "expected": "iv21-113"}
+{"kind": "typed", "query": "แล้วเมาะไม่ได้มีการหยุดยาเองทีใช่มั้ยคะค่ะ", "expected": "iv21-118"}
+{"kind": "spoken", "query": "แล้วม็อคไม่ได้มีการหยุดยาเองทีใช่ไหมครับ", "expected": "iv21-118"}
+{"kind": "typed", "query": "กินตลอดเนอะนะคะ", "expected": "iv21-120"}
+{"kind": "spoken", "query": "กินตลอดนึก", "expected": "iv21-120"}
+{"kind": "typed", "query": "เมาะเป็นอะไรมาคะ ถึงมาที่โรงพยาบาลคะ", "expected": "iv31-002"}
+{"kind": "spoken", "query": "ม็อบเป็นอะไรมาคัดถึงมาที่โรงพยาบาล", "expected": "iv31-002"}
+{"kind": "typed", "query": "เมาะมีรู้สึกปวดหัวมั้ยคะครับ", "expected": "iv31-004"}
+{"kind": "spoken", "query": "ม็อคมีรู้สึกปวดหัวไหมคะ", "expected": "iv31-004"}
+{"kind": "typed", "query": "มีปวดท้องมั้ยคะค่ะ", "expected": "iv31-007"}
+{"kind": "spoken", "query": "มีปวดท้องไหมคะ", "expected": "iv31-007"}
+{"kind": "typed", "query": "แล้วไม่มีรู้สึกเวียนหัวเวียนหัวแบบนี้ ไม่มีเหมือนกันเนอะนะคะ", "expected": "iv31-012"}
+{"kind": "spoken", "query": "แล้วไม่มีรู้สึกเวียนหัวเวียนหัวแบบนี้ไม่มีเหมือนกันเนอะ", "expected": "iv31-012"}
+{"kind": "typed", "query": "มีไข้แบบนี้ มีมั้ยคะ", "expected": "iv31-014"}
+{"kind": "spoken", "query": "มีไข้แบบนี้มีไหม", "expected": "iv31-014"}
+{"kind": "typed", "query": "แล้วตอนที่เมาะมาที่นี่ เริ่มมีไข้หรือยังครับ", "expected": "iv31-017"}
+{"kind": "spoken", "query": "แล้วตอนที่ม็อบมาที่นี่เริ่มมีไข้หรือยัง", "expected": "iv31-017"}
+{"kind": "typed", "query": "วันนี้ไม่มีเนอะค่ะ", "expected": "iv31-019"}
+{"kind": "spoken", "query": "วันนี้ไม่มีเนิร์ด", "expected": "iv31-019"}
+{"kind": "typed", "query": "มาอยู่กี่วันแล้วคะนะคะ", "expected": "iv31-021"}
+{"kind": "spoken", "query": "มาอยู่กี่วันแล้วครับ", "expected": "iv31-021"}
+{"kind": "typed", "query": "อ๋อ 19วันแล้วคะ", "expected": "iv31-023"}
+{"kind": "spoken", "query": "อ๋อ สิบเก้า วันแล้ว", "expected": "iv31-023"}
+{"kind": "typed", "query": "แล้วมีแบบไอมีมั้ยคะครับ", "expected": "iv31-026"}
+{"kind": "spoken", "query": "แล้วมีแบบไอมีไหมคัก", "expected": "iv31-026"}
+{"kind": "typed", "query": "แต่ตอนนี้หายแล้วนิดนึงใช่ไหมมั้ยคะค่ะ", "expected": "iv31-029"}
+{"kind": "reworded", "query": "แต่ตอนนี้หายแล้วนิดนึงใช่มั้ยมั้ยคะ", "expected": "iv31-029"}
+{"kind": "spoken", "query": "แต่ตอนนี้หายแล้วนิดนึงใช่ไหมไหมคะ", "expected": "iv31-029"}
+{"kind": "typed", "query": "แล้วมีหายใจไม่สะดวกบ้างมั้ยคะนะคะ", "expected": "iv31-032"}
+{"kind": "spoken", "query": "แล้วมีหายใจไม่สะดวกบ้างมั้ยค่ะ", "expected": "iv31-032"}
+{"kind": "typed", "query": "ไม่มีเนอะคะ", "expected": "iv31-037"}
+{"kind": "spoken", "query": "ไม่มีเนิร์ด", "expected": "iv31-037"}
+{"kind": "typed", "query": "มีแบบปวดท้อง มีมั้ยคะครับ", "expected": "iv31-039"}
+{"kind": "spoken", "query": "มีแบบปวดท้องมีมั้ยครับ", "expected": "iv31-039"}
+{"kind": "typed", "query": "เจ็บคอมีมั้ยคะค่ะ", "expected": "iv31-043"}
+{"kind": "spoken", "query": "เจ็บข้อมีไหมครับ", "expected": "iv31-043"}
+{"kind": "typed", "query": "หนาวสั่นแบบนี้มีมั้ยคะนะคะ", "expected": "iv31-046"}
+{"kind": "spoken", "query": "เน้าวซันแบบนี้มีไหมครัก", "expected": "iv31-046"}
+{"kind": "typed", "query": "มีเลือดออกที่ไหนมั้ยในร่างกายของเราคะ", "expected": "iv31-049"}
+{"kind": "spoken", "query": "มีเลือดออกที่ไหนไหมในร่างกายของเรา", "expected": "iv31-049"}
+{"kind": "typed", "query": "แล้วที่เมเจ็บที่เป็นอยู่รู้สึกว่ายิ่งเจ็บมากยิ่งขึ้นมั้ยคะครับ", "expected": "iv31-052"}
+{"kind": "spoken", "query": "แล้วที่เมย์เจ็บที่เป็นอยู่รู้สึกว่ายิ่งเจ็บมากยิ่งขึ้นมั้ยค่ะ", "expected": "iv31-052"}
+{"kind": "typed", "query": "เมาะเป็นมานานแค่ไหนแล้วคะค่ะ", "expected": "iv31-055"}
+{"kind": "spoken", "query": "ม็อคเป็นมานานแค่ไหนแล้วคะ", "expected": "iv31-055"}
+{"kind": "typed", "query": "แล้วโรคไตแบบนี้ไม่มีเนอะนะคะ", "expected": "iv31-058"}
+{"kind": "spoken", "query": "แล้วโรคไตรแบบนี้ไม่มีเนิร์ก", "expected": "iv31-058"}
+{"kind": "typed", "query": "เมาะมีแพ้ยาอะไรมั้ยคะคะ", "expected": "iv31-062"}
+{"kind": "spoken", "query": "หม้อมีแพ้ยาอะไรมั้ยคะ", "expected": "iv31-062"}
+{"kind": "typed", "query": "แล้วมีกินยาที่พยาบาลเอามาให้เองอย่างเดียวเนอะครับ", "expected": "iv31-065"}
+{"kind": "spoken", "query": "แล้วมีกินยาที่พยาบาลเอามาให้เองอย่างเดียวเนอะค่ะ", "expected": "iv31-065"}
+{"kind": "typed", "query": "มีก่อนกินข้าวแล้วก็หลังกินข้าวเนอะค่ะ", "expected": "iv31-068"}
+{"kind": "spoken", "query": "มีก่อนกินข้าวแล้วก็หลังกินข้าวเนอะ", "expected": "iv31-068"}
+{"kind": "typed", "query": "แล้วคุณหมอมีการฉีดยาให้มั้ยคะนะคะ", "expected": "iv31-071"}
+{"kind": "spoken", "query": "แล้วคุณหมอมีการฉีดยาให้ไหมคะ", "expected": "iv31-071"}
+{"kind": "typed", "query": "เมาะเคยผ่าตัดมั้ยคะคะ", "expected": "iv31-074"}
+{"kind": "spoken", "query": "ม็อคเคยผ่าตัดไหมคะ", "expected": "iv31-074"}
+{"kind": "typed", "query": "ไม่เคยเนอะครับ", "expected": "iv31-076"}
+{"kind": "spoken", "query": "ไม่เคยนึก", "expected": "iv31-076"}
+{"kind": "typed", "query": "เพราะมีความดันมั้ยคะค่ะ", "expected": "iv31-078"}
+{"kind": "spoken", "query": "เพราะมีความดันไม้ทัก", "expected": "iv31-078"}
+{"kind": "typed", "query": "แต่เดี๋ยวนี้ลดลงแล้วเนอะนะคะ", "expected": "iv31-081"}
+{"kind": "spoken", "query": "แต่เดี๋ยวนี้ลดลงแล้วเนอะ", "expected": "iv31-081"}
+{"kind": "typed", "query": "เมาะขื่ออะไรคะคะ", "expected": "iv31-083"}
+{"kind": "spoken", "query": "ม็อคคืออะไรคะ", "expected": "iv31-083"}
+{"kind": "typed", "query": "อายุเท่าไหร่แล้วคะครับ", "expected": "iv31-086"}
+{"kind": "spoken", "query": "อายุเท่าไหร่แล้วคัก", "expected": "iv31-086"}
+{"kind": "typed", "query": "บ้านอยู่แถวไหนนะคะค่ะ", "expected": "iv31-088"}
+{"kind": "spoken", "query": "บ้านอยู่แถวไหนนะครับ", "expected": "iv31-088"}
+{"kind": "typed", "query": "แล้วเคยมาแล้วใช่ไหมที่โรงพยาบาลนินะคะ", "expected": "iv31-090"}
+{"kind": "reworded", "query": "แล้วเคยมาแล้วใช่มั้ยที่โรงพยาบาลนิ", "expected": "iv31-090"}
+{"kind": "spoken", "query": "แล้วเคยมาแล้วใช่ไหมที่โรงพยาบาลนี้", "expected": "iv31-090"}
+{"kind": "typed", "query": "แล้วในบ้านมีคนสูบบุหรี่แบบนี้มั้ยคะคะ", "expected": "iv31-093"}
+{"kind": "spoken", "query": "แล้วในบ้านมีคนสูบบุหรี่แบบนี้ไหมคะ", "expected": "iv31-093"}
+{"kind": "typed", "query": "แล้วยังไม่มีใครเจ็บหรือเป็นเหมือนเมาะอีกใช่ไหมคะในครอบครัวครับ", "expected": "iv31-095"}
+{"kind": "reworded", "query": "แล้วยังไม่มีใครเจ็บหรือเป็นเหมือนเมาะอีกใช่มั้ยคะในครอบครัว", "expected": "iv31-095"}
+{"kind": "spoken", "query": "แล้วยังไม่มีใครเจ็บหรือเป็นเหมือนหม้ออีกใช่ไหม แค่ในครอบครัว", "expected": "iv31-095"}
+{"kind": "typed", "query": "แล้วเมาะต้องมาตามที่หมอนัดตลอดหรือยังค่ะ", "expected": "iv31-098"}
+{"kind": "spoken", "query": "แล้วมอดต้องมาตามที่หมอหน้าตลอดหรือยัง", "expected": "iv31-098"}
+{"kind": "typed", "query": "แล้วยาไม่เคยกินใช่ไหมก่อนหน้านี้นะคะ", "expected": "iv31-108"}
+{"kind": "reworded", "query": "แล้วยาไม่เคยกินใช่มั้ยก่อนหน้านี้", "expected": "iv31-108"}
+{"kind": "spoken", "query": "แล้วยาไม่เคยกินใช่ไหมก่อนหน้านี้", "expected": "iv31-108"}
+{"kind": "absent", "query": "ห้องน้ำอยู่ทางไหน", "expected": null}
+{"kind": "absent spoken", "query": "ห้องน้ำอยู่ทางไหน", "expected": null}
+{"kind": "absent", "query": "ค่ารักษาทั้งหมดเท่าไหร่", "expected": null}
+{"kind": "absent spoken", "query": "ค่ารักษาทั้งหมดเท่าไหร่", "expected": null}
+{"kind": "absent", "query": "ต้องผ่าตัดพรุ่งนี้เช้า", "expected": null}
+{"kind": "absent spoken", "query": "ต้องผ่าตัดพรุ่งนี้เช้า", "expected": null}
+{"kind": "absent", "query": "ญาติเข้าเยี่ยมได้ตอนบ่าย", "expected": null}
+{"kind": "absent spoken", "query": "ญาติเข้าเยี่ยมได้ตอนบ่าย", "expected": null}
+{"kind": "absent", "query": "กรุณาลงชื่อตรงนี้", "expected": null}
+{"kind": "absent spoken", "query": "กรุณาลงชื่อตรงนี้", "expected": null}
+{"kind": "absent", "query": "ต้องเอกซเรย์ปอดก่อน", "expected": null}
+{"kind": "absent spoken", "query": "ต้องเอ็กซ์เรย์ปอดก่อน", "expected": null}
+{"kind": "absent", "query": "งดน้ำงดอาหารหลังเที่ยงคืน", "expected": null}
+{"kind": "absent spoken", "query": "งดน้ำงดอาหารหลังทิ่งคืน", "expected": null}
+{"kind": "absent", "query": "ขอดูบัตรประชาชนหน่อย", "expected": null}
+{"kind": "absent spoken", "query": "ขอดูบัตรประชาชนหน่อย", "expected": null}
+{"kind": "absent", "query": "วันนี้อากาศดีมาก", "expected": null}
+{"kind": "absent spoken", "query": "วันนี้อากาศดีมาก", "expected": null}
+{"kind": "absent", "query": "รถติดมากเลยวันนี้", "expected": null}
+{"kind": "absent spoken", "query": "รถติดมากเลยวันนี้", "expected": null}
+{"kind": "absent", "query": "เดี๋ยวจะวัดความดันให้", "expected": null}
+{"kind": "absent spoken", "query": "เดี๋ยวจะวัดความดันให้", "expected": null}
+{"kind": "absent", "query": "ถอดรองเท้าก่อนขึ้นเตียง", "expected": null}
+{"kind": "absent spoken", "query": "ถอดรองเท้าก่อนขึ้นเตียง", "expected": null}
+{"kind": "absent", "query": "ต้องใส่สายน้ำเกลือ", "expected": null}
+{"kind": "absent spoken", "query": "ต้องใส่สายน้ำเกลือ", "expected": null}
+{"kind": "absent", "query": "ผลตรวจเลือดปกติดี", "expected": null}
+{"kind": "absent spoken", "query": "ผลตรวจเลือดปกติดี", "expected": null}
+{"kind": "absent", "query": "ห้ามลุกจากเตียงเอง", "expected": null}
+{"kind": "absent spoken", "query": "ห้ามลุกจากเตียงเอง", "expected": null}
+{"kind": "absent", "query": "กดปุ่มนี้ถ้าต้องการความช่วยเหลือ", "expected": null}
+{"kind": "absent spoken", "query": "กดปุ่มนี้ถ้าต้องการความช่วยเหลือ", "expected": null}
+{"kind": "absent", "query": "ต้องตรวจคลื่นหัวใจ", "expected": null}
+{"kind": "absent spoken", "query": "ต้องตรวจเคลื่อนหัวใจ", "expected": null}
+{"kind": "absent", "query": "มีประกันสุขภาพไหม", "expected": null}
+{"kind": "absent spoken", "query": "มีประกันสุขภาพไหม", "expected": null}
+{"kind": "absent", "query": "โทรศัพท์ของคุณดังอยู่", "expected": null}
+{"kind": "absent spoken", "query": "โทรศัพท์ของคุณดังอยู่", "expected": null}
+{"kind": "absent", "query": "พรุ่งนี้กลับบ้านได้แล้ว", "expected": null}
+{"kind": "absent spoken", "query": "พรุ่งนี้กลับบ้านได้แล้ว", "expected": null}
+{"kind": "absent", "query": "ต้องทำแผลทุกวัน", "expected": null}
+{"kind": "absent spoken", "query": "ต้องทำแผลทุกวัน", "expected": null}
+{"kind": "absent", "query": "อย่าให้แผลโดนน้ำ", "expected": null}
+{"kind": "absent spoken", "query": "อย่าให้แผลโดนน้ำ", "expected": null}
+{"kind": "absent", "query": "น้ำหนักเท่าไหร่", "expected": null}
+{"kind": "absent spoken", "query": "น้ำหนักเท่าไหร่", "expected": null}
+{"kind": "absent", "query": "ส่วนสูงเท่าไหร่", "expected": null}
+{"kind": "absent spoken", "query": "ส่วนสูงเท่าไหร่", "expected": null}
+{"kind": "absent", "query": "ตั้งครรภ์อยู่หรือเปล่า", "expected": null}
+{"kind": "absent spoken", "query": "ตั้งคันอยู่หรือเปล่า", "expected": null}
+{"kind": "absent", "query": "ประจำเดือนมาครั้งสุดท้ายเมื่อไหร่", "expected": null}
+{"kind": "absent spoken", "query": "ประจำเดือนมาครั้งสุดท้ายเมื่อไหร่", "expected": null}
+{"kind": "absent", "query": "ใส่ฟันปลอมหรือเปล่า", "expected": null}
+{"kind": "absent spoken", "query": "ใส่ฟันปลอมหรือเปล่า", "expected": null}
+{"kind": "absent", "query": "ต้องเปลี่ยนเป็นชุดผู้ป่วย", "expected": null}
+{"kind": "absent spoken", "query": "ต้องเปลี่ยนเป็นชุดผู้ป่วย", "expected": null}
+{"kind": "absent", "query": "ร้านอาหารอยู่ชั้นล่าง", "expected": null}
+{"kind": "absent spoken", "query": "ร้านอาหารอยู่ชั้นล่าง", "expected": null}
+{"kind": "absent", "query": "ที่จอดรถเต็มแล้ว", "expected": null}
+{"kind": "absent spoken", "query": "ที่จอดรถเต็มแล้ว", "expected": null}
+{"kind": "absent", "query": "ฝนตกหนักมากเมื่อเช้า", "expected": null}
+{"kind": "absent spoken", "query": "ฝนตกหนักมากเมื่อเช้า", "expected": null}
+{"kind": "absent", "query": "ช่วยปิดโทรศัพท์ด้วย", "expected": null}
+{"kind": "absent spoken", "query": "ช่วยปิดโทรศัพท์ด้วย", "expected": null}
+{"kind": "absent", "query": "กรอกแบบฟอร์มนี้ให้ครบ", "expected": null}
+{"kind": "absent spoken", "query": "กรอกแบบฟอร์มนี้ให้ครก", "expected": null}
+{"kind": "absent", "query": "ต้องฉีดวัคซีนบาดทะยัก", "expected": null}
+{"kind": "absent spoken", "query": "ต้องฉีดวัคซีนบาธยักษ์", "expected": null}
+{"kind": "absent", "query": "จะส่งตัวไปโรงพยาบาลศูนย์", "expected": null}
+{"kind": "absent spoken", "query": "จะส่งตัวไปโรงพยาบาลศูนย์", "expected": null}
+{"kind": "absent", "query": "ต้องเจาะน้ำไขสันหลัง", "expected": null}
+{"kind": "absent spoken", "query": "ต้องจอดน้ำไข่สันหลัง", "expected": null}
+{"kind": "absent", "query": "มองตามนิ้วมือของหมอ", "expected": null}
+{"kind": "absent spoken", "query": "มองตามนิ้วมือของหมอ", "expected": null}
+{"kind": "absent", "query": "ลองเดินให้ดูหน่อย", "expected": null}
+{"kind": "absent spoken", "query": "ลองเดินให้ดูหน่อย", "expected": null}
+{"kind": "absent", "query": "กลืนน้ำลายได้ไหม", "expected": null}
+{"kind": "absent spoken", "query": "กลืนน้ำลายได้ไหม", "expected": null}
+{"kind": "absent", "query": "ได้ยินเสียงชัดไหม", "expected": null}
+{"kind": "absent spoken", "query": "ได้ยินเสียงชัดไหม", "expected": null}
+{"kind": "absent", "query": "มองเห็นตัวหนังสือนี้ไหม", "expected": null}
+{"kind": "absent spoken", "query": "มองเห็นตัวหนังสือนี้ไหม", "expected": null}
+{"kind": "absent", "query": "ขยับนิ้วเท้าให้ดูหน่อย", "expected": null}
+{"kind": "absent spoken", "query": "ขยับนิ้วเท้าให้ดูหน่อย", "expected": null}
+{"kind": "absent", "query": "ทำงานอะไร", "expected": null}
+{"kind": "absent spoken", "query": "ทำงาน อะไร", "expected": null}
+{"kind": "absent", "query": "แต่งงานหรือยัง", "expected": null}
+{"kind": "absent spoken", "query": "แต่งหน้าหรือยัง", "expected": null}
+{"kind": "absent", "query": "มีลูกกี่คน", "expected": null}
+{"kind": "absent spoken", "query": "มีลูกกี่คน", "expected": null}
+{"kind": "absent", "query": "นอนตะแคงซ้าย", "expected": null}
+{"kind": "absent spoken", "query": "นอนตะแคงซ้าย", "expected": null}
+{"kind": "absent", "query": "กลั้นหายใจไว้", "expected": null}
+{"kind": "absent spoken", "query": "กลั้นหายใจไว้", "expected": null}
+{"kind": "absent", "query": "เบ่งเหมือนถ่ายอุจจาระ", "expected": null}
+{"kind": "absent spoken", "query": "เบ่งเหมือนถ่ายอุจจารัก", "expected": null}
+{"kind": "absent", "query": "รอเรียกชื่อที่หน้าห้อง", "expected": null}
+{"kind": "absent spoken", "query": "เราเรียกชื่อที่หน้าห้อง", "expected": null}
+{"kind": "absent", "query": "เชิญรับบัตรคิว", "expected": null}
+{"kind": "absent spoken", "query": "เชิญรับบัตรคิว", "expected": null}
+{"kind": "absent", "query": "ชำระเงินที่ช่องสาม", "expected": null}
+{"kind": "absent spoken", "query": "ชำระเงินที่ช่องสาม", "expected": null}
+{"kind": "absent", "query": "กินอาหารอ่อนๆ ก่อนนะ", "expected": null}
+{"kind": "absent spoken", "query": "กินอาหารอ่อนอ่อนก่อนนะ", "expected": null}
+{"kind": "absent", "query": "ห้ามกินของหมักดอง", "expected": null}
+{"kind": "absent spoken", "query": "ห้ามกินของหมักโดม", "expected": null}
+{"kind": "absent", "query": "ต้องออกกำลังกายสม่ำเสมอ", "expected": null}
+{"kind": "absent spoken", "query": "ต้องออกกำลังกายสม่ำเสมอ", "expected": null}
+{"kind": "absent", "query": "ลดอาหารเค็ม", "expected": null}
+{"kind": "absent spoken", "query": "ลดอาหารเค็ม", "expected": null}
+{"kind": "absent", "query": "พักผ่อนให้เพียงพอ", "expected": null}
+{"kind": "absent spoken", "query": "พักผ่อนให้เพียงพอ", "expected": null}
+{"kind": "absent", "query": "ล้างมือบ่อยๆ", "expected": null}
+{"kind": "absent spoken", "query": "ล้างมือบ่อย ๆ", "expected": null}
+{"kind": "absent", "query": "ใส่หน้ากากอนามัยด้วย", "expected": null}
+{"kind": "absent spoken", "query": "ใส่หน้ากากอนามัยด้วย", "expected": null}
+{"kind": "absent", "query": "ขอเบอร์โทรศัพท์ญาติ", "expected": null}
+{"kind": "absent spoken", "query": "ขอเบอร์โทรศัพท์ญาติ", "expected": null}
+{"kind": "absent", "query": "แพทย์เวรจะมาดูอาการคืนนี้", "expected": null}
+{"kind": "absent spoken", "query": "แพทย์เวรจะมาดูอาการคืนนี้", "expected": null}
+{"kind": "number variant", "query": "วันละสองครั้ง", "expected": null}
+{"kind": "number variant", "query": "วันละสี่ครั้ง", "expected": null}
+{"kind": "number variant", "query": "ทานยานี้วันละ 2 ครั้ง เช้า กลางวัน เย็น", "expected": null}
+{"kind": "number variant", "query": "วันละห้าครั้ง", "expected": null}

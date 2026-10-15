@@ -1,6 +1,8 @@
 from .deeplx import DeepLXTranslate
 from .tencent import TencentTranslate
 from .nllb_translator import NLLBTranslator
+from .pattani_thai_translator import PattaniThaiTranslator
+from .pattani_translator import PattaniTranslator
 from .translate_interface import TranslateInterface
 
 
@@ -34,5 +36,11 @@ class TranslateFactory:
                 tgt_lang=translate_provider_config.get("tgt_lang", "tha_Thai"),
                 device=translate_provider_config.get("device", "cpu"),
             )
+        elif translate_provider == "pattani":
+            # flat keys from PattaniConfig.model_dump()
+            return PattaniTranslator(**translate_provider_config)
+        elif translate_provider == "pattani_thai":
+            # flat keys from PattaniThaiConfig.model_dump()
+            return PattaniThaiTranslator(**translate_provider_config)
         else:
             raise ValueError(f"Unsupported translate provider: {translate_provider}")

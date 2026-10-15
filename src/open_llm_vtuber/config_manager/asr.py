@@ -32,10 +32,11 @@ class FasterWhisperConfig(I18nMixin):
     download_root: str = Field(..., alias="download_root")
     language: Optional[str] = Field(None, alias="language")
     device: str = Field("auto", alias="device")
-    compute_type: Literal["int8", "float16", "float32"] = Field(
+    compute_type: Literal["int8", "int8_float16", "float16", "float32"] = Field(
         "int8", alias="compute_type"
     )
     prompt: str | None = Field(None, alias="prompt")
+    vad_filter: bool = Field(False, alias="vad_filter")
     DESCRIPTIONS: ClassVar[Dict[str, Description]] = {
         "model_path": Description(
             en="Path to the Faster Whisper model", zh="Faster Whisper 模型路径"
@@ -52,12 +53,16 @@ class FasterWhisperConfig(I18nMixin):
             zh="推理设备（cpu, cuda, auto）",
         ),
         "compute_type": Description(
-            en="Compute type for the model (int8, float16, or float32)",
-            zh="模型的计算类型（int8、float16 或 float32）",
+            en="Compute type for the model (int8, int8_float16, float16, or float32)",
+            zh="模型的计算类型（int8、int8_float16、float16 或 float32）",
         ),
         "prompt": Description(
             en="An initial prompt to provide context or guide the transcription. Language of the prompt should match the audio language.",
             zh="用于提供上下文或引导转录的初始提示词。提示词应与音频语言匹配。",
+        ),
+        "vad_filter": Description(
+            en="Remove silence and noise before transcribing, so they are not turned into made-up text",
+            zh="在转录前去除静音和噪声，避免它们被识别成虚构的文字",
         ),
     }
 

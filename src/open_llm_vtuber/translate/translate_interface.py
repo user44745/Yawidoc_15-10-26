@@ -7,3 +7,9 @@ class TranslateInterface(metaclass=abc.ABCMeta):
         """
         Translate the input text to the target language."""
         raise NotImplementedError
+
+    def display_text(self, translation: str) -> str:
+        """
+        Text to show on screen for a translation returned by translate().
+        The translation itself is what gets spoken."""
+        return translation

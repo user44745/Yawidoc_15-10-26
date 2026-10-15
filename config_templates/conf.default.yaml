@@ -186,8 +186,9 @@ character_config:
       download_root: 'models/whisper'
       language: 'en' # en, zh, or something else. put nothing for auto-detect.
       device: 'auto' # cpu, cuda, or auto. faster-whisper doesn't support mps
-      compute_type: 'int8'
+      compute_type: 'int8' # int8, int8_float16 (GPU), float16 (GPU) or float32
       prompt: '' # You can put a prompt here to help the model understand the context of the audio
+      vad_filter: False # True = drop silence and noise first, so they are not turned into made-up text
 
     whisper_cpp:
       # all available models are listed on https://abdeladim-s.github.io/pywhispercpp/#pywhispercpp.constants.AVAILABLE_MODELS
@@ -293,6 +294,8 @@ character_config:
       # Check out doc at https://github.com/rany2/edge-tts
       # Use `edge-tts --list-voices` to list all available voices
       voice: 'en-US-AvaMultilingualNeural' # 'en-US-AvaMultilingualNeural' #'zh-CN-XiaoxiaoNeural' # 'ja-JP-NanamiNeural'
+      # Optional second voice of the same language, used when `voice` returns no audio
+      fallback_voice: null
 
     # pyttsx3_tts doesn't have any config.
 
@@ -478,7 +481,7 @@ character_config:
     translator_config:
       # Like... you speak and read the subtitles in English, and the TTS speaks Japanese or that kind of things
       translate_audio: False # Warning: you need to deploy DeeplX to use this. Otherwise it's going to crash
-      translate_provider: 'deeplx' # deeplx or tencent
+      translate_provider: 'deeplx' # deeplx, tencent, nllb, pattani or pattani_thai
 
       deeplx:
         deeplx_target_lang: 'JA'
@@ -493,6 +496,36 @@ character_config:
         region: 'ap-guangzhou'
         source_lang: 'zh'
         target_lang: 'ja'
+
+      # Thai -> Pattani Malay (written in Thai script). NLLB translates Thai to
+      # Standard Malay and sound rules turn that into Pattani dialect; then an LLM
+      # writes the final sentence using the phrasebook
+      # (uv run python build_phrasebook.py) as reference.
+      pattani:
+        phrasebook_path: 'pattani_dataset/phrasebook.jsonl'
+        nllb_model: 'facebook/nllb-200-distilled-600M' # Hugging Face name or local path
+        device: 'cpu' # cpu or cuda (for NLLB)
+        llm_consult: True # False = return the rule-based Pattani version as is
+        llm_base_url: 'http://localhost:11434/v1' # OpenAI-compatible endpoint (Ollama)
+        llm_model: 'qwen3:8b'
+        llm_api_key: 'ollama'
+        llm_temperature: 0.0
+        num_examples: 10 # similar phrasebook sentences shown to the LLM
+        show_latin: True # also show the Pattani sentence in Latin letters
+
+      # Pattani Malay / Malay -> Thai for hospital conversations. Known hospital
+      # phrases come from a phrase table; otherwise NLLB translates and an LLM
+      # corrects mishearings and re-translates what does not fit a hospital.
+      pattani_thai:
+        phrases_path: 'pattani_dataset/medical_phrases.jsonl' # {"malay", "thai"} per line
+        nllb_model: 'facebook/nllb-200-distilled-600M' # Hugging Face name or local path
+        device: 'cpu' # cpu or cuda (for NLLB)
+        llm_review: True # False = phrase table and NLLB only
+        llm_base_url: 'http://localhost:11434/v1' # OpenAI-compatible endpoint (Ollama)
+        llm_model: 'qwen3:8b'
+        llm_api_key: 'ollama'
+        llm_temperature: 0.0
+        num_examples: 6 # similar phrase-table entries shown to the LLM
 
 # Live Streaming Integration
 live_config:
